@@ -1,0 +1,55 @@
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="tel"] {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid $midgrey;
+    padding-left: 10px;
+
+    &:focus {
+        outline: 1px dashed $black;
+        border-color: $black;
+    }
+}
+
+select {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid $midgrey;
+    padding-left: 10px; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('images/select-arrow.png');
+    background-size: 8px;
+    background-position: top 50% right 15px;
+    background-repeat: no-repeat;
+
+    &:focus,
+    &:active {
+        outline: 1px dashed $black;
+        border-color: $black;
+    }
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 0;
+    border: 1px solid $midgrey;
+    padding: 10px;
+    resize: none;
+
+    &:focus {
+        outline: 1px dashed $black;
+        border-color: $black;
+    }
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,57 @@
+.site-header {
+	border-bottom: 1px dashed red;
+	position: sticky;
+	background-color: $white;
+	top: 0;
+	height: 200px;
+}
+
+.header-inner {
+	height: 100%;
+	position: relative;
+}
+
+.header-top {
+	display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: 60px;
+    align-items: center;
+	justify-content: flex-end;
+	border: 1px dashed red;
+
+	a {
+		&:not(.search-toggle) {
+			margin-left: 20px;
+		}
+	}
+
+	a[href^="tel:"] {
+		display: flex;
+		align-items: center;
+
+		&:before {
+			content:"";
+			display: block;
+			position: relative;
+			width: 20px;
+			height: 20px;
+			background-color: #eee;
+			margin-right: 5px;
+		}
+	}
+}
+
+.search-container {
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+
+	.search-toggle {
+		margin-left: 10px;
+	}
+
+	input[type="text"] {
+		width: 300px;
+	}
+}
