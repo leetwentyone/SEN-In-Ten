@@ -181,18 +181,65 @@
 
 	.search-container {
 		display: flex;
+		position: relative;
+		overflow: hidden;
+		transition: all .3s ease;
+		width: 30px;
 
 		form {
 			width: 100%;
+			opacity: 0;
+			transition: all .3s ease;
 			max-width: unset;
 			margin: 0 5px 0 0;
 		}
 
 		input[type="text"] {
-			width: 100%;
+			width: 0;
+		}
 
-			@include breakpoint(laptop) {
-				width: 300px;
+		a.close-search {
+			display: inline-block;
+			opacity: 0;
+			transition: all .3s ease;
+			margin-right: 10px;
+
+			img {
+				max-width: 10px;
+			}
+		}
+
+		button[type="submit"] {
+			position: absolute;
+			width: 50px;
+			right: 0;
+		}
+
+		.search-toggle {
+			position: absolute;
+			transition: all .3s ease;
+			width: 30px;
+			left: 25%;
+		}
+
+		&.search-active {
+			width: 300px;
+
+			form {
+				width: 100%;
+				opacity: 1;
+			}
+
+			a.close-search {
+				opacity: 1;
+			}
+
+			input[type="text"] {
+				width: 100%;
+			}
+
+			.search-toggle {
+				opacity: 0;
 			}
 		}
 	}
@@ -234,5 +281,9 @@
 		img {
 			max-width: 20px;
 		}
+	}
+
+	img {
+		max-width: 20px;
 	}
 }
