@@ -17,16 +17,18 @@
     </div>
 
     <div class="header-top">
-      <a href="tel:0800123456">0800 123 456</a>
-      <a href="#" class="icon-white">White Icon</a>
-      <a href="#" class="icon-yellow">Yellow Icon</a>
-      <div class="search-container">
-        <a href="#" class="close-search"><img src="images/close.png"></a>
-        <form action="search.php">
-          <input type="text" placeholder="Search Our Website">
-          <button type="submit"><img src="images/search-black.png"></button>
-        </form>
-        <a href="#" class="search-toggle"><img src="images/search-black.png"></a>
+      <div class="header-top--actions">
+        <a href="tel:0800123456">0800 123 456</a>
+        <a href="#" class="icon-white">White Icon</a>
+        <a href="#" class="icon-yellow">Yellow Icon</a>
+        <div class="search-container">
+          <a href="#" class="close-search"><img src="images/close.png"></a>
+          <form action="search.php">
+            <input type="text" placeholder="Search Our Website">
+            <button type="submit"><img src="images/search-black.png"></button>
+          </form>
+          <a href="#" class="search-toggle"><img src="images/search-black.png"></a>
+        </div>
       </div>
   
       <nav class="primary">

@@ -2,6 +2,8 @@
 	border-bottom: 1px dashed red;
 	position: sticky;
 	background-color: $white;
+	transition: all .3s ease;
+	transform: unset;
 	top: 0;
 	height: auto;
 
@@ -149,6 +151,15 @@
 		margin-left: 60px;
 		margin-right: 30px;
     }
+
+	.header-top--actions {
+		width: 100%;
+    	display: flex;
+    	align-items: center;
+    	justify-content: flex-end;
+		transition: all .3s ease;
+		opacity: 1;
+	}
 
 	a {
 		font-size: 12px;

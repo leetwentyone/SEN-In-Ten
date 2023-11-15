@@ -244,6 +244,8 @@ a {
   border-bottom: 1px dashed red;
   position: sticky;
   background-color: #fff;
+  transition: all .3s ease;
+  transform: unset;
   top: 0;
   height: auto; }
   @media (min-width: 1152px) {
@@ -364,6 +366,13 @@ a {
       width: calc(100% - 420px);
       margin-left: 60px;
       margin-right: 30px; } }
+  .header-top .header-top--actions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: all .3s ease;
+    opacity: 1; }
   .header-top a {
     font-size: 12px;
     line-height: 12px; }
