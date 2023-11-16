@@ -20,8 +20,20 @@
 
   <main class="site-main">
 
-    Main Page
-    
+    <div class="hero hero-tall">
+      <div class="hero-content">
+        <div class="hero-inner">
+          <h1>This is the hero block in tall mode</h1>
+          <p>Etiam maximus tempor dapibus. Mauris et imperdiet ipsum. Pellentesque rutrum erat ut dui blandit venenatis. 
+            Aenean volutpat laoreet est, vel euismod dui porta sed. Curabitur pulvinar leo nulla, in semper nunc ullamcorper ut.</p>
+          <div class="btn-container">
+            <a href="#" class="icon-white">White Icon</a>
+            <a href="#" class="icon-yellow">Yellow Icon</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- end hero -->
+  
   </main>
 
   <?php include('includes/footer.php'); ?>
