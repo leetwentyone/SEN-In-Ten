@@ -17,24 +17,15 @@
 
 .btn-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: flex-starts;
     margin-top: 20px;
     width: 100%;
 
-    @include breakpoint(phablet) {
-        flex-direction: row;
-        justify-content: center;
-    }
-
     a {
         &:not(:first-of-type) {
-            margin-top: 10px;
-
-            @include breakpoint(phablet) {
-                margin-top: 0;
-                margin-left: 10px;
-            }
+            margin-left: 10px;
         }
     }
 }
