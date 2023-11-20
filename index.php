@@ -213,13 +213,15 @@
         $phone_number_nospace = str_replace(' ','',$phone_number);
       ?>
       <div class="c-container">
-        <div class="callout-title">Become a Sponsor</div>
-        <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
-        <a href="#">Become A Sponsor</a>
+        <div class="callout-inner">
+          <div class="callout-title">Become a Sponsor</div>
+          <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
+          <a href="#">Become A Sponsor</a>
+        </div>
       </div>
     </div><!-- end sponsor callout -->
 
-    <div class="equal-block">
+    <div class="equal-cols">
       <div class="col-l">
         <h4>Why SEN In Ten?</h4>
         <ul>
@@ -247,7 +249,89 @@
         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit. Mauris luctus, velit ac vehicula aliquet, tellus orci semper est, in mollis odio enim vitae dui.</p>
         <a href="#">Find Out More About Training</a>
       </div>
-    </div>
+    </div><!-- End Equal Columns block -->
+
+    <div class="event-list">
+      <div class="c-container">
+  
+        <h4>Upcoming Events <a href="#">View All Events</a></h4>
+
+        <ul>
+
+          <li>
+            <date>1st<span>Oct</span></date>
+            <img src="images/square-placeholder.jpg">
+              
+            <div class="event-details">
+              <h5>Event Name</h5>
+              <a href="#">Read More</a>
+            </div>
+          </li>
+
+          <li>
+            <date>2nd<span>Dec</span></date>
+            <img src="images/square-placeholder.jpg">
+              
+            <div class="event-details">
+              <h5>Event Name</h5>
+              <a href="#">Read More</a>
+            </div>
+          </li>
+
+          <li>
+            <date>8th<span>Dec</span></date>
+            <img src="images/square-placeholder.jpg">
+              
+            <div class="event-details">
+              <h5>Event Name</h5>
+              <a href="#">Read More</a>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </div><!-- end event list -->
+
+    <div class="text-image">
+      <div class="c-container">
+
+        <div class="image-col">
+          <img src="images/square-placeholder.jpg">
+        </div>
+
+        <div class="text-col">
+          <h5>All things SEN In Ten</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
+          <p>Etiam mattis quis nulla eget lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim leo, mattis id efficitur sit amet, lobortis tincidunt urna. 
+            Ut dapibus est leo, quis ornare orci egestas eget. Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
+          <a href="#">Find Out More</a>
+        </div>
+
+      </div>
+    </div><!-- end Text Image Block -->
+
+    <div class="subscribe">
+      <div class="c-container">
+        <div class="form-col">
+          <h5>Subscribe to our mailing list</h5>
+          <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email Address">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="quote-col">
+          <div class="quote-box">
+            <blockquote>
+              "This is a quote for this column"
+            </blockquote>
+            <cite>Name of Person</cite>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Subscribe -->
   
   </main>
 
