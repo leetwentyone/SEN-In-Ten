@@ -18,7 +18,7 @@
     li {
         position: relative;
         border: 1px solid $midgrey;
-        border-radius: 20px;
+        border-radius: 30px;
         padding: 20px;
         transition: all .3s ease;
         list-style-type: none;
@@ -63,7 +63,7 @@
     }
 
     img {
-        border-radius: 20px;
+        border-radius: 30px;
         width: 100%;
     }
 
@@ -77,7 +77,7 @@
         align-items: center;
         justify-content: center;
         position: absolute;
-        border-radius: 20px;
+        border-radius: 30px;
         background-color: rgba($yellow,0);
         top: 0;
         left: 0;
