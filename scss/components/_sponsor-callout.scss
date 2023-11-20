@@ -1,11 +1,25 @@
 .sponsor-callout {
+    position: relative;
+    z-index: 10;
 
     .c-container {
+        max-width: 100%;
+        
+        body.home & {
+            position: absolute;
+            top: -8rem;
+        }
+    }
+
+    .callout-inner {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: $yellow;
+        width: $sitewidth;
+        margin-left: auto;
+        margin-right: auto;
         padding-top: 30px;
         padding-bottom: 30px;
 
@@ -18,6 +32,8 @@
     .callout-title {
         color: $blue;
         margin-bottom: 30px;
+        font-size: 30px;
+        line-height: 40px;
     }
 
     p {

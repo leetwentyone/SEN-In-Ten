@@ -1,7 +1,7 @@
 .site-header {
 	border-bottom: 1px dashed red;
 	position: sticky;
-	background-color: transparent;
+	background-color: $blue;
 	transition: all .3s ease;
 	transform: unset;
 	z-index: 999;
@@ -10,12 +10,22 @@
 	width: 100%;
 	height: auto;
 
-	@include breakpoint(laptop) {
-		position: fixed;
+	body.home & {
+		@include breakpoint(laptop) {
+			background-color: transparent;
+			position: fixed;
+		}
+
+		@include breakpoint(desktop) {
+			height: 200px;
+		}
 	}
 
-	@include breakpoint(desktop) {
-		height: 200px;
+	body.podcasts-page &  {
+
+		@include breakpoint(desktop) {
+			height: 300px;
+		}
 	}
 }
 
@@ -88,10 +98,12 @@
 
 	@include breakpoint(ipadlandscape) {
 		width: 20%;
+		height: auto;
 	}
 
 	@include breakpoint(laptop) {
 		width: 20%;
+		height: auto;
 	}
 
 	@include breakpoint(desktop) {
@@ -171,6 +183,7 @@
 	}
 
 	a {
+		color: $white;
 		font-size: 12px;
         line-height: 12px;
 

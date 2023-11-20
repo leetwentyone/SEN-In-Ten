@@ -65,3 +65,17 @@ a[href^="tel"] {
   border-left: 1px dashed red;
   border-right: 1px dashed red;
 }
+
+.seperator {
+  width: 100%;
+  background-color: $white;
+  height: 1px;
+
+  .c-container {
+    height: 1px;
+    max-width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: $blue;
+  }
+}

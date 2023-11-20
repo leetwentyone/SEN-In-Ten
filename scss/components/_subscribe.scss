@@ -1,0 +1,80 @@
+.subscribe {
+    width: 100%;
+    background-color: $yellow;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @include breakpoint(tablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .c-container {
+        display: flex;
+        flex-direction: column;
+
+        @include breakpoint(tablet) {
+            flex-direction: row;
+        }
+    }
+
+    .form-col {
+        width: 100%;
+
+        @include breakpoint(tablet) {
+            width: 40%;
+        }
+
+        p {
+            color: $blue;
+        }
+    }
+
+    input {
+        margin-bottom: 20px;
+        border-radius: 20px;
+        height: 60px;
+        border-color: $white;
+    }
+
+    .quote-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+        @include breakpoint(tablet) {
+            width: 60%;
+            padding-left: 10%;
+        }
+    }
+
+    .quote-box {
+        background-color: $white;
+        border: 3px solid $blue;
+        border-radius: 20px;
+        padding: 30px;
+        width: 300px;
+
+        @include breakpoint(tablet) {
+            width: 400px;
+        }
+    }
+
+    blockquote {
+        color: $blue;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+
+    cite {
+        color: $blue;
+        font-style: normal;
+    }
+
+    h5 {
+        color: $blue;
+        margin-bottom: 30px;
+    }
+}
