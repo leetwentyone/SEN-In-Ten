@@ -5,15 +5,7 @@
   left: 0;
   width: 100%;
   height: auto;
-  border-bottom: 1px dashed blue;
-
-  @include breakpoint(ipadlandscape) {
-    position: absolute;
-  }
-
-  @include breakpoint(laptop) {
-    position: absolute;
-  }
+  border-bottom: 1px dashed blue;å
 
   picture,
   img {

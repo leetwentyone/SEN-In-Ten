@@ -50,8 +50,11 @@ a {
   }
 }
 
-.site-main {
-  height: 3000px;
+a[href^="tel"] {
+
+  @include breakpoint(tablet) {
+    pointer-events: none;
+  }
 }
 
 .c-container {

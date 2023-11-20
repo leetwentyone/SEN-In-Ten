@@ -109,11 +109,8 @@ label {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-starts;
-  margin-top: 20px;
+  justify-content: center;
   width: 100%; }
-  .btn-container a:not(:first-of-type) {
-    margin-left: 10px; }
 
 nav.primary {
   display: none;
@@ -222,8 +219,9 @@ a {
   a:hover {
     text-decoration: underline; }
 
-.site-main {
-  height: 3000px; }
+@media (min-width: 768px) {
+  a[href^="tel"] {
+    pointer-events: none; } }
 
 .c-container {
   width: 100%;
@@ -770,13 +768,8 @@ a {
   width: 100%;
   height: auto;
   border-bottom: 1px dashed blue; }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .hero {
-      position: absolute; } }
-  @media (min-width: 992px) {
-    .hero {
-      position: absolute; } }
-  .hero picture,
+  .hero å
+  picture,
   .hero img {
     width: 100%; }
 
@@ -813,5 +806,208 @@ a {
     @media (min-width: 768px) {
       .hero-inner p {
         max-width: 50%; } }
+
+.banner-callout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed blue; }
+  @media (min-width: 992px) {
+    .banner-callout {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  body.home .banner-callout {
+    padding-bottom: 0; }
+
+.episode-list {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .episode-list h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    color: #023e8a; }
+    .episode-list h2 a {
+      font-size: 14px;
+      line-height: 14px; }
+  .episode-list li {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all .3s ease;
+    list-style-type: none;
+    background-color: #fff; }
+    .episode-list li:hover {
+      border-color: #023e8a; }
+      .episode-list li:hover .overlay-inner {
+        opacity: 1;
+        background-color: rgba(252, 191, 73, 0.8); }
+    @media (min-width: 768px) {
+      .episode-list li {
+        display: inline-block;
+        width: 31.8%;
+        margin-right: 2%; }
+        .episode-list li:nth-of-type(3) {
+          margin-right: 0; } }
+  .episode-list date {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #023e8a;
+    border: 10px solid #fcbf49;
+    border-radius: 100%;
+    padding: 20px;
+    z-index: 5; }
+  .episode-list img {
+    border-radius: 20px;
+    width: 100%; }
+  .episode-list .overlay-content {
+    position: relative; }
+  .episode-list .overlay-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(252, 191, 73, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+    opacity: 0; }
+    .episode-list .overlay-inner p {
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: #023e8a; }
+  .episode-list .parent-pay {
+    margin-bottom: 20px; }
+  .episode-list .episode-title {
+    margin-bottom: 20px;
+    color: #023e8a; }
+
+.episode-details {
+  padding: 20px; }
+  .episode-details p {
+    color: #023e8a; }
+    .episode-details p:nth-of-type(2) {
+      color: #999; }
+  .episode-details h3 {
+    color: #023e8a;
+    margin-bottom: 20px; }
+
+.listen-links {
+  text-align: center;
+  padding-bottom: 60px; }
+  .listen-links h3 {
+    color: #023e8a;
+    margin-bottom: 60px; }
+  .listen-links ul {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .listen-links li {
+    display: inline-block; }
+  .listen-links p {
+    color: #023e8a; }
+    .listen-links p a {
+      color: #023e8a;
+      text-decoration: underline; }
+      .listen-links p a:hover {
+        text-decoration: none; }
+
+.partners {
+  text-align: center;
+  background-color: #023e8a;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .partners h4 {
+    color: #fff;
+    margin-bottom: 60px; }
+  .partners ul {
+    margin-bottom: 60px; }
+  .partners li {
+    display: inline-block;
+    margin: 0 40px; }
+
+.news-list {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .news-list h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    color: #023e8a; }
+    .news-list h4 a {
+      font-size: 14px;
+      line-height: 14px; }
+  .news-list li {
+    position: relative;
+    transition: all .3s ease;
+    list-style-type: none;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .news-list li {
+        display: inline-block;
+        width: 31.8%;
+        margin-right: 2%; }
+        .news-list li:nth-of-type(3) {
+          margin-right: 0; } }
+  .news-list img {
+    width: 100%;
+    border-radius: 20px; }
+
+.post-content {
+  padding: 20px; }
+  .post-content h5 {
+    color: #023e8a;
+    margin-bottom: 10px; }
+  .post-content p {
+    color: #999; }
+  .post-content a {
+    color: #023e8a;
+    text-decoration: underline; }
+    .post-content a:hover {
+      text-decoration: none; }
+
+.sponsor-callout .c-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcbf49;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  @media (min-width: 992px) {
+    .sponsor-callout .c-container {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+.sponsor-callout .callout-title {
+  color: #023e8a;
+  margin-bottom: 30px; }
+.sponsor-callout p {
+  color: #023e8a;
+  margin-bottom: 30px; }
+  .sponsor-callout p a {
+    color: #023e8a;
+    text-decoration: underline; }
+    .sponsor-callout p a:hover {
+      text-decoration: none; }
+  .sponsor-callout p a[href^="tel"] {
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

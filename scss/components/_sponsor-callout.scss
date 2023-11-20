@@ -1,0 +1,41 @@
+.sponsor-callout {
+
+    .c-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $yellow;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        @include breakpoint(laptop) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    }
+
+    .callout-title {
+        color: $blue;
+        margin-bottom: 30px;
+    }
+
+    p {
+        color: $blue;
+        margin-bottom: 30px;
+
+        a {
+            color: $blue;
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        a[href^="tel"] {
+            text-decoration: none;
+            
+        }
+    }
+}

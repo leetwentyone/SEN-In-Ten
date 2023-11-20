@@ -1,0 +1,17 @@
+.banner-callout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed blue;
+
+    @include breakpoint(laptop) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    body.home & {
+        padding-bottom: 0;
+    }
+}
