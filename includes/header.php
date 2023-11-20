@@ -23,11 +23,11 @@
         <a href="#" class="icon-yellow">Yellow Icon</a>
         <div class="search-container">
           <a href="#" class="close-search"><img src="images/close.png"></a>
-          <form action="search.php">
+          <form action="search-results.php">
             <input type="text" placeholder="Search Our Website">
             <button type="submit"><img src="images/search-black.png"></button>
           </form>
-          <a href="#" class="search-toggle"><img src="images/search-black.png"></a>
+          <a href="#" class="search-toggle"><img src="images/search.png"></a>
         </div>
       </div>
   
