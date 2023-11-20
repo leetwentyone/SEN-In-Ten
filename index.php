@@ -33,6 +33,221 @@
         </div>
       </div>
     </div><!-- end hero -->
+
+    <div class="banner-callout">
+      -- Parent Pay Banner to be placed here --
+    </div><!-- end banner callout -->
+
+    <div class="episode-list">
+      <div class="c-container">
+  
+        <h2>Latest SEN in Ten Episodes <a href="#">View All Episodes</a></h2>
+
+        <ul>
+          <li>
+            <date>1st<span>Oct</span></date>
+            <div class="overlay-content">
+              <img src="images/square-placeholder.jpg">
+              <div class="overlay-inner">
+                <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                <p>Sponsored By</p>
+                <span class="parent-pay">Parent Pay</span>
+                <a class="listen" href="#">Listen Now</a>
+              </div>
+            </div>
+
+            <div class="episode-details">
+              <p>Episode 1 :</p>
+              <h3>OrCam Learn</h3>
+              <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+              <a class="listen" href="#">Listen Now</a>
+            </div>
+          </li>
+
+          <li>
+            <date>31st<span>Oct</span></date>
+            <div class="overlay-content">
+              <img src="images/square-placeholder.jpg">
+              <div class="overlay-inner">
+                <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
+                <p>Sponsored By</p>
+                <span class="parent-pay">Parent Pay</span>
+                <a class="listen" href="#">Listen Now</a>
+              </div>
+            </div>
+
+            <div class="episode-details">
+              <p>Episode 2 :</p>
+              <h3>OrCam Learn</h3>
+              <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+              <a class="listen" href="#">Listen Now</a>
+            </div>
+          </li>
+
+          <li>
+            <date>3rd<span>Nov</span></date>
+            <div class="overlay-content">
+              <img src="images/square-placeholder.jpg">
+              <div class="overlay-inner">
+                <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
+                <p>Sponsored By</p>
+                <span class="parent-pay">Parent Pay</span>
+                <a class="listen" href="#">Listen Now</a>
+              </div>
+            </div>
+
+            <div class="episode-details">
+              <p>Episode 3 :</p>
+              <h3>OrCam Learn</h3>
+              <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+              <a class="listen" href="#">Listen Now</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div><!-- end episode list -->
+
+    <div class="listen-links">
+      <h3>Listen Now</h3>
+      <ul>
+        <li>
+          <a href="#" target="_blank">Listen on Spotify</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Listen on Apple Podcast</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Listen on Amazon Music</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Listen on Google Podcast</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Listen on TuneIn</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Listen on Overcast</a>
+        </li>
+      </ul>
+      <p>How to listen? <a href="#">Learn More</a></p>
+    </div><!-- End Listen Links -->
+
+    <div class="partners">
+      <div class="c-container">
+
+        <h4>Our Partners</h4>
+
+        <ul>
+          <li>
+            Partner One
+          </li>
+          <li>
+            Partner Two
+          </li>
+          <li>
+            Partner Three
+          </li>
+          <li>
+            Partner Four
+          </li>
+          <li>
+            Partner Five
+          </li>
+          <li>
+            Partner Six
+          </li>
+          <li>
+            Partner Seven
+          </li>
+          <li>
+            Partner Eight
+          </li>
+        </ul>
+
+        <div class="btn-container">
+          <a href="#">View All Partners</a>
+        </div>
+
+      </div>
+    </div><!-- end Partners -->
+
+    <div class="news-list">
+      <div class="c-container">
+  
+        <h4>Keep up to date with our latest news <a href="#">View All News</a></h4>
+
+        <ul>
+          <li>
+            <img src="images/square-placeholder.jpg">
+            <div class="post-content">
+              <h5>Title of Post</h5>
+              <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+              <a href="#">Read More</a>
+            </div>
+          </li>
+          <li>
+            <img src="images/square-placeholder.jpg">
+            <div class="post-content">
+              <h5>Title of Post</h5>
+              <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+              <a href="#">Read More</a>
+            </div>
+          </li>
+          <li>
+            <img src="images/square-placeholder.jpg">
+            <div class="post-content">
+              <h5>Title of Post</h5>
+              <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+              <a href="#">Read More</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div><!-- end news list -->
+
+    <div class="sponsor-callout">
+      <?php
+        $phone_number = '01524 845046';
+        $phone_number_nospace = str_replace(' ','',$phone_number);
+      ?>
+      <div class="c-container">
+        <div class="callout-title">Become a Sponsor</div>
+        <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
+        <a href="#">Become A Sponsor</a>
+      </div>
+    </div><!-- end sponsor callout -->
+
+    <div class="equal-block">
+      <div class="col-l">
+        <h4>Why SEN In Ten?</h4>
+        <ul>
+          <li>
+            <h5>Delivered By Experts</h5>
+            <p>Etiam mattis quis nulla eget lacinia.</p>
+          </li>
+          <li>
+            <h5>High Quality</h5>
+            <p>Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
+          </li>
+          <li>
+            <h5>High Accessible</h5>
+            <p>Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
+          </li>
+          <li>
+            <h5>Insightful</h5>
+            <p>Fusce ut luctus mi, nec cursus massa.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-r">
+        <h4>Training &amp; CPD</h4>
+        <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. Vestibulum ut lacinia purus. </p>
+        <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit. Mauris luctus, velit ac vehicula aliquet, tellus orci semper est, in mollis odio enim vitae dui.</p>
+        <a href="#">Find Out More About Training</a>
+      </div>
+    </div>
   
   </main>
 
