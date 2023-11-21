@@ -9,6 +9,11 @@
             position: absolute;
             top: -9rem;
         }
+
+        body.single-podcast & {
+            position: absolute;
+            top: -9rem; 
+        }
     }
 
     .callout-inner {

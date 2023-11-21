@@ -42,7 +42,13 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-family: sans-serif;
   margin-bottom: 20px;
-  color: #808080; }
+  color: #808080;
+  font-size: 14px;
+  line-height: 20px; }
+  @media (min-width: 1366px) {
+    p {
+      font-size: 16px;
+      line-height: 24px; } }
 
 input[type="text"],
 input[type="email"],
@@ -897,6 +903,9 @@ a {
 .episode-list {
   padding-top: 60px;
   padding-bottom: 60px; }
+  body.single-podcast .episode-list {
+    padding-top: 15rem;
+    background-color: #fff; }
   .episode-list h2 {
     display: flex;
     align-items: center;
@@ -1077,6 +1086,9 @@ a {
   .sponsor-callout .c-container, .sponsor-callout .breadcrumb ul, .breadcrumb .sponsor-callout ul, .sponsor-callout .footer-inner, .sponsor-callout .item-inner, .sponsor-callout .latest-podcast, .sponsor-callout .podcast-summary, .sponsor-callout .textblock {
     max-width: 100%; }
     body.home .sponsor-callout .c-container, body.home .sponsor-callout .breadcrumb ul, .breadcrumb body.home .sponsor-callout ul, body.home .sponsor-callout .footer-inner, body.home .sponsor-callout .item-inner, body.home .sponsor-callout .latest-podcast, body.home .sponsor-callout .podcast-summary, body.home .sponsor-callout .textblock {
+      position: absolute;
+      top: -9rem; }
+    body.single-podcast .sponsor-callout .c-container, body.single-podcast .sponsor-callout .breadcrumb ul, .breadcrumb body.single-podcast .sponsor-callout ul, body.single-podcast .sponsor-callout .footer-inner, body.single-podcast .sponsor-callout .item-inner, body.single-podcast .sponsor-callout .latest-podcast, body.single-podcast .sponsor-callout .podcast-summary, body.single-podcast .sponsor-callout .textblock {
       position: absolute;
       top: -9rem; }
   .sponsor-callout .callout-inner {

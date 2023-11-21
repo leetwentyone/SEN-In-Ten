@@ -2,4 +2,11 @@ p {
     font-family: $globalfont;
     margin-bottom: 20px;
     color: $copy;
+    font-size: 14px;
+    line-height: 20px;
+
+    @include breakpoint(xldesktop) {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
