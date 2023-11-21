@@ -15,8 +15,8 @@
 </head>
 
 <body class="home">
-
-  <?php include('includes/header.php'); ?>
+  
+<?php include('includes/header.php'); ?>
 
   <main class="site-main">
 
