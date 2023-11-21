@@ -16,116 +16,116 @@
 
 <body class="search-results-page">
 
-  <?php include('includes/header.php'); ?>
-  <?php include('includes/breadcrumb.php'); ?>
+    <?php include('includes/header.php'); ?>
+    <?php include('includes/breadcrumb.php'); ?>
 
-  <main class="site-main">
+    <main class="site-main">
 
-    <div class="search-box">
-        <div class="c-container">
+        <div class="search-box">
+            <div class="c-container">
 
-            <h1>Search results for 'OrCam'</h1>
-    
-            <form>
-                <input type="text" placeholder="Search Website">
-                <button type="submit"><img src="images/search.png"></button>
-            </form>
-        </div>          
-    </div><!-- end search box -->
+                <h1>Search results for 'OrCam'</h1>
+        
+                <form>
+                    <input type="text" placeholder="Search Website">
+                    <button type="submit"><img src="images/search.png"></button>
+                </form>
+            </div>          
+        </div><!-- end search box -->
 
-    <div class="result-list">
+        <div class="result-list">
 
-        <div class="result-item">
-            <div class="item-inner">
+            <div class="result-item">
+                <div class="item-inner">
 
-                <div class="image-col">
-                    <date>1st<span>Oct</span></date>
-                    <div class="overlay-content">
-                        <img src="images/square-placeholder.jpg">
-                        <div class="overlay-inner">
-                            <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
-                            <p>Sponsored By</p>
-                            <span class="parent-pay">Parent Pay</span>
-                            <a class="listen" href="#">Listen Now</a>
+                    <div class="image-col">
+                        <date>1st<span>Oct</span></date>
+                        <div class="overlay-content">
+                            <img src="images/square-placeholder.jpg">
+                            <div class="overlay-inner">
+                                <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                                <p>Sponsored By</p>
+                                <span class="parent-pay">Parent Pay</span>
+                                <a class="listen" href="#">Listen Now</a>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="episode-details">
+                        <p>Episode 1 :</p>
+                        <h3>OrCam Learn</h3>
+                        <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
+                            Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
+                        <a class="listen" href="#">Listen Now</a>
+                    </div>
+
                 </div>
+            </div><!-- end result item -->
 
-                <div class="episode-details">
-                    <p>Episode 1 :</p>
-                    <h3>OrCam Learn</h3>
-                    <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
-                        Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
-                    <a class="listen" href="#">Listen Now</a>
-                </div>
+            <div class="result-item">
+                <div class="item-inner">
 
-            </div>
-        </div><!-- end result item -->
-
-        <div class="result-item">
-            <div class="item-inner">
-
-                <div class="image-col">
-                    <date>10th<span>Oct</span></date>
-                    <div class="overlay-content">
-                        <img src="images/square-placeholder.jpg">
-                        <div class="overlay-inner">
-                            <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
-                            <p>Sponsored By</p>
-                            <span class="parent-pay">Parent Pay</span>
-                            <a class="listen" href="#">Listen Now</a>
+                    <div class="image-col">
+                        <date>10th<span>Oct</span></date>
+                        <div class="overlay-content">
+                            <img src="images/square-placeholder.jpg">
+                            <div class="overlay-inner">
+                                <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                                <p>Sponsored By</p>
+                                <span class="parent-pay">Parent Pay</span>
+                                <a class="listen" href="#">Listen Now</a>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="episode-details">
+                        <p>Episode 2 :</p>
+                        <h3>OrCam Learn</h3>
+                        <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
+                            Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
+                        <a class="listen" href="#">Listen Now</a>
+                    </div>
+
                 </div>
+            </div><!-- end result item -->
 
-                <div class="episode-details">
-                    <p>Episode 2 :</p>
-                    <h3>OrCam Learn</h3>
-                    <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
-                        Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
-                    <a class="listen" href="#">Listen Now</a>
-                </div>
+            <div class="result-item">
+                <div class="item-inner">
 
-            </div>
-        </div><!-- end result item -->
-
-        <div class="result-item">
-            <div class="item-inner">
-
-                <div class="image-col">
-                    <date>29th<span>Sept</span></date>
-                    <div class="overlay-content">
-                        <img src="images/square-placeholder.jpg">
-                        <div class="overlay-inner">
-                            <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
-                            <p>Sponsored By</p>
-                            <span class="parent-pay">Parent Pay</span>
-                            <a class="listen" href="#">Listen Now</a>
+                    <div class="image-col">
+                        <date>29th<span>Sept</span></date>
+                        <div class="overlay-content">
+                            <img src="images/square-placeholder.jpg">
+                            <div class="overlay-inner">
+                                <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                                <p>Sponsored By</p>
+                                <span class="parent-pay">Parent Pay</span>
+                                <a class="listen" href="#">Listen Now</a>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="episode-details">
+                        <p>Episode 3 :</p>
+                        <h3>OrCam Learn</h3>
+                        <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
+                            Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
+                        <a class="listen" href="#">Listen Now</a>
+                    </div>
+
                 </div>
+            </div><!-- end result item -->
 
-                <div class="episode-details">
-                    <p>Episode 3 :</p>
-                    <h3>OrCam Learn</h3>
-                    <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
-                        Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
-                    <a class="listen" href="#">Listen Now</a>
-                </div>
+        </div><!-- end result list -->
 
-            </div>
-        </div><!-- end result item -->
-
-    </div><!-- end result list -->
-
-    <div class="cant-find">
-        <h4>Can't find what your looking for?</h4>
-        <p><a href="#">Get In Touch</a></p>
-    </div>
+        <div class="cant-find">
+            <h4>Can't find what your looking for?</h4>
+            <p><a href="#">Get In Touch</a></p>
+        </div>
   
-  </main>
+    </main>
 
-  <?php include('includes/footer.php'); ?>
+    <?php include('includes/footer.php'); ?>
 
 </body>
 </html>
