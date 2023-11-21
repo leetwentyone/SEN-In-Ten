@@ -14,7 +14,7 @@
   <script src="js/custom.js"></script>
 </head>
 
-<body class="podcasts-page">
+<body class="single-podcast">
 
   <?php include('includes/header.php'); ?>
   <?php include('includes/breadcrumb.php'); ?>
@@ -36,9 +36,80 @@
             <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
                 Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
             <a href="#">View Podcast Notes</a>
+            <div class="share">
+                <div class="share-title">Share Podcast</div>
+                <ul>
+                    <li><a href="#">F</a></li>
+                    <li><a href="#">X</a></li>
+                    <li><a href="#">In</a></li>
+                    <li><a href="#">IG</a></li>
+                    <li><a href="#">YT</a></li>
+                    <li><a href="#">TT</a></li>
+                </ul>
+            </div>
         </div>
 
     </div><!-- end latest podcast -->
+
+    <div class="listen-links">
+        <h3>Listen Now</h3>
+        <ul>
+            <li>
+            <a href="#" target="_blank">Listen on Spotify</a>
+            </li>
+            <li>
+            <a href="#" target="_blank">Listen on Apple Podcast</a>
+            </li>
+            <li>
+            <a href="#" target="_blank">Listen on Amazon Music</a>
+            </li>
+            <li>
+            <a href="#" target="_blank">Listen on Google Podcast</a>
+            </li>
+            <li>
+            <a href="#" target="_blank">Listen on TuneIn</a>
+            </li>
+            <li>
+            <a href="#" target="_blank">Listen on Overcast</a>
+            </li>
+        </ul>
+        <p>How to listen? <a href="#">Learn More</a></p>
+    </div><!-- End Listen Links -->
+
+    <div class="embedded-player">
+        <div class="c-container">
+            <span>-- Embedded Podcast to be placed here --</span>
+        </div>
+    </div><!-- End Embedded Player -->
+
+    <div class="banner-callout">
+      -- Parent Pay Banner to be placed here --
+    </div><!-- end banner callout -->
+
+    <div class="podcast-notes" id="podcast-notes">
+
+        <div class="col-l">
+            <h4>Podcast Notes</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin consequat mauris et sodales. Nunc placerat augue dui, 
+            ut viverra risus pellentesque sit amet. </p>
+            <p>Praesent vestibulum tortor in elit lobortis, vel interdum elit auctor. Fusce non odio vel arcu viverra lacinia. Nulla consequat erat quis augue pulvinar, 
+            vel dapibus magna lobortis. Cras placerat, libero in lobortis sodales, lacus odio condimentum ipsum, ut gravida nulla massa quis libero. </p>
+            <p>Morbi ultrices at nunc in cursus. Suspendisse aliquam sagittis egestas. Donec at tellus vel lectus sollicitudin euismod. Donec mi elit, fringilla sit amet 
+                pellentesque id, blandit id mi.</p>
+        </div>
+
+        <div class="col-r">
+            <h4>Useful Links</h4>
+            <ul>
+                <li><a href="#" target="_blank">www.website.com/blog</a></li>
+                <li><a href="#" target="_blank">www.website.com/shop</a></li>
+                <li><a href="#" target="_blank">Threads - @website</a></li>
+                <li><a href="#" target="_blank">Instagram - @website</a></li>
+                <li><a href="#" target="_blank">LinkedIn - website</a></li>
+            </ul>
+        </div>
+
+    </div><!-- end podcast notes -->
 
   </main>
 
