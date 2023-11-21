@@ -29,10 +29,15 @@
 
     p {
         color: $blue;
+        margin-bottom: 0;
 
         body.podcasts-page & {
             color: $copy;
             margin-bottom: 60px;
+
+            ~ p {
+                margin-bottom: 0;
+            }
         }
 
         a {

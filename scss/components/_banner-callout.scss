@@ -14,4 +14,8 @@
     body.home & {
         padding-bottom: 0;
     }
+
+    body.single-podcast & {
+        background-color: $white;
+    }
 }
