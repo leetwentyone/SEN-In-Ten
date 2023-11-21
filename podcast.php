@@ -111,6 +111,92 @@
 
     </div><!-- end podcast notes -->
 
+    <div class="sponsor-callout">
+        <?php
+            $phone_number = '01524 845046';
+            $phone_number_nospace = str_replace(' ','',$phone_number);
+        ?>
+        <div class="c-container">
+            <div class="callout-inner">
+                <div class="callout-title">Become a Sponsor</div>
+                <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
+                <a href="#">Become A Sponsor</a>
+             </div>
+        </div>
+    </div><!-- end sponsor callout -->
+
+    <div class="episode-list">
+        <div class="c-container">
+  
+            <h2>More Episodes <a href="#">View All Episodes</a></h2>
+
+            <ul>
+                <li>
+                    <date>1st<span>Oct</span></date>
+                    <div class="overlay-content">
+                    <img src="images/square-placeholder.jpg">
+                    <div class="overlay-inner">
+                        <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                        <p>Sponsored By</p>
+                        <span class="parent-pay">Parent Pay</span>
+                        <a class="listen" href="#">Listen Now</a>
+                    </div>
+                    </div>
+
+                    <div class="episode-details">
+                    <p>Episode 1 :</p>
+                    <h3>OrCam Learn</h3>
+                    <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+                    <a class="listen" href="#">Listen Now</a>
+                    </div>
+                </li>
+
+                <li>
+                    <date>31st<span>Oct</span></date>
+                    <div class="overlay-content">
+                    <img src="images/square-placeholder.jpg">
+                    <div class="overlay-inner">
+                        <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
+                        <p>Sponsored By</p>
+                        <span class="parent-pay">Parent Pay</span>
+                        <a class="listen" href="#">Listen Now</a>
+                    </div>
+                    </div>
+
+                    <div class="episode-details">
+                    <p>Episode 2 :</p>
+                    <h3>OrCam Learn</h3>
+                    <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+                    <a class="listen" href="#">Listen Now</a>
+                    </div>
+                </li>
+
+                <li>
+                    <date>3rd<span>Nov</span></date>
+                    <div class="overlay-content">
+                    <img src="images/square-placeholder.jpg">
+                    <div class="overlay-inner">
+                        <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
+                        <p>Sponsored By</p>
+                        <span class="parent-pay">Parent Pay</span>
+                        <a class="listen" href="#">Listen Now</a>
+                    </div>
+                    </div>
+
+                    <div class="episode-details">
+                    <p>Episode 3 :</p>
+                    <h3>OrCam Learn</h3>
+                    <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+                    <a class="listen" href="#">Listen Now</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div><!-- end episode list -->
+
+    <?php include('includes/subscribe.php'); ?>
+
   </main>
 
   <?php include('includes/footer.php'); ?>
