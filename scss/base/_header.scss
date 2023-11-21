@@ -11,6 +11,7 @@
 	height: auto;
 
 	body.home & {
+
 		@include breakpoint(laptop) {
 			background-color: transparent;
 			position: fixed;
@@ -19,9 +20,15 @@
 		@include breakpoint(desktop) {
 			height: 200px;
 		}
+
+		.header-inner {
+			padding-bottom: 0;
+		}
 	}
 
-	body.podcasts-page &  {
+	/* Pages with banners -- remove this height when banners are added */
+	body.podcasts-page &,
+	body.our-partners-page &  {
 
 		@include breakpoint(desktop) {
 			height: 300px;
@@ -75,7 +82,7 @@
 	}
 
 	@include breakpoint(desktop) {
-		padding: 30px 0 0 0;
+		padding: 30px 0;
 	}
 
 	@include breakpoint(xldesktop) {

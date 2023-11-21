@@ -1,4 +1,5 @@
 .news-list {
+    background-color: $white;
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -32,7 +33,7 @@
             width: 31.8%;
             margin-right: 2%;
 
-            &:nth-of-type(3) {
+            &:nth-of-type(3n) {
                 margin-right: 0;
             }
         }
@@ -45,11 +46,19 @@
 }
 
 .post-content {
-    padding: 20px;
+    padding: 40px 20px;
 
     h5 {
         color: $blue;
         margin-bottom: 10px;
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 
     p {
