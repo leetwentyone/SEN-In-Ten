@@ -5,14 +5,11 @@
     .c-container {
         max-width: 100%;
         
-        body.home & {
+        body.home &,
+        body.single-podcast &,
+        body.about-page & {
             position: absolute;
             top: -9rem;
-        }
-
-        body.single-podcast & {
-            position: absolute;
-            top: -9rem; 
         }
     }
 

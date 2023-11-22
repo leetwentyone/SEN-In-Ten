@@ -7,6 +7,10 @@
         background-color: $white;
     }
 
+    body.about-page & {
+        background-color: $white;
+    }
+
     h2 {
         display: flex;
         align-items: center;

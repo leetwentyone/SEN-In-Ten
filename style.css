@@ -318,7 +318,7 @@ a {
   a[href^="tel"] {
     pointer-events: none; } }
 
-.c-container, .breadcrumb ul, .footer-inner, .item-inner, .latest-podcast, .podcast-summary, .textblock, ul.partner-logos, .why-icons ul, .latest-post, body.single-post .site-main, .testimonials ul, .session-summary, .featured-event {
+.c-container, .breadcrumb ul, .footer-inner, .item-inner, .latest-podcast, .podcast-summary, .textblock, ul.partner-logos, .why-icons ul, .latest-post, body.single-post .site-main, .testimonials ul, .session-summary, .featured-event, .event-summary {
   width: 100%;
   max-width: 1366px;
   margin-left: auto;
@@ -330,7 +330,7 @@ a {
   width: 100%;
   background-color: #fff;
   height: 1px; }
-  .seperator .c-container, .seperator .breadcrumb ul, .breadcrumb .seperator ul, .seperator .footer-inner, .seperator .item-inner, .seperator .latest-podcast, .seperator .podcast-summary, .seperator .textblock, .seperator ul.partner-logos, .seperator .why-icons ul, .why-icons .seperator ul, .seperator .latest-post, .seperator body.single-post .site-main, body.single-post .seperator .site-main, .seperator .testimonials ul, .testimonials .seperator ul, .seperator .session-summary, .seperator .featured-event {
+  .seperator .c-container, .seperator .breadcrumb ul, .breadcrumb .seperator ul, .seperator .footer-inner, .seperator .item-inner, .seperator .latest-podcast, .seperator .podcast-summary, .seperator .textblock, .seperator ul.partner-logos, .seperator .why-icons ul, .why-icons .seperator ul, .seperator .latest-post, .seperator body.single-post .site-main, body.single-post .seperator .site-main, .seperator .testimonials ul, .testimonials .seperator ul, .seperator .session-summary, .seperator .featured-event, .seperator .event-summary {
     height: 1px;
     max-width: 95%;
     margin-left: 2.5%;
@@ -359,7 +359,7 @@ a {
   body.home .site-header .header-inner {
     padding-bottom: 0; }
   @media (min-width: 1152px) {
-    body.podcasts-page .site-header, body.our-partners-page .site-header, body.training-cpd-page .site-header {
+    body.podcasts-page .site-header, body.our-partners-page .site-header, body.training-cpd-page .site-header, body.about-page .site-header {
       height: 300px; } }
 
 .mobile-top {
@@ -997,6 +997,8 @@ a {
   body.single-podcast .episode-list {
     padding-top: 15rem;
     background-color: #fff; }
+  body.about-page .episode-list {
+    background-color: #fff; }
   .episode-list h2 {
     display: flex;
     align-items: center;
@@ -1179,12 +1181,9 @@ a {
 .sponsor-callout {
   position: relative;
   z-index: 10; }
-  .sponsor-callout .c-container, .sponsor-callout .breadcrumb ul, .breadcrumb .sponsor-callout ul, .sponsor-callout .footer-inner, .sponsor-callout .item-inner, .sponsor-callout .latest-podcast, .sponsor-callout .podcast-summary, .sponsor-callout .textblock, .sponsor-callout ul.partner-logos, .sponsor-callout .why-icons ul, .why-icons .sponsor-callout ul, .sponsor-callout .latest-post, .sponsor-callout body.single-post .site-main, body.single-post .sponsor-callout .site-main, .sponsor-callout .testimonials ul, .testimonials .sponsor-callout ul, .sponsor-callout .session-summary, .sponsor-callout .featured-event {
+  .sponsor-callout .c-container, .sponsor-callout .breadcrumb ul, .breadcrumb .sponsor-callout ul, .sponsor-callout .footer-inner, .sponsor-callout .item-inner, .sponsor-callout .latest-podcast, .sponsor-callout .podcast-summary, .sponsor-callout .textblock, .sponsor-callout ul.partner-logos, .sponsor-callout .why-icons ul, .why-icons .sponsor-callout ul, .sponsor-callout .latest-post, .sponsor-callout body.single-post .site-main, body.single-post .sponsor-callout .site-main, .sponsor-callout .testimonials ul, .testimonials .sponsor-callout ul, .sponsor-callout .session-summary, .sponsor-callout .featured-event, .sponsor-callout .event-summary {
     max-width: 100%; }
-    body.home .sponsor-callout .c-container, body.home .sponsor-callout .breadcrumb ul, .breadcrumb body.home .sponsor-callout ul, body.home .sponsor-callout .footer-inner, body.home .sponsor-callout .item-inner, body.home .sponsor-callout .latest-podcast, body.home .sponsor-callout .podcast-summary, body.home .sponsor-callout .textblock, body.home .sponsor-callout ul.partner-logos, body.home .sponsor-callout .why-icons ul, .why-icons body.home .sponsor-callout ul, body.home .sponsor-callout .latest-post, body.home .sponsor-callout body.single-post .site-main, body.single-post body.home .sponsor-callout .site-main, body.home .sponsor-callout .testimonials ul, .testimonials body.home .sponsor-callout ul, body.home .sponsor-callout .session-summary, body.home .sponsor-callout .featured-event {
-      position: absolute;
-      top: -9rem; }
-    body.single-podcast .sponsor-callout .c-container, body.single-podcast .sponsor-callout .breadcrumb ul, .breadcrumb body.single-podcast .sponsor-callout ul, body.single-podcast .sponsor-callout .footer-inner, body.single-podcast .sponsor-callout .item-inner, body.single-podcast .sponsor-callout .latest-podcast, body.single-podcast .sponsor-callout .podcast-summary, body.single-podcast .sponsor-callout .textblock, body.single-podcast .sponsor-callout ul.partner-logos, body.single-podcast .sponsor-callout .why-icons ul, .why-icons body.single-podcast .sponsor-callout ul, body.single-podcast .sponsor-callout .latest-post, body.single-podcast .sponsor-callout body.single-post .site-main, body.single-post body.single-podcast .sponsor-callout .site-main, body.single-podcast .sponsor-callout .testimonials ul, .testimonials body.single-podcast .sponsor-callout ul, body.single-podcast .sponsor-callout .session-summary, body.single-podcast .sponsor-callout .featured-event {
+    body.home .sponsor-callout .c-container, body.home .sponsor-callout .breadcrumb ul, .breadcrumb body.home .sponsor-callout ul, body.home .sponsor-callout .footer-inner, body.home .sponsor-callout .item-inner, body.home .sponsor-callout .latest-podcast, body.home .sponsor-callout .podcast-summary, body.home .sponsor-callout .textblock, body.home .sponsor-callout ul.partner-logos, body.home .sponsor-callout .why-icons ul, .why-icons body.home .sponsor-callout ul, body.home .sponsor-callout .latest-post, body.home .sponsor-callout body.single-post .site-main, body.single-post body.home .sponsor-callout .site-main, body.home .sponsor-callout .testimonials ul, .testimonials body.home .sponsor-callout ul, body.home .sponsor-callout .session-summary, body.home .sponsor-callout .featured-event, body.home .sponsor-callout .event-summary, body.single-podcast .sponsor-callout .c-container, body.single-podcast .sponsor-callout .breadcrumb ul, .breadcrumb body.single-podcast .sponsor-callout ul, body.single-podcast .sponsor-callout .footer-inner, body.single-podcast .sponsor-callout .item-inner, body.single-podcast .sponsor-callout .latest-podcast, body.single-podcast .sponsor-callout .podcast-summary, body.single-podcast .sponsor-callout .textblock, body.single-podcast .sponsor-callout ul.partner-logos, body.single-podcast .sponsor-callout .why-icons ul, .why-icons body.single-podcast .sponsor-callout ul, body.single-podcast .sponsor-callout .latest-post, body.single-podcast .sponsor-callout body.single-post .site-main, body.single-post body.single-podcast .sponsor-callout .site-main, body.single-podcast .sponsor-callout .testimonials ul, .testimonials body.single-podcast .sponsor-callout ul, body.single-podcast .sponsor-callout .session-summary, body.single-podcast .sponsor-callout .featured-event, body.single-podcast .sponsor-callout .event-summary, body.about-page .sponsor-callout .c-container, body.about-page .sponsor-callout .breadcrumb ul, .breadcrumb body.about-page .sponsor-callout ul, body.about-page .sponsor-callout .footer-inner, body.about-page .sponsor-callout .item-inner, body.about-page .sponsor-callout .latest-podcast, body.about-page .sponsor-callout .podcast-summary, body.about-page .sponsor-callout .textblock, body.about-page .sponsor-callout ul.partner-logos, body.about-page .sponsor-callout .why-icons ul, .why-icons body.about-page .sponsor-callout ul, body.about-page .sponsor-callout .latest-post, body.about-page .sponsor-callout body.single-post .site-main, body.single-post body.about-page .sponsor-callout .site-main, body.about-page .sponsor-callout .testimonials ul, .testimonials body.about-page .sponsor-callout ul, body.about-page .sponsor-callout .session-summary, body.about-page .sponsor-callout .featured-event, body.about-page .sponsor-callout .event-summary {
       position: absolute;
       top: -9rem; }
   .sponsor-callout .callout-inner {
@@ -1233,7 +1232,7 @@ a {
         width: 50%;
         padding-left: 5%;
         padding-right: 5%; }
-        body.home .equal-cols .col-l {
+        body.home .equal-cols .col-l, body.about-page .equal-cols .col-l {
           padding-bottom: 10rem;
           padding-top: 14rem; } }
     .equal-cols .col-l h4 {
@@ -1260,6 +1259,8 @@ a {
       margin-bottom: 30px; }
     .equal-cols .col-r p {
       color: #fff; }
+      .equal-cols .col-r p:last-of-type {
+        margin-bottom: 0; }
   .equal-cols ul {
     display: flex;
     flex-direction: column;
@@ -1282,7 +1283,7 @@ a {
   .equal-cols p {
     color: #808080; }
 
-.event-list .c-container, .event-list .breadcrumb ul, .breadcrumb .event-list ul, .event-list .footer-inner, .event-list .item-inner, .event-list .latest-podcast, .event-list .podcast-summary, .event-list .textblock, .event-list ul.partner-logos, .event-list .why-icons ul, .why-icons .event-list ul, .event-list .latest-post, .event-list body.single-post .site-main, body.single-post .event-list .site-main, .event-list .testimonials ul, .testimonials .event-list ul, .event-list .session-summary, .event-list .featured-event {
+.event-list .c-container, .event-list .breadcrumb ul, .breadcrumb .event-list ul, .event-list .footer-inner, .event-list .item-inner, .event-list .latest-podcast, .event-list .podcast-summary, .event-list .textblock, .event-list ul.partner-logos, .event-list .why-icons ul, .why-icons .event-list ul, .event-list .latest-post, .event-list body.single-post .site-main, body.single-post .event-list .site-main, .event-list .testimonials ul, .testimonials .event-list ul, .event-list .session-summary, .event-list .featured-event, .event-list .event-summary {
   padding-top: 60px;
   padding-bottom: 30px;
   border-bottom: 1px solid #067997; }
@@ -1354,16 +1355,18 @@ a {
     .text-image {
       padding-top: 60px;
       padding-bottom: 60px; } }
-  body.training-cpd-page .text-image, body.single-session .text-image {
+  body.training-cpd-page .text-image, body.single-session .text-image, body.about-page .text-image {
     background-color: #fff; }
-  .text-image .c-container, .text-image .breadcrumb ul, .breadcrumb .text-image ul, .text-image .footer-inner, .text-image .item-inner, .text-image .latest-podcast, .text-image .podcast-summary, .text-image .textblock, .text-image ul.partner-logos, .text-image .why-icons ul, .why-icons .text-image ul, .text-image .latest-post, .text-image body.single-post .site-main, body.single-post .text-image .site-main, .text-image .testimonials ul, .testimonials .text-image ul, .text-image .session-summary, .text-image .featured-event {
+  body.about-page .text-image {
+    padding-bottom: 15rem; }
+  .text-image .c-container, .text-image .breadcrumb ul, .breadcrumb .text-image ul, .text-image .footer-inner, .text-image .item-inner, .text-image .latest-podcast, .text-image .podcast-summary, .text-image .textblock, .text-image ul.partner-logos, .text-image .why-icons ul, .why-icons .text-image ul, .text-image .latest-post, .text-image body.single-post .site-main, body.single-post .text-image .site-main, .text-image .testimonials ul, .testimonials .text-image ul, .text-image .session-summary, .text-image .featured-event, .text-image .event-summary {
     display: flex;
     flex-direction: column; }
     @media (min-width: 768px) {
-      .text-image .c-container, .text-image .breadcrumb ul, .breadcrumb .text-image ul, .text-image .footer-inner, .text-image .item-inner, .text-image .latest-podcast, .text-image .podcast-summary, .text-image .textblock, .text-image ul.partner-logos, .text-image .why-icons ul, .why-icons .text-image ul, .text-image .latest-post, .text-image body.single-post .site-main, body.single-post .text-image .site-main, .text-image .testimonials ul, .testimonials .text-image ul, .text-image .session-summary, .text-image .featured-event {
+      .text-image .c-container, .text-image .breadcrumb ul, .breadcrumb .text-image ul, .text-image .footer-inner, .text-image .item-inner, .text-image .latest-podcast, .text-image .podcast-summary, .text-image .textblock, .text-image ul.partner-logos, .text-image .why-icons ul, .why-icons .text-image ul, .text-image .latest-post, .text-image body.single-post .site-main, body.single-post .text-image .site-main, .text-image .testimonials ul, .testimonials .text-image ul, .text-image .session-summary, .text-image .featured-event, .text-image .event-summary {
         flex-direction: row; } }
   @media (min-width: 768px) {
-    .text-image.is-reversed .c-container, .text-image.is-reversed .breadcrumb ul, .breadcrumb .text-image.is-reversed ul, .text-image.is-reversed .footer-inner, .text-image.is-reversed .item-inner, .text-image.is-reversed .latest-podcast, .text-image.is-reversed .podcast-summary, .text-image.is-reversed .textblock, .text-image.is-reversed ul.partner-logos, .text-image.is-reversed .why-icons ul, .why-icons .text-image.is-reversed ul, .text-image.is-reversed .latest-post, .text-image.is-reversed body.single-post .site-main, body.single-post .text-image.is-reversed .site-main, .text-image.is-reversed .testimonials ul, .testimonials .text-image.is-reversed ul, .text-image.is-reversed .session-summary, .text-image.is-reversed .featured-event {
+    .text-image.is-reversed .c-container, .text-image.is-reversed .breadcrumb ul, .breadcrumb .text-image.is-reversed ul, .text-image.is-reversed .footer-inner, .text-image.is-reversed .item-inner, .text-image.is-reversed .latest-podcast, .text-image.is-reversed .podcast-summary, .text-image.is-reversed .textblock, .text-image.is-reversed ul.partner-logos, .text-image.is-reversed .why-icons ul, .why-icons .text-image.is-reversed ul, .text-image.is-reversed .latest-post, .text-image.is-reversed body.single-post .site-main, body.single-post .text-image.is-reversed .site-main, .text-image.is-reversed .testimonials ul, .testimonials .text-image.is-reversed ul, .text-image.is-reversed .session-summary, .text-image.is-reversed .featured-event, .text-image.is-reversed .event-summary {
       flex-direction: row-reverse; } }
   .text-image .image-col {
     width: 100%; }
@@ -1388,11 +1391,11 @@ a {
   .text-image p {
     color: #808080;
     margin-bottom: 30px; }
-    .text-image p:not(:last-of-type) {
+    .text-image p:first-of-type {
       color: #067997;
       font-size: 18px;
       line-height: 26px; }
-      body.training-cpd-page .text-image p:not(:last-of-type), body.single-session .text-image p:not(:last-of-type) {
+      body.training-cpd-page .text-image p:first-of-type, body.single-session .text-image p:first-of-type {
         color: #808080;
         font-size: 16px;
         line-height: 24px; }
@@ -1406,11 +1409,11 @@ a {
     .subscribe {
       padding-top: 60px;
       padding-bottom: 60px; } }
-  .subscribe .c-container, .subscribe .breadcrumb ul, .breadcrumb .subscribe ul, .subscribe .footer-inner, .subscribe .item-inner, .subscribe .latest-podcast, .subscribe .podcast-summary, .subscribe .textblock, .subscribe ul.partner-logos, .subscribe .why-icons ul, .why-icons .subscribe ul, .subscribe .latest-post, .subscribe body.single-post .site-main, body.single-post .subscribe .site-main, .subscribe .testimonials ul, .testimonials .subscribe ul, .subscribe .session-summary, .subscribe .featured-event {
+  .subscribe .c-container, .subscribe .breadcrumb ul, .breadcrumb .subscribe ul, .subscribe .footer-inner, .subscribe .item-inner, .subscribe .latest-podcast, .subscribe .podcast-summary, .subscribe .textblock, .subscribe ul.partner-logos, .subscribe .why-icons ul, .why-icons .subscribe ul, .subscribe .latest-post, .subscribe body.single-post .site-main, body.single-post .subscribe .site-main, .subscribe .testimonials ul, .testimonials .subscribe ul, .subscribe .session-summary, .subscribe .featured-event, .subscribe .event-summary {
     display: flex;
     flex-direction: column; }
     @media (min-width: 768px) {
-      .subscribe .c-container, .subscribe .breadcrumb ul, .breadcrumb .subscribe ul, .subscribe .footer-inner, .subscribe .item-inner, .subscribe .latest-podcast, .subscribe .podcast-summary, .subscribe .textblock, .subscribe ul.partner-logos, .subscribe .why-icons ul, .why-icons .subscribe ul, .subscribe .latest-post, .subscribe body.single-post .site-main, body.single-post .subscribe .site-main, .subscribe .testimonials ul, .testimonials .subscribe ul, .subscribe .session-summary, .subscribe .featured-event {
+      .subscribe .c-container, .subscribe .breadcrumb ul, .breadcrumb .subscribe ul, .subscribe .footer-inner, .subscribe .item-inner, .subscribe .latest-podcast, .subscribe .podcast-summary, .subscribe .textblock, .subscribe ul.partner-logos, .subscribe .why-icons ul, .why-icons .subscribe ul, .subscribe .latest-post, .subscribe body.single-post .site-main, body.single-post .subscribe .site-main, .subscribe .testimonials ul, .testimonials .subscribe ul, .subscribe .session-summary, .subscribe .featured-event, .subscribe .event-summary {
         flex-direction: row; } }
   .subscribe .form-col {
     width: 100%; }
@@ -1770,13 +1773,13 @@ body.single-podcast {
     .filter-bar {
       padding-top: 60px;
       padding-bottom: 60px; } }
-  .filter-bar .c-container, .filter-bar .breadcrumb ul, .breadcrumb .filter-bar ul, .filter-bar .footer-inner, .filter-bar .item-inner, .filter-bar .latest-podcast, .filter-bar .podcast-summary, .filter-bar .textblock, .filter-bar ul.partner-logos, .filter-bar .why-icons ul, .why-icons .filter-bar ul, .filter-bar .latest-post, .filter-bar body.single-post .site-main, body.single-post .filter-bar .site-main, .filter-bar .testimonials ul, .testimonials .filter-bar ul, .filter-bar .session-summary, .filter-bar .featured-event {
+  .filter-bar .c-container, .filter-bar .breadcrumb ul, .breadcrumb .filter-bar ul, .filter-bar .footer-inner, .filter-bar .item-inner, .filter-bar .latest-podcast, .filter-bar .podcast-summary, .filter-bar .textblock, .filter-bar ul.partner-logos, .filter-bar .why-icons ul, .why-icons .filter-bar ul, .filter-bar .latest-post, .filter-bar body.single-post .site-main, body.single-post .filter-bar .site-main, .filter-bar .testimonials ul, .testimonials .filter-bar ul, .filter-bar .session-summary, .filter-bar .featured-event, .filter-bar .event-summary {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
     @media (min-width: 768px) {
-      .filter-bar .c-container, .filter-bar .breadcrumb ul, .breadcrumb .filter-bar ul, .filter-bar .footer-inner, .filter-bar .item-inner, .filter-bar .latest-podcast, .filter-bar .podcast-summary, .filter-bar .textblock, .filter-bar ul.partner-logos, .filter-bar .why-icons ul, .why-icons .filter-bar ul, .filter-bar .latest-post, .filter-bar body.single-post .site-main, body.single-post .filter-bar .site-main, .filter-bar .testimonials ul, .testimonials .filter-bar ul, .filter-bar .session-summary, .filter-bar .featured-event {
+      .filter-bar .c-container, .filter-bar .breadcrumb ul, .breadcrumb .filter-bar ul, .filter-bar .footer-inner, .filter-bar .item-inner, .filter-bar .latest-podcast, .filter-bar .podcast-summary, .filter-bar .textblock, .filter-bar ul.partner-logos, .filter-bar .why-icons ul, .why-icons .filter-bar ul, .filter-bar .latest-post, .filter-bar body.single-post .site-main, body.single-post .filter-bar .site-main, .filter-bar .testimonials ul, .testimonials .filter-bar ul, .filter-bar .session-summary, .filter-bar .featured-event, .filter-bar .event-summary {
         flex-direction: row; } }
   .filter-bar form {
     display: flex;
@@ -1911,7 +1914,7 @@ body.single-podcast {
 
 .embedded-player {
   position: relative; }
-  .embedded-player .c-container, .embedded-player .breadcrumb ul, .breadcrumb .embedded-player ul, .embedded-player .footer-inner, .embedded-player .item-inner, .embedded-player .latest-podcast, .embedded-player .podcast-summary, .embedded-player .textblock, .embedded-player ul.partner-logos, .embedded-player .why-icons ul, .why-icons .embedded-player ul, .embedded-player .latest-post, .embedded-player body.single-post .site-main, body.single-post .embedded-player .site-main, .embedded-player .testimonials ul, .testimonials .embedded-player ul, .embedded-player .session-summary, .embedded-player .featured-event {
+  .embedded-player .c-container, .embedded-player .breadcrumb ul, .breadcrumb .embedded-player ul, .embedded-player .footer-inner, .embedded-player .item-inner, .embedded-player .latest-podcast, .embedded-player .podcast-summary, .embedded-player .textblock, .embedded-player ul.partner-logos, .embedded-player .why-icons ul, .why-icons .embedded-player ul, .embedded-player .latest-post, .embedded-player body.single-post .site-main, body.single-post .embedded-player .site-main, .embedded-player .testimonials ul, .testimonials .embedded-player ul, .embedded-player .session-summary, .embedded-player .featured-event, .embedded-player .event-summary {
     position: relative;
     z-index: 5; }
   .embedded-player span {
@@ -2471,17 +2474,34 @@ body.events-page {
   background-color: #fff;
   padding-top: 60px;
   padding-bottom: 60px; }
-  .event-listing .c-container, .event-listing .breadcrumb ul, .breadcrumb .event-listing ul, .event-listing .footer-inner, .event-listing .item-inner, .event-listing .latest-podcast, .event-listing .podcast-summary, .event-listing .textblock, .event-listing ul.partner-logos, .event-listing .why-icons ul, .why-icons .event-listing ul, .event-listing .latest-post, .event-listing body.single-post .site-main, body.single-post .event-listing .site-main, .event-listing .testimonials ul, .testimonials .event-listing ul, .event-listing .session-summary, .event-listing .featured-event {
+  .event-listing .c-container, .event-listing .breadcrumb ul, .breadcrumb .event-listing ul, .event-listing .footer-inner, .event-listing .item-inner, .event-listing .latest-podcast, .event-listing .podcast-summary, .event-listing .textblock, .event-listing ul.partner-logos, .event-listing .why-icons ul, .why-icons .event-listing ul, .event-listing .latest-post, .event-listing body.single-post .site-main, body.single-post .event-listing .site-main, .event-listing .testimonials ul, .testimonials .event-listing ul, .event-listing .session-summary, .event-listing .featured-event, .event-listing .event-summary {
     padding: 0; }
   .event-listing h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
     color: #067997; }
     .event-listing h4 a {
       font-size: 14px;
       line-height: 14px; }
+  .event-listing date {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: #067997;
+    border: 10px solid #FDC243;
+    border-radius: 100%;
+    padding: 20px;
+    z-index: 5; }
   .event-listing li {
     position: relative;
     transition: all .3s ease;
@@ -2498,6 +2518,10 @@ body.events-page {
   .event-listing img {
     width: 100%;
     border-radius: 30px; }
+  .event-listing h5 a {
+    color: #067997; }
+  .event-listing a {
+    color: #808080; }
 
 .event-content {
   padding: 40px 20px; }
@@ -2516,5 +2540,135 @@ body.events-page {
     text-decoration: underline; }
     .event-content a:hover {
       text-decoration: none; }
+
+.event-summary {
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  @media (min-width: 768px) {
+    .event-summary {
+      flex-direction: row; } }
+  .event-summary date {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: #067997;
+    border: 15px solid #FDC243;
+    border-radius: 100%;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    z-index: 5; }
+  .event-summary .image-col {
+    position: relative;
+    width: 100%; }
+    @media (min-width: 768px) {
+      .event-summary .image-col {
+        width: 50%; } }
+  .event-summary .event-overview {
+    width: 100%; }
+    @media (min-width: 768px) {
+      .event-summary .event-overview {
+        width: 50%;
+        padding: 60px; } }
+    .event-summary .event-overview p {
+      color: #808080;
+      margin-bottom: 30px; }
+  .event-summary .event-details {
+    padding-left: 0;
+    margin-bottom: 30px; }
+    .event-summary .event-details li {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      color: #067997; }
+      .event-summary .event-details li:not(:last-of-type) {
+        margin-bottom: 10px; }
+      .event-summary .event-details li:before {
+        content: "";
+        display: inline-block;
+        position: relative;
+        width: 25px;
+        height: 25px;
+        background-color: #ccc;
+        margin-right: 10px; }
+  .event-summary .event-actions a:not(:first-of-type) {
+    margin-left: 20px; }
+  .event-summary img {
+    border-radius: 30px;
+    width: 100%; }
+
+body.about-page {
+  background-color: #E0E8ED; }
+
+body.become-sponsor-page {
+  background-color: #E0E8ED; }
+
+.whats-included {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  @media (min-width: 768px) {
+    .whats-included {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  .whats-included .c-container, .whats-included .breadcrumb ul, .breadcrumb .whats-included ul, .whats-included .footer-inner, .whats-included .item-inner, .whats-included .latest-podcast, .whats-included .podcast-summary, .whats-included .textblock, .whats-included ul.partner-logos, .whats-included .why-icons ul, .why-icons .whats-included ul, .whats-included .latest-post, .whats-included body.single-post .site-main, body.single-post .whats-included .site-main, .whats-included .testimonials ul, .testimonials .whats-included ul, .whats-included .session-summary, .whats-included .featured-event, .whats-included .event-summary {
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .whats-included .c-container, .whats-included .breadcrumb ul, .breadcrumb .whats-included ul, .whats-included .footer-inner, .whats-included .item-inner, .whats-included .latest-podcast, .whats-included .podcast-summary, .whats-included .textblock, .whats-included ul.partner-logos, .whats-included .why-icons ul, .why-icons .whats-included ul, .whats-included .latest-post, .whats-included body.single-post .site-main, body.single-post .whats-included .site-main, .whats-included .testimonials ul, .testimonials .whats-included ul, .whats-included .session-summary, .whats-included .featured-event, .whats-included .event-summary {
+        flex-direction: row-reverse; } }
+  .whats-included .image-col {
+    width: 100%; }
+    @media (min-width: 768px) {
+      .whats-included .image-col {
+        width: 50%; } }
+  .whats-included img {
+    border-radius: 30px; }
+  .whats-included .text-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; }
+    @media (min-width: 768px) {
+      .whats-included .text-col {
+        width: 50%;
+        padding-left: 5%;
+        padding-right: 5%; } }
+  .whats-included h5 {
+    color: #067997;
+    margin-bottom: 30px; }
+  .whats-included p {
+    color: #808080;
+    margin-bottom: 30px; }
+  .whats-included li {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    padding-left: 40px;
+    color: #067997; }
+    .whats-included li:not(:last-of-type) {
+      margin-bottom: 15px; }
+    .whats-included li:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      background-color: #eee;
+      margin-right: 10px; }
+  .whats-included .btn-container {
+    margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */

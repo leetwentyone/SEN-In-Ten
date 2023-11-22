@@ -1,5 +1,10 @@
-.text-image {
+body.become-sponsor-page {
+    background-color: $lightblue;
+}
+
+.whats-included {
     width: 100%;
+    background-color: $white;
     padding-top: 30px;
     padding-bottom: 30px;
 
@@ -8,32 +13,12 @@
         padding-bottom: 60px;
     }
 
-    body.training-cpd-page &,
-    body.single-session &,
-    body.about-page & {
-        background-color: $white;
-    }
-
-    body.about-page & {
-        padding-bottom: 15rem;
-    }
-
     .c-container {
         display: flex;
         flex-direction: column;
 
         @include breakpoint(tablet) {
-            flex-direction: row;
-        }
-    }
-
-    &.is-reversed {
-
-        .c-container {
-
-            @include breakpoint(tablet) {
-                flex-direction: row-reverse;
-            }
+            flex-direction: row-reverse;
         }
     }
 
@@ -70,18 +55,32 @@
     p {
         color: $copy;
         margin-bottom: 30px;
+    }
 
-        &:first-of-type {
-            color: $blue;
-            font-size: 18px;
-            line-height: 26px;
+    li {
+        display: flex;
+        position: relative;
+        align-items: flex-start;
+        padding-left: 40px;
+        color: $blue;
 
-            body.training-cpd-page &,
-            body.single-session & {
-                color: $copy;
-                font-size: 16px;
-                line-height: 24px;
-            }
+        &:not(:last-of-type) {
+            margin-bottom: 15px;
         }
+
+        &:before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            background-color: #eee;
+            margin-right: 10px;
+        }
+    }
+
+    .btn-container {
+        margin-top: 50px;
     }
 }
