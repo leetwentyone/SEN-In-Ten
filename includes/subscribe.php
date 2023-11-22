@@ -5,16 +5,16 @@
         <form>
         <input type="text" placeholder="Name">
         <input type="email" placeholder="Email Address">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
+        <p>By submitting your email you acknowledge that you have read and understood our Privacy Policy. You can unsubscribe at any time using the unsubscribe link in our emails.</p>
         <button type="submit">Submit</button>
         </form>
     </div>
     <div class="quote-col">
         <div class="quote-box">
         <blockquote>
-            "This is a quote for this column"
+            "SEN in Ten offers practical advice and tips for parents"
         </blockquote>
-        <cite>Name of Person</cite>
+        <cite>Podcaster, Lorem Ipsum</cite>
         </div>
     </div>
     </div>
