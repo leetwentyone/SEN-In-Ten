@@ -25,23 +25,23 @@
             <h1>Event Name</h1>
         </div>
 
-        <div class="session-summary">
+        <div class="event-summary">
         
             <date>8th<br>Dec</date>
             <div class="image-col">
                 <img src="images/square-placeholder.jpg">
             </div>
 
-            <div class="session-overview">
+            <div class="event-overview">
                 <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
                     Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla.
                 </p>
-                <ul class="session-details">
+                <ul class="event-details">
                     <li class="time">8pm - 9pm</li>
                     <li class="date">Monday 6th February 2023</li>
                     <li class="location">Arena</li>
                 </ul>
-                <ul class="session-actions">
+                <ul class="event-actions">
                     <a href="#" target="_blank">Book Via Eventbrite</a>
                     <a href="#" target="_blank">Book Via Zoom</a>
                 </ul>
@@ -147,6 +147,48 @@
 
             </div>
         </div><!-- end enquiry form -->
+
+        <div class="event-listing">
+            <div class="c-container">
+        
+                <h4>Related Events</h4>
+
+                <ul>
+
+                    <li>
+                        <date>1st<span>Oct</span></date>
+                        <img src="images/square-placeholder.jpg">
+                        
+                        <div class="event-details">
+                        <h5><a href="event.php">Event Name</a></h5>
+                        <a href="#">Read More</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <date>2nd<span>Dec</span></date>
+                        <img src="images/square-placeholder.jpg">
+                        
+                        <div class="event-details">
+                        <h5><a href="event.php">Event Name</a></h5>
+                        <a href="#">Read More</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <date>8th<span>Dec</span></date>
+                        <img src="images/square-placeholder.jpg">
+                        
+                        <div class="event-details">
+                        <h5><a href="event.php">Event Name</a></h5>
+                        <a href="#">Read More</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div><!-- end event list -->
 
         <?php include('includes/subscribe.php'); ?>
 
