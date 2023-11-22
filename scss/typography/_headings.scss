@@ -1,6 +1,12 @@
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-size: 26px;
-  line-height: 36px;
-  font-family: $globalfont;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: $poppins;
+  font-weight: 700;
+
+  @include breakpoint(desktop) {
+    font-size: 36px;
+    line-height: 46px;
+  }
 }
