@@ -75,3 +75,11 @@ jQuery(document).ready(function(){
   ]
   });
 });
+
+/* Accordion */
+jQuery(function($){
+  jQuery(".accordion-item").find(".accordion-heading").click(function() {
+    jQuery(this).toggleClass("active-tab").find("span").toggleClass("icon-minus icon-plus");
+    jQuery(this).next().toggleClass("open").slideToggle("fast")
+  });
+});
