@@ -28,7 +28,8 @@
 
 	/* Pages with banners -- remove this height when banners are added */
 	body.podcasts-page &,
-	body.our-partners-page &  {
+	body.our-partners-page &,
+	body.training-cpd-page &,  {
 
 		@include breakpoint(desktop) {
 			height: 300px;

@@ -15,7 +15,9 @@
         padding-bottom: 0;
     }
 
-    body.single-podcast & {
+    body.single-podcast &,
+    body.training-cpd-page &,
+    body.events-page & {
         background-color: $white;
     }
 }

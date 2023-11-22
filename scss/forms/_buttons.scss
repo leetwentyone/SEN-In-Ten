@@ -22,3 +22,12 @@
     justify-content: center;
     width: 100%;
 }
+
+.default {
+    color: $copy;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

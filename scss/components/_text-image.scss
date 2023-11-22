@@ -8,12 +8,27 @@
         padding-bottom: 60px;
     }
 
+    body.training-cpd-page &,
+    body.single-session & {
+        background-color: $white;
+    }
+
     .c-container {
         display: flex;
         flex-direction: column;
 
         @include breakpoint(tablet) {
             flex-direction: row;
+        }
+    }
+
+    &.is-reversed {
+
+        .c-container {
+
+            @include breakpoint(tablet) {
+                flex-direction: row-reverse;
+            }
         }
     }
 
@@ -55,6 +70,13 @@
             color: $blue;
             font-size: 18px;
             line-height: 26px;
+
+            body.training-cpd-page &,
+            body.single-session & {
+                color: $copy;
+                font-size: 16px;
+                line-height: 24px;
+            }
         }
     }
 }

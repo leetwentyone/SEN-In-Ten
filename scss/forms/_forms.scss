@@ -38,7 +38,9 @@ select {
 textarea {
     width: 100%;
     height: 150px;
+    font-family: $globalfont;
     border-radius: 0;
+    color: $copy;
     border: 1px solid $midgrey;
     padding: 10px;
     resize: none;
@@ -47,9 +49,130 @@ textarea {
         outline: 1px dashed $black;
         border-color: $black;
     }
+
+    &::placeholder {
+        color: $copy;
+    }
 }
 
 label {
     display: block;
     margin-bottom: 5px;
+}
+
+.enquiry {
+    background-color: $blue;
+    padding-top:  30px;
+    padding-bottom: 30px;
+
+    @include breakpoint(tablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    h3 {
+        color: $white;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+
+        @include breakpoint(tablet) {
+            margin-bottom: 60px;
+        }
+    }
+
+    form {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include breakpoint(tablet) {
+            width: 700px;
+        }
+    }
+
+    fieldset {
+        padding: 30px;
+        border: 0;
+    }
+
+    legend {
+        width: 100%;
+        text-align: center;
+        color: $white;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        color: $white;
+        margin-bottom: 20px;
+
+        &.centered {
+            justify-content: center;
+        }
+
+        a {
+            color: $white;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 0;
+            margin-top: 20px;
+
+            a {
+                color: $yellow;
+            }
+        }
+
+        input[type="radio"] {
+            top: 2px;
+            position: relative;
+            left: 0;
+            margin-left: 0;
+        }
+
+        input {
+            border: 1px solid $white;
+            border-radius: 50px;
+            color: $blue;
+            padding-left: 20px;
+
+            &::placeholder {
+                color: $blue;
+            }
+        }
+
+        textarea {
+            border: 1px solid $white;
+            border-radius: 20px;
+            color: $blue;
+            padding: 20px;
+
+            &::placeholder {
+                color: $blue;
+            }
+        }
+    }
+
+    .field-50 {
+        width: 100%;
+
+        @include breakpoint(tablet) {
+            width: 49%;
+            margin-right: 2%;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .field-100 {
+        width: 100%;
+    }
 }
