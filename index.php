@@ -26,12 +26,11 @@
     <div class="hero hero-tall">
       <div class="hero-content">
         <div class="hero-inner">
-          <h1>This is the hero block in tall mode</h1>
-          <p>Etiam maximus tempor dapibus. Mauris et imperdiet ipsum. Pellentesque rutrum erat ut dui blandit venenatis. 
-            Aenean volutpat laoreet est, vel euismod dui porta sed. Curabitur pulvinar leo nulla, in semper nunc ullamcorper ut.</p>
+          <h1>Podcast for Special Educational Needs and Disability</h1>
+          <p>SEN In Ten is for teachers, parents and anyone else supporting or working with children or young people with special education needs.</p>
           <div class="btn-container">
-            <a href="#" class="icon-white">White Icon</a>
-            <a href="#" class="icon-yellow">Yellow Icon</a>
+            <a href="#" class="icon-white">Latest Episode</a>
+            <a href="become-sponsor.php" class="icon-yellow">Become A Sponsor</a>
           </div>
         </div>
       </div>
@@ -44,7 +43,7 @@
     <div class="episode-list">
       <div class="c-container">
   
-        <h2>Latest SEN in Ten Episodes <a href="#">View All Episodes</a></h2>
+        <h3>Latest SEN in Ten Episodes <a href="#">View All Episodes</a></h3>
 
         <ul>
           <li>
@@ -52,7 +51,7 @@
             <div class="overlay-content">
               <img src="images/square-placeholder.jpg">
               <div class="overlay-inner">
-                <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                <h4 class="episode-title">Episode 1 : OrCam Learn</h4>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
                 <a class="listen" href="#">Listen Now</a>
@@ -61,8 +60,8 @@
 
             <div class="episode-details">
               <p>Episode 1 :</p>
-              <h3>OrCam Learn</h3>
-              <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+              <h4>OrCam Learn</h4>
+              <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, accuracy and comprehension.</p>
               <a class="listen" href="#">Listen Now</a>
             </div>
           </li>
@@ -72,7 +71,7 @@
             <div class="overlay-content">
               <img src="images/square-placeholder.jpg">
               <div class="overlay-inner">
-                <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
+                <h4 class="episode-title">Episode 2 : OrCam Learn</h4>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
                 <a class="listen" href="#">Listen Now</a>
@@ -81,8 +80,8 @@
 
             <div class="episode-details">
               <p>Episode 2 :</p>
-              <h3>OrCam Learn</h3>
-              <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+              <h4>OrCam Learn</h4>
+              <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, accuracy and comprehension.</p>
               <a class="listen" href="#">Listen Now</a>
             </div>
           </li>
@@ -92,7 +91,7 @@
             <div class="overlay-content">
               <img src="images/square-placeholder.jpg">
               <div class="overlay-inner">
-                <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
+                <h4 class="episode-title">Episode 3 : OrCam Learn</h4>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
                 <a class="listen" href="#">Listen Now</a>
@@ -101,8 +100,8 @@
 
             <div class="episode-details">
               <p>Episode 3 :</p>
-              <h3>OrCam Learn</h3>
-              <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+              <h4>OrCam Learn</h4>
+              <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, accuracy and comprehension.</p>
               <a class="listen" href="#">Listen Now</a>
             </div>
           </li>
@@ -112,7 +111,7 @@
     </div><!-- end episode list -->
 
     <div class="listen-links">
-      <h3>Listen Now</h3>
+      <h4>Listen Now</h4>
       <ul>
         <li>
           <a href="#" target="_blank">Listen on Spotify</a>
@@ -169,7 +168,7 @@
         </ul>
 
         <div class="btn-container">
-          <a href="#">View All Partners</a>
+          <a href="our-partners.php">View All Partners</a>
         </div>
 
       </div>
@@ -178,31 +177,31 @@
     <div class="news-list">
       <div class="c-container">
   
-        <h4>Keep up to date with our latest news <a href="#">View All News</a></h4>
+        <h4>Keep up to date with our latest news <a href="news.php">View All News</a></h4>
 
         <ul>
           <li>
             <img src="images/square-placeholder.jpg">
             <div class="post-content">
-              <h5>Title of Post</h5>
+              <h5><a href="article.php">Title of Post</a></h5>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-              <a href="#">Read More</a>
+              <a href="article.php">Read More</a>
             </div>
           </li>
           <li>
             <img src="images/square-placeholder.jpg">
             <div class="post-content">
-              <h5>Title of Post</h5>
+              <h5><a href="article.php">Title of Post</a></h5>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-              <a href="#">Read More</a>
+              <a href="article.php">Read More</a>
             </div>
           </li>
           <li>
             <img src="images/square-placeholder.jpg">
             <div class="post-content">
-              <h5>Title of Post</h5>
+              <h5><a href="article.php">Title of Post</a></h5>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-              <a href="#">Read More</a>
+              <a href="article.php">Read More</a>
             </div>
           </li>
         </ul>
@@ -219,38 +218,38 @@
         <div class="callout-inner">
           <div class="callout-title">Become a Sponsor</div>
           <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
-          <a href="#">Become A Sponsor</a>
+          <a href="become-sponsor.php">Become A Sponsor</a>
         </div>
       </div>
     </div><!-- end sponsor callout -->
 
     <div class="equal-cols">
       <div class="col-l">
-        <h4>Why SEN In Ten?</h4>
+        <h5>Why SEN In Ten?</h5>
         <ul>
           <li>
-            <h5>Delivered By Experts</h5>
-            <p>Etiam mattis quis nulla eget lacinia.</p>
+            <h6>Delivered By Experts</h6>
+            <p>We use a range of experts to curate and deliver our sessions.</p>
           </li>
           <li>
-            <h5>High Quality</h5>
-            <p>Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
+            <h6>High Quality</h6>
+            <p>Our state of the art studio lets us record in High Definition (1080p) with amazing audio quality.</p>
           </li>
           <li>
-            <h5>High Accessible</h5>
-            <p>Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
+            <h6>High Accessible</h6>
+            <p>All sessions are transcribed automatically. Users can choose to turn on subtitles for each video.</p>
           </li>
           <li>
-            <h5>Insightful</h5>
-            <p>Fusce ut luctus mi, nec cursus massa.</p>
+            <h6>Insightful</h6>
+            <p>Tempor incididunt ut labore et dolore magna aliqua.</p>
           </li>
         </ul>
       </div>
       <div class="col-r">
-        <h4>Training &amp; CPD</h4>
+        <h5>Training &amp; CPD</h5>
         <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. Vestibulum ut lacinia purus. </p>
         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit. Mauris luctus, velit ac vehicula aliquet, tellus orci semper est, in mollis odio enim vitae dui.</p>
-        <a href="#">Find Out More About Training</a>
+        <a href="training-cpd.php">Find Out More About Training</a>
       </div>
     </div><!-- End Equal Columns block -->
 
@@ -266,8 +265,8 @@
             <img src="images/square-placeholder.jpg">
               
             <div class="event-details">
-              <h5>Event Name</h5>
-              <a href="#">Read More</a>
+              <h5><a href="event.php">Event Name</a></h5>
+              <a href="event.php">Read More</a>
             </div>
           </li>
 
@@ -276,8 +275,8 @@
             <img src="images/square-placeholder.jpg">
               
             <div class="event-details">
-              <h5>Event Name</h5>
-              <a href="#">Read More</a>
+              <h5><a href="event.php">Event Name</a></h5>
+              <a href="event.php">Read More</a>
             </div>
           </li>
 
@@ -286,8 +285,8 @@
             <img src="images/square-placeholder.jpg">
               
             <div class="event-details">
-              <h5>Event Name</h5>
-              <a href="#">Read More</a>
+              <h5><a href="event.php">Event Name</a></h5>
+              <a href="event.php">Read More</a>
             </div>
           </li>
 
@@ -305,7 +304,7 @@
 
         <div class="text-col">
           <h5>All things SEN In Ten</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
+          <p>Sponsored by IDL, International Dyslexia Learning Solutions, who provide software for pupils with special education needs to schools around the world.</p>
           <p>Etiam mattis quis nulla eget lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim leo, mattis id efficitur sit amet, lobortis tincidunt urna. 
             Ut dapibus est leo, quis ornare orci egestas eget. Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
           <a href="#">Find Out More</a>
@@ -314,27 +313,7 @@
       </div>
     </div><!-- end Text Image Block -->
 
-    <div class="subscribe">
-      <div class="c-container">
-        <div class="form-col">
-          <h5>Subscribe to our mailing list</h5>
-          <form>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email Address">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-        <div class="quote-col">
-          <div class="quote-box">
-            <blockquote>
-              "This is a quote for this column"
-            </blockquote>
-            <cite>Name of Person</cite>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Subscribe -->
+    <?php include('includes/subscribe.php'); ?>
   
   </main>
 
