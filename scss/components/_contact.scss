@@ -1,0 +1,192 @@
+body.contact-page {
+    background-color: $lightblue;
+}
+
+.contact-container {
+    @extend .c-container;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+
+    @include breakpoint(tablet) {
+        flex-direction: row;
+    }
+}
+
+.get-in-touch {
+    width: 100%;
+    border: 1px solid $blue;
+    border-radius: 30px;
+    padding: 30px;
+
+    @include breakpoint(tablet) {
+        width: 40%;
+    }
+
+    @include breakpoint(laptop) {
+        padding: 60px;
+    }
+
+    h2 {
+        color: $blue;
+        margin-bottom: 30px;
+    }
+
+    li {
+        &:not(.follow li) {
+            display: flex;
+            align-items: center;
+            position: relative;
+            height: 30px;
+            padding-left: 40px;
+
+            &:before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 30px;
+                height: 30px;
+                background-color: #eee;
+            }
+
+            &:not(:last-of-type) {
+                margin-bottom: 20px;
+            }
+
+            a {
+                color: $blue;
+            }
+        }
+    }
+}
+
+.follow {
+    margin-top: 60px;
+
+    h3 {
+        color: $blue;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+
+        &:not(:first-of-type) {
+            margin-left: 20px;
+        }
+    }
+}
+
+.contact-form {
+    width: 100%;
+    background-color: $blue;
+    padding: 30px;
+    border-radius: 30px;
+
+    @include breakpoint(tablet) {
+        width: 55%;
+        margin-left: 5%;
+    }
+
+    @include breakpoint(laptop) {
+        padding: 60px;
+    }
+
+    h2 {
+        color: $white;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    fieldset {
+        padding: 30px;
+        border: 0;
+    }
+
+    legend {
+        width: 100%;
+        text-align: center;
+        color: $white;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        color: $white;
+        margin-bottom: 20px;
+
+        &.centered {
+            justify-content: center;
+        }
+
+        a {
+            color: $white;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 0;
+            margin-top: 20px;
+
+            a {
+                color: $yellow;
+            }
+        }
+
+        input[type="radio"] {
+            top: 2px;
+            position: relative;
+            left: 0;
+            margin-left: 0;
+        }
+
+        input {
+            border: 1px solid $white;
+            border-radius: 50px;
+            color: $blue;
+            padding-left: 20px;
+
+            &::placeholder {
+                color: $blue;
+            }
+        }
+
+        textarea {
+            border: 1px solid $white;
+            border-radius: 20px;
+            color: $blue;
+            padding: 20px;
+
+            &::placeholder {
+                color: $blue;
+            }
+        }
+    }
+
+    .field-50 {
+        width: 100%;
+
+        @include breakpoint(tablet) {
+            width: 49%;
+            margin-right: 2%;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .field-100 {
+        width: 100%;
+    }
+}
