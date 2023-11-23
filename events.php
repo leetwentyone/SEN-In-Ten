@@ -26,7 +26,7 @@
 
         <div class="textblock">
             <h1>Events</h1>
-            <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in.</p>
+            <p>Stay updated and informed about all our upcoming events!</p>
         </div>
 
         <div class="featured-event">
@@ -48,8 +48,8 @@
                     <li class="location">Arena</li>
                 </ul>
                 <ul class="event-actions">
-                    <a href="#" target="_blank">Book Via Eventbrite</a>
-                    <a href="#" target="_blank">Book Via Zoom</a>
+                    <a href="#" target="_blank" class="blue-btn">Book Via Eventbrite</a>
+                    <a href="#" target="_blank" class="blue-outline">Book Via Zoom</a>
                 </ul>
             </div>
 

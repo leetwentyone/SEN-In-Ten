@@ -7,14 +7,14 @@
 
     <div class="footer-links">
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Become A Sponsor</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
+        <li><a href="become-sponsor.php">Become A Sponsor</a></li>
       </ul>
       <ul>
-        <li><a href="#">Cookies</a></li>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="footer-page.php">Cookies</a></li>
+        <li><a href="footer-page.php">Privacy</a></li>
+        <li><a href="footer-page.php">Terms &amp; Conditions</a></li>
       </ul>
       <p>SEN In Ten<span>&reg;</span>.&nbsp;Created by <a href="#" target="_blank">21Digital</a>. Powered by <a href="#" target="_blank">Ascentis</a></p>
     </div>

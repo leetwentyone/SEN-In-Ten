@@ -26,9 +26,10 @@
 
         <div class="textblock">
             <h1>Become A Sponsor</h1>
-            <p>Vestibulum cursus pellentesque felis ac sodales. Phasellus rhoncus diam at arcu tincidunt, in vulputate tellus accumsan. 
-            ullamcorper congue massa. Proin pharetra ultricies ullamcorper congue massa. Proin pharetra ultricies</p>
-            <p>Nullam condimentum varius elit, vel ultricies ex iaculis in. Proin euismod non lacus a elementum. Cras nisi dolor, pretium a metus</p>
+            <p>To find out more about sponsorship opportunities, please contact <a href="mailto:hello@seninten.co.uk">hello@seninten.co.uk</a>.</p>
+            <div class="btn-container">
+                <a href="#enquire" class="blue-btn">Make An Enquiry</a>
+            </div>
         </div>
 
         <div class="whats-included">
@@ -42,13 +43,14 @@
                     <h5>What's Included?</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
                     <ul>
-                        <li>Suspendisse rutrum mollis metus, sit amet pulvinar tortor suscipit in. Curabitur sagittis consectetur felis nec consectetur.</li>
-                        <li>Ut turpis eros, auctor a consectetur sed, semper ac dui. Donec molestie</li>
-                        <li>Vestibulum cursus pellentesque felis ac sodales. Phasellus rhoncus diam at arcu tincidunt, in vulputate tellus accumsan.</li>
-                        <li>Cras id aliquam lectus, quis sagittis nisi. Cras vitae rhoncus tortor, nec congue neque.</li>
+                        <li>Reach a targeted community of SEN teachers, parents and experts</li>
+                        <li>Build brand awareness amongst your target audience</li>
+                        <li>Align your brand with a trusted resource</li>
+                        <li>Reach a global audience</li>
+                        <li>Generate leads and sales</li>
                     </ul>
                     <div class="btn-container">
-                        <a href="#">Make An Enquiry</a>
+                        <a href="#enquire" class="blue-btn">Make An Enquiry</a>
                     </div>
                 </div>
 

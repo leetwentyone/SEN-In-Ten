@@ -26,7 +26,7 @@
 
         <div class="textblock">
             <h1>Our Partners</h1>
-            <p>Fusce mauris tellus, lacinia ac ullamcorper non, tempus eu eros. Nullam sem risus, congue a varius et, hendrerit id libero.</p>
+            <p>We are proud to work with a range of fantastic partners who share the same passion for raising awareness of SEN.</p>
         </div>
 
         <ul class="partner-logos">
@@ -78,7 +78,7 @@
                 <div class="callout-inner">
                 <div class="callout-title">Become a Sponsor</div>
                 <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
-                <a href="#">Become A Sponsor</a>
+                <a href="become-sponsor.php" class="blue-btn2">Become A Sponsor</a>
                 </div>
             </div>
         </div><!-- end sponsor callout -->
@@ -95,7 +95,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
                 <p>Etiam mattis quis nulla eget lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim leo, mattis id efficitur sit amet, lobortis tincidunt urna. 
                     Ut dapibus est leo, quis ornare orci egestas eget. Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
-                <a href="#">Find Out More</a>
+                <a href="#" class="blue-cross">Find Out More</a>
                 </div>
 
             </div>
@@ -106,19 +106,19 @@
             <ul>
                 <li>
                     <div class="icon-title">Delivered By Experts</div>
-                    <p>Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
+                    <p>We use a range of experts to curate and deliver our sessions.</p>
                 </li>
                 <li>
                     <div class="icon-title">High Quality</div>
-                    <p>Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
+                    <p>Our state of the art studio lets us record in High Definition (1080p) with amazing audio quality.</p>
                 </li>
                 <li>
                     <div class="icon-title">Highly Accessible</div>
-                    <p>Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
+                    <p>All sessions are transcribed automatically. Users can choose to turn on subtitles for each video.</p>
                 </li>
                 <li>
                     <div class="icon-title">Insightful</div>
-                    <p>Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
+                    <p>Tempor incididunt ut labore et dolore magna aliqua.</p>
                 </li>
             </ul>
         </div><!-- Why Icons -->

@@ -26,7 +26,7 @@
 
         <div class="textblock">
             <h1>Training &amp; CPD</h1>
-            <p>Fusce mauris tellus, lacinia ac ullamcorper non, tempus eu eros. Nullam sem risus, congue a varius et, hendrerit id libero.</p>
+            <p>SEN in Ten offers training and CPD sessions free of charge, book your place using the links below.</p>
         </div>
 
         <div class="training-list">

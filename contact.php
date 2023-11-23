@@ -26,8 +26,7 @@
 
         <div class="textblock">
             <h1>Contact SEN In Ten</h1>
-            <p>Vestibulum cursus pellentesque felis ac sodales. Phasellus rhoncus diam at arcu tincidunt, in vulputate tellus accumsan. 
-            ullamcorper congue massa. Proin pharetra ultricies ullamcorper congue massa. Proin pharetra ultricies</p>
+            <p>Please don’t hesitate to get in touch using the office number below, or alternatively fill out our contact form, and we will get back to you as soon as we possibly can.</p>
         </div>
 
         <div class="contact-container">

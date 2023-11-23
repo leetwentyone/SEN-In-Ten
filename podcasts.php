@@ -26,9 +26,9 @@
 
     <div class="textblock">
         <h1>Podcasts</h1>
-        <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
-            Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. Nam arcu urna, egestas at vulputate at, dictum nec lorem. 
-            Ut efficitur vehicula neque, quis porta risus cursus nec.
+        <p>Listen to the latest episodes here or find us on Spotify, Apple Podcasts and more.  
+          Discover new episodes of our insightful podcast every fortnight. Join host Darren Clark as he welcomes a 
+          new passionate guest to discuss all things SEN.
         </p>
     </div>
 
@@ -42,9 +42,9 @@
         <div class="episode-details">
             <p>Latest Episode</p>
             <h3>OrCam Learn</h3>
-            <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
-                Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
-            <a class="listen" href="podcast.php">Listen Now</a>
+            <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, 
+              accuracy and comprehension.</p>
+            <a class="listen-blue" href="podcast.php">Listen Now</a>
         </div>
 
     </div><!-- end latest podcast -->
@@ -84,7 +84,7 @@
                 <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
-                <a class="listen" href="podcast.php">Listen Now</a>
+                <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
 
@@ -92,7 +92,7 @@
               <p>Episode 1 :</p>
               <h3>OrCam Learn</h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-              <a class="listen" href="podcast.php">Listen Now</a>
+              <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
           </li>
 
@@ -104,7 +104,7 @@
                 <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
-                <a class="listen" href="podcast.php">Listen Now</a>
+                <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
 
@@ -112,7 +112,7 @@
               <p>Episode 2 :</p>
               <h3>OrCam Learn</h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-              <a class="listen" href="podcast.php">Listen Now</a>
+              <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
           </li>
 
@@ -124,7 +124,7 @@
                 <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
-                <a class="listen" href="podcast.php">Listen Now</a>
+                <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
 
@@ -132,7 +132,7 @@
               <p>Episode 3 :</p>
               <h3>OrCam Learn</h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-              <a class="listen" href="podcast.php">Listen Now</a>
+              <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
           </li>
 
@@ -144,7 +144,7 @@
                 <h3 class="episode-title">Episode 4 : OrCam Learn</h3>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
-                <a class="listen" href="podcast.php">Listen Now</a>
+                <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
 
@@ -152,7 +152,7 @@
               <p>Episode 4 :</p>
               <h3>OrCam Learn</h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-              <a class="listen" href="podcast.php">Listen Now</a>
+              <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
           </li>
 
@@ -164,7 +164,7 @@
                 <h3 class="episode-title">Episode 5 : OrCam Learn</h3>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
-                <a class="listen" href="podcast.php">Listen Now</a>
+                <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
 
@@ -172,7 +172,7 @@
               <p>Episode 5 :</p>
               <h3>OrCam Learn</h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-              <a class="listen" href="podcast.php">Listen Now</a>
+              <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
           </li>
 
@@ -184,7 +184,7 @@
                 <h3 class="episode-title">Episode 6 : OrCam Learn</h3>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
-                <a class="listen" href="podcast.php">Listen Now</a>
+                <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
 
@@ -192,7 +192,7 @@
               <p>Episode 6 :</p>
               <h3>OrCam Learn</h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-              <a class="listen" href="podcast.php">Listen Now</a>
+              <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
           </li>
 
@@ -204,26 +204,26 @@
     <div class="seperator"><div class="c-container"></div></div>
 
     <div class="listen-links">
-      <h3>Listen Now</h3>
+      <h4>Listen Now</h4>
       <p>Listen to the latest episode here or find us on Spotify, Apple Podcasts and more</p>
       <ul>
         <li>
-          <a href="#" target="_blank">Listen on Spotify</a>
+          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Spotify</a>
         </li>
         <li>
-          <a href="#" target="_blank">Listen on Apple Podcast</a>
+          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Apple Podcast</a>
         </li>
         <li>
-          <a href="#" target="_blank">Listen on Amazon Music</a>
+          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Amazon Music</a>
         </li>
         <li>
-          <a href="#" target="_blank">Listen on Google Podcast</a>
+          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Google Podcast</a>
         </li>
         <li>
-          <a href="#" target="_blank">Listen on TuneIn</a>
+          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on TuneIn</a>
         </li>
         <li>
-          <a href="#" target="_blank">Listen on Overcast</a>
+          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Overcast</a>
         </li>
       </ul>
       <p>How to listen? <a href="#">Learn More</a></p>

@@ -19,8 +19,8 @@
     <div class="header-top">
       <div class="header-top--actions">
         <a href="tel:0800123456">0800 123 456</a>
-        <a href="#" class="icon-white">White Icon</a>
-        <a href="#" class="icon-yellow">Yellow Icon</a>
+        <a href="#" class="white-outline-icon"><span></span>Become A Guest</a>
+        <a href="become-sponsor.php" class="yellow-icon"><span></span>Become A Sponsor</a>
         <div class="search-container">
           <a href="#" class="close-search"><img src="images/close.png"></a>
           <form action="search-results.php">
@@ -33,7 +33,7 @@
   
       <nav class="primary">
         <ul>
-          <li class="has-children"><a href="#">Podcasts</a>
+          <li class="has-children"><a href="podcasts.php">Podcasts</a>
             <div class="submenu">
               
               <div class="col">
@@ -50,11 +50,11 @@
 
             </div>
           </li>
-          <li><a href="#">Our Partners</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Training &amp; CPD</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="our-partners.php">Our Partners</a></li>
+          <li><a href="news.php">News</a></li>
+          <li><a href="training-cpd.php">Training &amp; CPD</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="about.php">About</a></li>
         </ul>
       </nav>
 

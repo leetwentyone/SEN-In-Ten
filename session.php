@@ -45,8 +45,8 @@
                     <li class="location">Arena</li>
                 </ul>
                 <ul class="session-actions">
-                    <a href="#" target="_blank">Book Via Eventbrite</a>
-                    <a href="#" target="_blank">Book Via Zoom</a>
+                    <a href="#" target="_blank" class="blue-btn">Book Via Eventbrite</a>
+                    <a href="#" target="_blank" class="blue-outline">Book Via Zoom</a>
                 </ul>
                 <div class="share">
                     <div class="share-title">Share Event</div>
@@ -79,7 +79,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
                 <p>Etiam mattis quis nulla eget lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim leo, mattis id efficitur sit amet, lobortis tincidunt urna. 
                     Ut dapibus est leo, quis ornare orci egestas eget. Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
-                <a href="#">Make An Enquiry</a>
+                <a href="#enquire" class="blue-btn">Make An Enquiry</a>
                 </div>
 
             </div>

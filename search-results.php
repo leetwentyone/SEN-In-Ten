@@ -49,7 +49,7 @@
                                 <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
                                 <p>Sponsored By</p>
                                 <span class="parent-pay">Parent Pay</span>
-                                <a class="listen" href="#">Listen Now</a>
+                                <a class="listen-blue" href="#">Listen Now</a>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                         <h3>OrCam Learn</h3>
                         <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
                             Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
-                        <a class="listen" href="#">Listen Now</a>
+                        <a class="listen-blue-outline" href="#">Listen Now</a>
                     </div>
 
                 </div>
@@ -76,7 +76,7 @@
                                 <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
                                 <p>Sponsored By</p>
                                 <span class="parent-pay">Parent Pay</span>
-                                <a class="listen" href="#">Listen Now</a>
+                                <a class="listen-blue" href="#">Listen Now</a>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                         <h3>OrCam Learn</h3>
                         <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
                             Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
-                        <a class="listen" href="#">Listen Now</a>
+                        <a class="listen-blue-outline" href="#">Listen Now</a>
                     </div>
 
                 </div>
@@ -103,7 +103,7 @@
                                 <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
                                 <p>Sponsored By</p>
                                 <span class="parent-pay">Parent Pay</span>
-                                <a class="listen" href="#">Listen Now</a>
+                                <a class="listen-blue" href="#">Listen Now</a>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                         <h3>OrCam Learn</h3>
                         <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
                             Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
-                        <a class="listen" href="#">Listen Now</a>
+                        <a class="listen-blue-outline" href="#">Listen Now</a>
                     </div>
 
                 </div>
@@ -123,7 +123,7 @@
 
         <div class="cant-find">
             <h4>Can't find what your looking for?</h4>
-            <p><a href="#">Get In Touch</a></p>
+            <p><a href="contact.php" class="blue-btn">Get In Touch</a></p>
         </div>
   
     </main>

@@ -26,9 +26,11 @@
 
         <div class="textblock">
             <h1>About SEN In Ten</h1>
-            <p>Vestibulum cursus pellentesque felis ac sodales. Phasellus rhoncus diam at arcu tincidunt, in vulputate tellus accumsan. 
-            ullamcorper congue massa. Proin pharetra ultricies ullamcorper congue massa. Proin pharetra ultricies</p>
-            <p>Nullam condimentum varius elit, vel ultricies ex iaculis in. Proin euismod non lacus a elementum. Cras nisi dolor, pretium a metus</p>
+            <p>SEN in Ten is a brand-new podcast offering practical advice and support from SEN experts. 
+                The podcast will feature best practices for educating children with SEN 
+                and inspirational stories from those making a difference. 
+            </p>
+            <p>Listen to our podcast episodes to discover a community of people who understand the challenges and rewards associated with SEN!</p>
         </div>
 
         <div class="text-image">
@@ -39,7 +41,7 @@
                 </div>
 
                 <div class="text-col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
+                <p>Sponsored by IDL, International Dyslexia Learning Solutions, who provide software for pupils with special education needs to schools around the world.</p>
                 <p>Etiam mattis quis nulla eget lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim leo, mattis id efficitur sit amet, lobortis tincidunt urna. 
                     Ut dapibus est leo, quis ornare orci egestas eget. Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
                 <p>Suspendisse rutrum mollis metus, sit amet pulvinar tortor suscipit in. Curabitur sagittis consectetur felis nec consectetur. 
@@ -59,29 +61,29 @@
                 <div class="callout-inner">
                 <div class="callout-title">Become a Sponsor</div>
                 <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
-                <a href="#">Become A Sponsor</a>
+                <a href="become-sponsor.php" class="blue-btn2">Become A Sponsor</a>
                 </div>
             </div>
         </div><!-- end sponsor callout -->
 
         <div class="equal-cols">
             <div class="col-l">
-                <h4>Why SEN In Ten?</h4>
+                <h5>Why SEN In Ten?</h5>
                 <ul>
                     <li>
-                        <h5>Delivered By Experts</h5>
+                        <h6>Delivered By Experts</h6>
                         <p>Etiam mattis quis nulla eget lacinia.</p>
                     </li>
                     <li>
-                        <h5>High Quality</h5>
+                        <h6>High Quality</h6>
                         <p>Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
                     </li>
                     <li>
-                        <h5>High Accessible</h5>
+                        <h6>High Accessible</h6>
                         <p>Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
                     </li>
                     <li>
-                        <h5>Insightful</h5>
+                        <h6>Insightful</h6>
                         <p>Fusce ut luctus mi, nec cursus massa.</p>
                     </li>
                 </ul>
@@ -100,7 +102,7 @@
         <div class="episode-list">
             <div class="c-container">
   
-                <h2>Latest SEN in Ten Episodes <a href="#">View All Episodes</a></h2>
+                <h3>Latest SEN in Ten Episodes <a href="#" class="blue-outline-cross">View All Episodes</a></h3>
 
                 <ul>
                     <li>
@@ -111,7 +113,7 @@
                             <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
                             <p>Sponsored By</p>
                             <span class="parent-pay">Parent Pay</span>
-                            <a class="listen" href="#">Listen Now</a>
+                            <a class="listen-blue" href="#">Listen Now</a>
                         </div>
                         </div>
 
@@ -119,7 +121,7 @@
                         <p>Episode 1 :</p>
                         <h3>OrCam Learn</h3>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-                        <a class="listen" href="#">Listen Now</a>
+                        <a class="listen-blue-outline" href="#">Listen Now</a>
                         </div>
                     </li>
 
@@ -131,7 +133,7 @@
                             <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
                             <p>Sponsored By</p>
                             <span class="parent-pay">Parent Pay</span>
-                            <a class="listen" href="#">Listen Now</a>
+                            <a class="listen-blue" href="#">Listen Now</a>
                         </div>
                         </div>
 
@@ -139,7 +141,7 @@
                         <p>Episode 2 :</p>
                         <h3>OrCam Learn</h3>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-                        <a class="listen" href="#">Listen Now</a>
+                        <a class="listen-blue-outline" href="#">Listen Now</a>
                         </div>
                     </li>
 
@@ -151,7 +153,7 @@
                             <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
                             <p>Sponsored By</p>
                             <span class="parent-pay">Parent Pay</span>
-                            <a class="listen" href="#">Listen Now</a>
+                            <a class="listen-blue" href="#">Listen Now</a>
                         </div>
                         </div>
 
@@ -159,7 +161,7 @@
                         <p>Episode 3 :</p>
                         <h3>OrCam Learn</h3>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-                        <a class="listen" href="#">Listen Now</a>
+                        <a class="listen-blue-outline" href="#enquire">Listen Now</a>
                         </div>
                     </li>
                 </ul>

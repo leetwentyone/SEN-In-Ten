@@ -29,8 +29,8 @@
           <h1>Podcast for Special Educational Needs and Disability</h1>
           <p>SEN In Ten is for teachers, parents and anyone else supporting or working with children or young people with special education needs.</p>
           <div class="btn-container">
-            <a href="#" class="icon-white">Latest Episode</a>
-            <a href="become-sponsor.php" class="icon-yellow">Become A Sponsor</a>
+            <a href="#" class="white-icon"><span></span>Latest Episode</a>
+            <a href="become-sponsor.php" class="yellow-icon"><span></span>Become A Sponsor</a>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
     <div class="episode-list">
       <div class="c-container">
   
-        <h3>Latest SEN in Ten Episodes <a href="#">View All Episodes</a></h3>
+        <h3>Latest SEN in Ten Episodes <a href="podcasts" class="blue-outline-cross">View All Episodes</a></h3>
 
         <ul>
           <li>
@@ -54,7 +54,7 @@
                 <h4 class="episode-title">Episode 1 : OrCam Learn</h4>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
-                <a class="listen" href="#">Listen Now</a>
+                <a class="listen-blue" href="#">Listen Now</a>
               </div>
             </div>
 
@@ -62,7 +62,7 @@
               <p>Episode 1 :</p>
               <h4>OrCam Learn</h4>
               <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, accuracy and comprehension.</p>
-              <a class="listen" href="#">Listen Now</a>
+              <a class="blue-outline-icon" href="#">Listen Now</a>
             </div>
           </li>
 
@@ -74,7 +74,7 @@
                 <h4 class="episode-title">Episode 2 : OrCam Learn</h4>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
-                <a class="listen" href="#">Listen Now</a>
+                <a class="listen-blue" href="#">Listen Now</a>
               </div>
             </div>
 
@@ -82,7 +82,7 @@
               <p>Episode 2 :</p>
               <h4>OrCam Learn</h4>
               <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, accuracy and comprehension.</p>
-              <a class="listen" href="#">Listen Now</a>
+              <a class="blue-outline-icon" href="#">Listen Now</a>
             </div>
           </li>
 
@@ -94,7 +94,7 @@
                 <h4 class="episode-title">Episode 3 : OrCam Learn</h4>
                 <p>Sponsored By</p>
                 <span class="parent-pay">Parent Pay</span>
-                <a class="listen" href="#">Listen Now</a>
+                <a class="listen-blue" href="#">Listen Now</a>
               </div>
             </div>
 
@@ -102,7 +102,7 @@
               <p>Episode 3 :</p>
               <h4>OrCam Learn</h4>
               <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, accuracy and comprehension.</p>
-              <a class="listen" href="#">Listen Now</a>
+              <a class="blue-outline-icon" href="#">Listen Now</a>
             </div>
           </li>
         </ul>
@@ -114,22 +114,22 @@
       <h4>Listen Now</h4>
       <ul>
         <li>
-          <a href="#" target="_blank">Listen on Spotify</a>
+          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Spotify</a>
         </li>
         <li>
-          <a href="#" target="_blank">Listen on Apple Podcast</a>
+          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Apple Podcast</a>
         </li>
         <li>
-          <a href="#" target="_blank">Listen on Amazon Music</a>
+          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Amazon Music</a>
         </li>
         <li>
-          <a href="#" target="_blank">Listen on Google Podcast</a>
+          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Google Podcast</a>
         </li>
         <li>
-          <a href="#" target="_blank">Listen on TuneIn</a>
+          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on TuneIn</a>
         </li>
         <li>
-          <a href="#" target="_blank">Listen on Overcast</a>
+          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Overcast</a>
         </li>
       </ul>
       <p>How to listen? <a href="#">Learn More</a></p>
@@ -168,7 +168,7 @@
         </ul>
 
         <div class="btn-container">
-          <a href="our-partners.php">View All Partners</a>
+          <a href="our-partners.php" class="white-outline-btn">View All Partners</a>
         </div>
 
       </div>
@@ -177,7 +177,7 @@
     <div class="news-list">
       <div class="c-container">
   
-        <h4>Keep up to date with our latest news <a href="news.php">View All News</a></h4>
+        <h4>Keep up to date with our latest news <a href="news.php" class="blue-outline-cross">View All News</a></h4>
 
         <ul>
           <li>
@@ -218,7 +218,7 @@
         <div class="callout-inner">
           <div class="callout-title">Become a Sponsor</div>
           <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
-          <a href="become-sponsor.php">Become A Sponsor</a>
+          <a href="become-sponsor.php" class="blue-btn2">Become A Sponsor</a>
         </div>
       </div>
     </div><!-- end sponsor callout -->
@@ -249,14 +249,14 @@
         <h5>Training &amp; CPD</h5>
         <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. Vestibulum ut lacinia purus. </p>
         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit. Mauris luctus, velit ac vehicula aliquet, tellus orci semper est, in mollis odio enim vitae dui.</p>
-        <a href="training-cpd.php">Find Out More About Training</a>
+        <a href="training-cpd.php" class="white-outline-cross">Find Out More About Training</a>
       </div>
     </div><!-- End Equal Columns block -->
 
     <div class="event-list">
       <div class="c-container">
   
-        <h4>Upcoming Events <a href="#">View All Events</a></h4>
+        <h4>Upcoming Events <a href="events.php" class="blue-outline-cross">View All Events</a></h4>
 
         <ul>
 
@@ -307,7 +307,7 @@
           <p>Sponsored by IDL, International Dyslexia Learning Solutions, who provide software for pupils with special education needs to schools around the world.</p>
           <p>Etiam mattis quis nulla eget lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim leo, mattis id efficitur sit amet, lobortis tincidunt urna. 
             Ut dapibus est leo, quis ornare orci egestas eget. Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
-          <a href="#">Find Out More</a>
+          <a href="about.php" class="blue-cross">Find Out More</a>
         </div>
 
       </div>

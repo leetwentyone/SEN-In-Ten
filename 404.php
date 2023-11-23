@@ -25,8 +25,8 @@
 
        <div class="error-text">
            <h1>We need a re-tune!</h1>
-           <p>Cras vitae rhoncus tortor, nec congue neque.</p>
-           <a href="contanct.php">Contact Us</a>
+           <p>Oops we can’t seem to find that page. Our bad, if you need some help, get in touch. </p>
+           <a href="contanct.php" class="blue-outline">Contact Us</a>
        </div> 
 
     </main>
