@@ -65,6 +65,7 @@ body.single-session {
             display: flex;
             align-items: center;
             list-style: none;
+            font-family: $poppins;
             color: $blue;
 
             &:not(:last-of-type) {

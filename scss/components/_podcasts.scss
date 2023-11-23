@@ -95,12 +95,24 @@ body.single-podcast {
         border-radius: 30px;
         width: 100%;
     }
+
+    a {
+        font-family: $poppins;
+        color: $blue;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
 
 .share {
     margin-top: 30px;
    
     .share-title {
+        font-family: $poppins;
+        font-weight: 600;
         color: $blue;
         margin-bottom: 15px;
     }

@@ -15,10 +15,12 @@
 
 .btn-container {
   justify-content: flex-start;
+  padding-left: 15px;
+  margin-top: 30px;
 
   a {
     &:not(:first-of-type) {
-      margin-left: 20px;
+      margin-left: 50px;
     }
   }
 }

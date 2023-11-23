@@ -45,6 +45,7 @@ body.blog {
         }
 
         a {
+            font-family: $poppins;
             color: $blue;
             text-decoration: underline;
 
@@ -85,13 +86,13 @@ body.single-post {
     .post-title {
         color: $blue;
         margin-bottom: 30px;
-        font-size: 32px;
-        line-height: 42px;
     }
 
     h2,h3 {
         margin-bottom: 30px;
         color: $blue;
+        font-size: 26px;
+        line-height: 36px;
     }
 
     p {
@@ -128,7 +129,8 @@ body.single-post {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100px; 
+        width: 150px; 
+        font-family: $poppins;
 
         &:before {
             content: "";
@@ -148,7 +150,8 @@ body.single-post {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100px; 
+        width: 150px; 
+        font-family: $poppins;
 
         &:before {
             content: "";
@@ -167,7 +170,7 @@ body.single-post {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        width: calc(100% - 200px);
+        width: calc(100% - 300px);
 
         p {
             width: 100%;

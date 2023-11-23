@@ -37,6 +37,8 @@ body.contact-page {
             display: flex;
             align-items: center;
             position: relative;
+            font-family: $poppins;
+            font-weight: 600;
             height: 30px;
             padding-left: 40px;
 
@@ -169,6 +171,18 @@ body.contact-page {
 
             &::placeholder {
                 color: $blue;
+            }
+        }
+
+        button[type="submit"] {
+            @extend .btn;
+            background-color: $yellow;
+            border-color: $yellow;
+            color: $blue;
+
+            &:hover {
+                background-color: $blue;
+                color: $white;
             }
         }
     }

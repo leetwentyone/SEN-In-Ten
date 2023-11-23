@@ -51,6 +51,8 @@
         height: 80px;
         align-items: center;
         justify-content: center;
+        font-family: $poppins;
+        font-weight: 500;
         color: $white;
         background-color: $blue;
         border: 10px solid $yellow;
@@ -84,6 +86,7 @@
         opacity: 0;
 
         p {
+            font-weight: 500;
             text-transform: uppercase;
             margin-bottom: 20px;
             color: $blue;
@@ -95,8 +98,11 @@
     }
 
     .episode-title {
+        font-size: 24px;
+        line-height: 34px;
         margin-bottom: 20px;
         color: $blue;
+        text-align: center;
     }
 }
 
@@ -114,6 +120,8 @@
     }
 
     h3 {
+        font-size: 24px;
+        line-height: 34px;
         color: $blue;
         margin-bottom: 20px;
     }

@@ -60,12 +60,14 @@ body.become-sponsor-page {
     li {
         display: flex;
         position: relative;
-        align-items: flex-start;
+        align-items: center;
+        font-family: $poppins;
+        font-weight: 600;
         padding-left: 40px;
         color: $blue;
 
         &:not(:last-of-type) {
-            margin-bottom: 15px;
+            margin-bottom: 25px;
         }
 
         &:before {
@@ -82,5 +84,6 @@ body.become-sponsor-page {
 
     .btn-container {
         margin-top: 50px;
+        padding-left: 0;
     }
 }

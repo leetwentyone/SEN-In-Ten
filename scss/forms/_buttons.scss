@@ -2,17 +2,337 @@
     display: inline-block;
     position: relative;
     width: auto;
-    padding: 15px 30px;
+    padding: 10px 30px;
     text-align: center;
+    font-family: $poppins;
+    font-weight: 500;
     font-size: 14px;
     line-height: 14px;
     border-style: solid;
     border-width: 1px;
+    border-radius: 30px;
     transition: all .3s ease;
 
     &:hover {
         text-decoration: none;
     }
+}
+
+.white-btn {
+    @extend .btn;
+    background-color: $white;
+    border-color: $blue;
+    color: $blue;
+
+    &:hover {
+        background-color: $blue;
+        color: $white;
+    }
+}
+
+.white-outline-btn {
+    @extend .btn;
+    background-color: $blue;
+    border-color: $white;
+    color: $white;
+
+    &:hover {
+        background-color: $white;
+        color: $blue;
+    }
+}
+
+.blue-btn {
+    @extend .btn;
+    background-color: $blue;
+    border-color: $blue;
+    color: $white;
+
+    &:hover {
+        background-color: $white;
+        color: $blue;
+    }
+}
+
+.blue-btn2 {
+    @extend .btn;
+    background-color: $blue;
+    border-color: $blue;
+    color: $yellow;
+    padding-left: 50px;
+
+    &:hover {
+        background-color: darken($blue, 10%);
+        border: 1px solid darken($blue, 10%);
+        color: $yellow;
+    }
+}
+
+.blue-outline {
+    @extend .btn;
+    background-color: transparent;
+    border-color: $blue;
+    color: $blue;
+
+    &:hover {
+        background-color: $blue;
+        color: $white;
+    }
+}
+
+.white-cross {
+    @extend .btn;
+    background-color: $white;
+    border-color: $white;
+    padding-left: 50px;
+    color: $blue;
+
+    &:hover {
+        background-color: $blue;
+        border-color: $blue;
+        color: $white;
+    }
+}
+
+.blue-cross {
+    @extend .btn;
+    background-color: $blue;
+    border-color: $blue;
+    padding-left: 50px;
+    color: $white;
+
+    &:hover {
+        background-color: darken($blue, 10%);
+        border-color: $blue;
+        color: $white;
+    }
+}
+
+.blue-outline-cross {
+    @extend .btn;
+    background-color: $white;
+    border-color: $blue;
+    padding-left: 50px;
+    color: $blue;
+
+    &:hover {
+        background-color: darken($blue, 10%);
+        border-color: darken($blue, 10%);
+        color: $white;
+    }
+}
+
+.white-outline-cross {
+    @extend .btn;
+    background-color: transparent;
+    border-color: $white;
+    padding-left: 50px;
+    color: $white;
+
+    &:hover {
+        background-color: darken($blue, 10%);
+        border-color: darken($blue, 10%);
+        color: $white;
+    }
+}
+
+.listen-white {
+    @extend .btn;
+    background-color: $white;
+    border-color: $white;
+    padding-left: 50px;
+    color: $blue;
+
+    &:hover {
+        background-color: $blue;
+        border-color: $blue;
+        color: $white;
+    }
+}
+
+.listen-blue {
+    @extend .btn;
+    background-color: $blue;
+    border-color: $blue;
+    padding-left: 50px;
+    color: $white;
+
+    &:hover {
+        background-color: darken($blue, 10%);
+        border-color: darken($blue, 10%);
+        color: $white;
+    }
+}
+
+.listen-blue-outline {
+    @extend .btn;
+    background-color: transparent;
+    border-color: $blue;
+    padding-left: 50px;
+    color: $blue;
+
+    &:hover {
+        background-color: darken($blue, 10%);
+        border-color: darken($blue, 10%);
+        color: $white;
+    }
+}
+
+.blue-icon {
+    @extend .btn;
+    background-color: $blue;
+    border-color: $blue;
+    padding-left: 50px;
+    color: $white;
+
+    &:hover {
+        background-color: darken($blue, 10%);
+        border-color: $blue;
+        color: $white;
+    }
+
+    span {
+        display: block;
+        position: absolute;
+        top: -8px;
+        left: -20px;
+        width: 50px;
+        height: 50px;
+        background-color: $white;
+        border: 5px solid $blue;
+        border-radius: 100%;
+        box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
+        -moz-box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
+    }
+}
+
+.blue-outline-icon {
+    @extend .btn;
+    background-color: $white;
+    border-color: $blue;
+    padding-left: 50px;
+    color: $blue;
+
+    &:hover {
+        background-color: darken($blue, 10%);
+        border-color: darken($blue, 10%);
+        color: $white;
+    }
+
+    span {
+        display: block;
+        position: absolute;
+        top: -8px;
+        left: -20px;
+        width: 50px;
+        height: 50px;
+        background-color: $white;
+        border: 5px solid $blue;
+        border-radius: 100%;
+        box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
+        -moz-box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
+    }
+}
+
+.yellow-icon {
+    @extend .btn;
+    background-color: $yellow;
+    border-color: $yellow;
+    padding-left: 50px;
+    color: $blue;
+
+    &:hover {
+        background-color: darken($yellow, 5%);
+        border-color: $yellow;
+        color: $blue;
+    }
+
+    span {
+        display: block;
+        position: absolute;
+        top: -8px;
+        left: -20px;
+        width: 50px;
+        height: 50px;
+        background-color: $white;
+        border: 5px solid $yellow;
+        border-radius: 100%;
+        box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
+    }
+}
+
+.white-icon {
+    @extend .btn;
+    background-color: $white;
+    border-color: $white;
+    padding-left: 50px;
+    color: $blue;
+
+    &:hover {
+        background-color: darken($blue, 5%);
+        border-color: $blue;
+        color: $white;
+
+        span {
+            border: 5px solid darken($blue, 5%);
+        }
+    }
+
+    span {
+        display: block;
+        position: absolute;
+        top: -8px;
+        left: -20px;
+        width: 50px;
+        height: 50px;
+        background-color: $white;
+        border: 5px solid $blue;
+        border-radius: 100%;
+        box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
+    }
+}
+
+.white-outline-icon {
+    @extend .btn;
+    background-color: $blue;
+    border-color: $white;
+    padding-left: 50px;
+    color: $white;
+
+    &:hover {
+        background-color: darken($blue, 5%);
+        border-color: $blue;
+        color: $white;
+
+        span {
+            border: 5px solid darken($blue, 5%);
+        }
+    }
+
+    span {
+        display: block;
+        position: absolute;
+        top: -8px;
+        left: -20px;
+        width: 50px;
+        height: 50px;
+        background-color: $white;
+        border: 5px solid $blue;
+        border-radius: 100%;
+        box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
+    }
+}
+
+button[type="submit"] {
+    cursor: pointer;
 }
 
 .btn-container {
@@ -24,6 +344,7 @@
 }
 
 .default {
+    font-family: $poppins;
     color: $copy;
     text-decoration: underline;
 

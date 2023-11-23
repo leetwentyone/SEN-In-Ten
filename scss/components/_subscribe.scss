@@ -37,6 +37,18 @@
         border-color: $white;
     }
 
+    button[type="submit"] {
+        @extend .btn;
+        background-color: $blue;
+        border-color: $blue;
+        color: $white;
+
+        &:hover {
+            background-color: $white;
+            color: $blue;
+        }
+    }
+
     .quote-col {
         display: flex;
         flex-direction: column;
