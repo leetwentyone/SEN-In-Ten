@@ -51,7 +51,8 @@
             }
         }
 
-        body.home & {
+        body.home &,
+        body.about-page & {
             position: relative;
 
             &:before {

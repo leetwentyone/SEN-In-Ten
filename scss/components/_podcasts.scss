@@ -125,7 +125,9 @@ body.single-podcast {
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
         list-style: none;
+        transition: all .3s ease;
         width: 40px;
         height: 40px;
         border: 1px solid $blue;
@@ -133,6 +135,31 @@ body.single-podcast {
 
         &:not(:first-of-type) {
             margin-left: 10px;
+        }
+
+        &:hover {
+            background-color: $blue;
+
+            img {
+                opacity: 0;
+
+                + img {
+                    opacity: 1;
+                }
+            }
+        }
+
+        img {
+            position: absolute;
+            top: 9px;
+            left: 9px;
+            transition: all .3s ease;
+            max-width: 20px;
+            opacity: 1;
+
+            + img {
+                opacity: 0;
+            }
         }
     }
 }

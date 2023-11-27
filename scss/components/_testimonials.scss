@@ -49,6 +49,8 @@
         color: $blue;
         font-size: 18px;
         line-height: 26px;
+        font-family: $poppins;
+        font-weight: 600;
     }
 
     cite {
@@ -56,5 +58,7 @@
         color: $blue;
         font-style: normal;
         margin-top: 20px;
+        font-family: $poppins;
+        font-weight: 500;
     }
 }

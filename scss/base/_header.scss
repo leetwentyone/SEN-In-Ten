@@ -30,6 +30,8 @@
 	body.podcasts-page &,
 	body.our-partners-page &,
 	body.training-cpd-page &,
+	body.about-page &,
+	body.training-cpd-page &,
 	body.about-page &  {
 		background-color: transparent;
 		position: fixed;
@@ -211,7 +213,10 @@
 			position: relative;
 			width: 20px;
 			height: 20px;
-			background-color: #eee;
+			background-image: url('images/icons/call.png');
+			background-repeat: no-repeat;
+			background-size: 20px;
+			background-position: center;
 			margin-right: 5px;
 		}
 	}

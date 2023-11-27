@@ -88,8 +88,31 @@ body.events-page {
                 position: relative;
                 width: 25px;
                 height: 25px;
-                background-color: #ccc;
+                background-repeat: no-repeat;
+                background-size: 25px;
+                background-position: center;
                 margin-right: 10px;
+            }
+
+            &:nth-of-type(1) {
+
+                &:before {
+                    background-image: url('images/icons/time.png');
+                }
+            }
+
+            &:nth-of-type(2) {
+
+                &:before {
+                    background-image: url('images/icons/date.png');
+                }
+            }
+
+            &:nth-of-type(3) {
+
+                &:before {
+                    background-image: url('images/icons/location.png');
+                }
             }
         }
     }
@@ -301,8 +324,31 @@ body.events-page {
                 position: relative;
                 width: 25px;
                 height: 25px;
-                background-color: #ccc;
+                background-repeat: no-repeat;
+                background-size: 25px;
+                background-position: center;
                 margin-right: 10px;
+            }
+
+            &:nth-of-type(1) {
+
+                &:before {
+                    background-image: url('images/icons/time.png');
+                }
+            }
+
+            &:nth-of-type(2) {
+
+                &:before {
+                    background-image: url('images/icons/date.png');
+                }
+            }
+
+            &:nth-of-type(3) {
+
+                &:before {
+                    background-image: url('images/icons/location.png');
+                }
             }
         }
     }

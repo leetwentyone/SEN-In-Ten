@@ -77,7 +77,10 @@ body.become-sponsor-page {
             left: 0;
             width: 30px;
             height: 30px;
-            background-color: #eee;
+            background-image: url('images/icons/tick.png');
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position: center;
             margin-right: 10px;
         }
     }

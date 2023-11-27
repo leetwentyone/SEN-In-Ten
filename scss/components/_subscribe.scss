@@ -30,6 +30,7 @@
 
         p {
             color: $blue;
+            margin-bottom: 20px;
         }
     }
 
@@ -82,11 +83,15 @@
         font-size: 18px;
         line-height: 26px;
         margin-bottom: 15px;
+        font-family: $poppins;
+        font-weight: 600;
     }
 
     cite {
         color: $blue;
         font-style: normal;
+        font-family: $poppins;
+        font-weight: 500;
     }
 
     h5 {
