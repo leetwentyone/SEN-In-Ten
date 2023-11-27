@@ -1,3 +1,15 @@
+/* Add class to header when scrolled */
+jQuery(window).scroll(function(){
+  var nav=jQuery('.site-header');
+  var top=50;
+  if(jQuery(window).scrollTop()>=top){
+    nav.addClass('onscroll-header')
+  ;}
+  else{
+    nav.removeClass('onscroll-header');
+  }
+});
+
 jQuery(function($) {
   jQuery('.search-toggle').click(function(e) {
     e.preventDefault();
