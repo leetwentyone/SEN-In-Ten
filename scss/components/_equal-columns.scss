@@ -10,9 +10,12 @@
     .col-l {
         width: 100%;
         background-color: $lightblue;
+        padding: 60px 0;
 
         @include breakpoint(tablet) {
             width: 50%;
+            padding-top: 0;
+            padding-bottom: 0;
             padding-left: 5%;
             padding-right: 5%;
 
@@ -39,9 +42,12 @@
         align-items: flex-start;
         width: 100%;
         background-color: $blue;
+        padding: 60px 40px;
 
         @include breakpoint(tablet) {
             width: 50%;
+            padding-top: 0;
+            padding-bottom: 0;
             padding-left: 5%;
             padding-right: 5%;
 
@@ -88,21 +94,24 @@
     }
 
     h6 {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 14px;
+        line-height: 24px;
         font-weight: 600;
         margin-bottom: 10px;
         color: $blue;
+
+        @include breakpoint(desktop) {
+            font-size: 20px;
+            line-height: 30px;
+        }
     }
 
     ul {
         display: flex;
-        flex-direction: column;
+        flex-flow: row wrap;
         width: 100%;
-
-        @include breakpoint(tablet) {
-            flex-flow: row wrap;
-        }
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     li {
@@ -110,10 +119,11 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 100%;
+        width: 50%;
+        padding-left: 5px;
+        padding-right: 5px;
 
         @include breakpoint(tablet) {
-            width: 50%;
             padding-left: 30px;
             padding-right: 30px;
         }
@@ -131,5 +141,12 @@
 
     p {
         color: $copy;
+        font-size: 12px;
+        line-height: 18px;
+
+        @include breakpoint(desktop) {
+            font-size: 16px;
+            line-height: 24px;
+        }
     }
 }

@@ -27,6 +27,7 @@ body.search-results-page {
 
     form {
         display: flex;
+        position: relative;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
@@ -38,22 +39,23 @@ body.search-results-page {
 
     input[type="text"] {
         border: 1px solid $blue;
-        border-right: 0;
         padding-left: 20px;
         border-radius: 30px;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
     }
 
     button[type="submit"] {
-        width: 70px;
-        height: 50px;
-        padding: 10px;
+        position: absolute;
         border: 1px solid $blue;
         border-left: 0;
         border-radius: 30px;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
+        width: 45px;
+		height: 44px;
+		right: 3px;
+		top: 3px;
+		background-color: $blue;
+		border-radius: 30px;
 
         img {
             max-width: 20px;

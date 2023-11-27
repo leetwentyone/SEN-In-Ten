@@ -5,11 +5,13 @@
     .c-container {
         max-width: 100%;
         
-        body.home &,
-        body.single-podcast &,
-        body.about-page & {
-            position: absolute;
-            top: -10rem;
+        @include breakpoint(tablet) {
+            body.home &,
+            body.single-podcast &,
+            body.about-page & {
+                position: absolute;
+                top: -10rem;
+            }
         }
     }
 
@@ -19,16 +21,22 @@
         justify-content: center;
         position: relative;
         align-items: center;
-        background-image: url('images/desktop/become-a-sponsor-cta.png');
+        background-image: url('images/mobile/become-a-sponsor-cta.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        width: $sitewidth;
+        max-width: $sitewidth;
         margin-left: auto;
         margin-right: auto;
         padding-top: 30px;
         padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         overflow: hidden;
+
+        @include breakpoint(tablet) {
+            background-image: url('images/desktop/become-a-sponsor-cta.png');
+        }
 
         @include breakpoint(laptop) {
             padding-top: 60px;
@@ -61,6 +69,7 @@
     p {
         position: relative;
         color: $blue;
+        text-align: center;
         z-index: 2;
         margin-bottom: 30px;
 

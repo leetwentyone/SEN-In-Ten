@@ -1,7 +1,11 @@
 .news-list {
     background-color: $white;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0;
+
+    @include breakpoint(tablet) {
+        padding-bottom: 60px;
+    }
 
     body.home & {
         @include breakpoint(tablet) {
@@ -12,13 +16,32 @@
     h4 {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
         margin-bottom: 60px;
         color: $blue;
+
+        @include breakpoint(tablet) {
+            justify-content: space-between; 
+            flex-direction: row;
+            text-align: left;
+        }
 
         a {
             font-size: 14px;
             line-height: 14px;
+
+            @media(max-width: 767px) {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    ul {
+        @media(max-width: 767px) {
+            padding-left: 20px;
+            padding-right: 20px;
         }
     }
 

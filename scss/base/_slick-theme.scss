@@ -28,6 +28,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 15px;
+
+    @media(max-width: 767px) {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .slick-prev:hover,
@@ -70,6 +75,10 @@
     left: 0;
     background-image: url('images/icons/arrow-previous.png');
 
+    @media(max-width: 767px) {
+        left: 7px;
+    }
+
     &:hover {
         background-image: url('images/icons/arrow-previous.png');
     }
@@ -95,6 +104,10 @@
 .slick-next {
     right: 0;
     background-image: url('images/icons/arrow-next.png');
+
+    @media(max-width: 767px) {
+        right: 7px;
+    }
 
     &:hover {
         background-image: url('images/icons/arrow-next.png');

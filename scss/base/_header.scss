@@ -15,14 +15,7 @@
 		@include breakpoint(laptop) {
 			background-color: transparent;
 			position: fixed;
-		}
-
-		@include breakpoint(desktop) {
-			height: 200px;
-		}
-
-		.header-inner {
-			padding-bottom: 0;
+			height: auto;
 		}
 	}
 
@@ -42,7 +35,7 @@
 	display: flex;
 	width: 100%;
 	justify-content: space-evenly;
-	background-color: #eee;
+	background-color: $lightblue;
 	padding: 10px 0;
 
 	@include breakpoint(laptop) {
@@ -55,6 +48,8 @@
 		a {
 			display: flex;
 			align-items: center;
+			color: $blue;
+			font-family: $poppins;
 			font-size: 12px;
 			line-height: 12px;
 
@@ -62,10 +57,19 @@
 				content:"";
 				display: inline-block;
 				position: relative;
-				width: 15px;
-				height: 15px;
-				background-color: #ccc;
+				width: 20px;
+				height: 20px;
 				margin-right: 5px;
+				background-image: url('images/icons/email.png');
+				background-repeat: no-repeat;
+				background-size: 20px;
+				background-position: center;
+			}
+		}
+
+		a[href^="tel"] {
+			&:before {
+				background-image: url('images/icons/call-blue.png');
 			}
 		}
 	}
@@ -80,7 +84,9 @@
 	padding: 10px 10px;
 
 	@media(max-width: 991px) {
-		height: 125px;
+		height: auto;
+		align-items: center;
+		padding: 15px 20px;
 	}
 
 	@include breakpoint(desktop) {
@@ -100,9 +106,8 @@
 .site-logo {
 	display: flex;
 	align-items: flex-start;
-	justify-content: center;
+	justify-content: flex-start;
 	width: 150px;
-	background-color: #eee;
 	height: 100%;
 
 	@include breakpoint(ipadlandscape) {
@@ -116,8 +121,16 @@
 	}
 
 	@include breakpoint(desktop) {
-		margin-left: 20px;
 		width: 300px;
+	}
+
+	img {
+		width: 80%;
+		transition: all .3s ease;
+
+		@include breakpoint(tablet) {
+			width: 100%;
+		}
 	}
 }
 
@@ -137,6 +150,10 @@
 	.menu-toggle {
 		display: flex;
 		align-items: center;
+		color: $white;
+		text-transform: uppercase;
+		font-family: $poppins;
+		font-weight: 500;
 		margin-bottom: 10px;
 
 		&:before {
@@ -257,8 +274,12 @@
 
 		button[type="submit"] {
 			position: absolute;
-			width: 50px;
-			right: 0;
+			width: 45px;
+			height: 44px;
+			right: 8px;
+			top: 3px;
+			background-color: $blue;
+			border-radius: 30px;
 		}
 
 		.search-toggle {
@@ -282,6 +303,9 @@
 
 			input[type="text"] {
 				width: 100%;
+				border: 1px solid $white;
+				padding-left: 20px;
+				border-radius: 30px;
 			}
 
 			.search-toggle {
@@ -299,13 +323,14 @@
 	@media(max-width: 991px) {
 		display: flex;
 		padding: 10px;
-		background-color: #eee;
+		background-color: $lightblue;
 		margin-left: 0;
 	}
 
 	form {
 		display: flex;
 		width: 90%;
+		position: relative;
 		margin-left: auto;
 		margin-right: auto;
 
@@ -315,13 +340,21 @@
 	}
 
 	input[type="text"] {
-		width: calc(100% - 50px);
+		width: 100%;
+		border-radius: 30px;
+		padding-left: 20px;
+		border: 1px solid $blue;
 	}
 
 	button[type="submit"] {
-		width: 50px;
-		height: 50px;
+		width: 42px;
+		height: 42px;
 		border: 0;
+		position: absolute;
+		top: 4px;
+		right: 5px;
+		background-color: $blue;
+		border-radius: 100%;
 		cursor: pointer;
 
 		img {
@@ -337,4 +370,11 @@
 /* On Scroll Header */
 .onscroll-header {
 	background-color: $blue!important;
+
+	.site-logo {
+
+		img {
+			max-width: 150px;
+		}
+	}
 }
