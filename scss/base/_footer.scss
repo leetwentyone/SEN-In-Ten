@@ -1,6 +1,7 @@
 .site-footer {
-	padding-bottom: 60px;
-	padding-top: 60px;
+	position: relative;
+	padding-bottom: 90px;
+	padding-top: 90px;
 	background-color: $blue;
 }
 
@@ -122,4 +123,14 @@
 	a {
 		color: $white;
 	}
+}
+
+img.wave-bg {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .05;
 }

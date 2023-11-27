@@ -171,11 +171,13 @@ body.single-post {
         align-items: center;
         justify-content: center;
         width: calc(100% - 300px);
+        margin-top: 0;
 
         p {
             width: 100%;
             text-align: center;
             color: $white;
+            font-weight: 600;
             margin-bottom: 15px;
         }
 

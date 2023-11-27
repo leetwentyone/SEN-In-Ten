@@ -14,9 +14,11 @@
 }
 
 .btn-container {
+  position: relative;
   justify-content: flex-start;
   padding-left: 15px;
   margin-top: 30px;
+  z-index: 10;
 
   a {
     &:not(:first-of-type) {
@@ -37,13 +39,57 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: $blue;
   width: 100%;
   height: 100%;
+
+  body.home & {
+    background-image: url('images/desktop/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($blue,.9);
+  }
+}
+
+img.microphone {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 85%;
+  z-index: 2;
+}
+
+img.the-talk {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 85%;
+  z-index: 3;
+}
+
+img.wave {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  opacity: .1;
 }
 
 .hero-inner {
   width: 100%;
+  position: relative;
   max-width: $sitewidth;
   margin-left: auto;
   margin-right: auto;

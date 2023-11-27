@@ -16,6 +16,16 @@
     li {
         display: inline-block;
         margin: 0 40px;
+
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            background-color: $white;
+        }
     }
 
     .btn-container {

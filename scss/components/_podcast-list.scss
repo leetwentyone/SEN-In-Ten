@@ -94,7 +94,11 @@
     }
 
     .parent-pay {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+
+        img {
+            max-width: 150px;
+        }
     }
 
     .episode-title {

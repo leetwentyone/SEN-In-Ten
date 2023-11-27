@@ -141,6 +141,7 @@ body.single-podcast {
     display: flex;
     flex-direction: column;
     width: 100%;
+    scroll-margin: 150px;
 
     @include breakpoint(tablet) {
         flex-direction: row;
@@ -170,6 +171,7 @@ body.single-podcast {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        position: relative;
         width: 100%;
         background-color: $blue;
 
@@ -188,6 +190,22 @@ body.single-podcast {
 
         p {
             color: $white;
+        }
+
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('images/desktop/useful-links.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            filter:grayscale(1);
+            opacity: .1;
         }
     }
 

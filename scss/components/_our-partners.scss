@@ -16,10 +16,11 @@ ul.partner-logos {
         }
 
         @include breakpoint(tablet) {
-            width: 32%;
+            width: 30.666%;
+            margin-right: 4%;
 
             &:nth-of-type(2n) {
-                margin-right: 2%;
+                margin-right: 4%;
             }
 
             &:nth-of-type(3n) {
@@ -28,10 +29,16 @@ ul.partner-logos {
         }
     }
 
+    img {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     h2 {
         font-size: 24px;
         line-height: 34px;
-        font-weight: 500;
+        font-weight: 600;
         color: $blue;
         margin-bottom: 15px;
     }

@@ -17,31 +17,51 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        position: relative;
         align-items: center;
-        background-color: $yellow;
+        background-image: url('images/desktop/become-a-sponsor-cta.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         width: $sitewidth;
         margin-left: auto;
         margin-right: auto;
         padding-top: 30px;
         padding-bottom: 30px;
+        overflow: hidden;
 
         @include breakpoint(laptop) {
             padding-top: 60px;
             padding-bottom: 60px;
         }
+
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($yellow,.9);
+            width: 100%;
+            height: 100%;
+        }
     }
 
     .callout-title {
+        position: relative;
         color: $blue;
         margin-bottom: 30px;
         font-family: $poppins;
         font-weight: 700;
         font-size: 30px;
         line-height: 40px;
+        z-index: 2;
     }
 
     p {
+        position: relative;
         color: $blue;
+        z-index: 2;
         margin-bottom: 30px;
 
         a {
@@ -57,5 +77,20 @@
             text-decoration: none;
             
         }
+    }
+
+    .blue-btn2 {
+        z-index: 2;
+    }
+
+    img.waveform {
+        display: block;
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        opacity: .2;
     }
 }

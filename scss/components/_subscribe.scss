@@ -1,5 +1,6 @@
 .subscribe {
     width: 100%;
+    position: relative;
     background-color: $yellow;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -12,6 +13,8 @@
     .c-container {
         display: flex;
         flex-direction: column;
+        position: relative;
+        z-index: 10;
 
         @include breakpoint(tablet) {
             flex-direction: row;
@@ -57,7 +60,8 @@
 
         @include breakpoint(tablet) {
             width: 60%;
-            padding-left: 10%;
+            padding-left: 20%;
+            justify-content: flex-end;
         }
     }
 
@@ -69,7 +73,7 @@
         width: 300px;
 
         @include breakpoint(tablet) {
-            width: 400px;
+            width: 350px;
         }
     }
 
@@ -88,5 +92,34 @@
     h5 {
         color: $blue;
         margin-bottom: 30px;
+    }
+
+    .bg1 {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 75%;
+        opacity: .1;
+        z-index: 2;
+    }
+
+    .bg2 {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 85%;
+        z-index: 3;
+    }
+
+    .bg3 {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1;
+        opacity: .1;
     }
 }

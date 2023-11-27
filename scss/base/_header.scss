@@ -31,10 +31,8 @@
 	body.our-partners-page &,
 	body.training-cpd-page &,
 	body.about-page &  {
-
-		@include breakpoint(desktop) {
-			height: 300px;
-		}
+		background-color: transparent;
+		position: fixed;
 	}
 }
 
@@ -329,4 +327,9 @@
 	img {
 		max-width: 20px;
 	}
+}
+
+/* On Scroll Header */
+.onscroll-header {
+	background-color: $blue!important;
 }
