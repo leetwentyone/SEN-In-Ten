@@ -125,7 +125,7 @@
 	}
 
 	img {
-		width: 80%;
+		width: 70%;
 		transition: all .3s ease;
 
 		@include breakpoint(tablet) {
@@ -154,7 +154,7 @@
 		text-transform: uppercase;
 		font-family: $poppins;
 		font-weight: 500;
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 
 		&:before {
 			content:"";

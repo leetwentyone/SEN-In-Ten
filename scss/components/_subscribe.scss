@@ -2,11 +2,12 @@
     width: 100%;
     position: relative;
     background-color: $yellow;
-    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
     padding-bottom: 30px;
 
     @include breakpoint(tablet) {
-        padding-top: 60px;
         padding-bottom: 60px;
     }
 
@@ -15,6 +16,7 @@
         flex-direction: column;
         position: relative;
         z-index: 10;
+        padding-bottom: 0;
 
         @include breakpoint(tablet) {
             flex-direction: row;
@@ -23,9 +25,11 @@
 
     .form-col {
         width: 100%;
+        padding-bottom: 150px;
 
         @include breakpoint(tablet) {
             width: 40%;
+            padding-bottom: 0;
         }
 
         p {
@@ -46,6 +50,12 @@
         background-color: $blue;
         border-color: $blue;
         color: $white;
+
+        @media(max-width: 767px) {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
         &:hover {
             background-color: $white;
@@ -70,21 +80,30 @@
         background-color: $white;
         border: 3px solid $blue;
         border-radius: 20px;
-        padding: 30px;
+        padding: 15px;
         width: 300px;
 
         @include breakpoint(tablet) {
             width: 350px;
         }
+
+        @include breakpoint(desktop) {
+            padding: 30px;
+        }
     }
 
     blockquote {
         color: $blue;
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 22px;
         margin-bottom: 15px;
         font-family: $poppins;
         font-weight: 600;
+
+        @include breakpoint(desktop) {
+            font-size: 18px;
+            line-height: 26px;
+        }
     }
 
     cite {
@@ -97,6 +116,12 @@
     h5 {
         color: $blue;
         margin-bottom: 30px;
+
+        @media(max-width: 767px) {
+            text-align: center;
+            font-size: 20px;
+            line-height: 26px;
+        }
     }
 
     .bg1 {
@@ -104,9 +129,13 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        width: 75%;
+        width: 100%;
         opacity: .1;
         z-index: 2;
+
+        @include breakpoint(desktop) {
+            width: 75%;
+        }
     }
 
     .bg2 {
@@ -114,8 +143,12 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        width: 85%;
+        width: 200px;
         z-index: 3;
+
+        @include breakpoint(desktop) {
+            width: 85%;
+        }
     }
 
     .bg3 {
