@@ -34,8 +34,16 @@
           </div>
         </div>
 
-        <img src="images/desktop/microphone.png" class="microphone">
-        <img src="images/desktop/woman-talking-shadow.png" class="the-talk">
+        <picture>
+          <source media="(max-width:767px)" srcset="images/mobile/microphone-yellow.png" class="microphone-mob"><!-- Image for mobile devices -->        
+          <img src="images/desktop/microphone.png" alt="" class="microphone"><!-- Image for desktop screens -->
+        </picture>
+
+        <picture>
+          <source media="(max-width:767px)" srcset="images/mobile/woman-talking-shadow.png" class="the-talk-mob"><!-- Image for mobile devices -->        
+          <img src="images/desktop/woman-talking-shadow.png" alt="" class="the-talk"><!-- Image for desktop screens -->
+        </picture>
+    
         <img src="images/waveform-pattern.png" class="wave">
 
       </div>

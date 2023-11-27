@@ -2,7 +2,7 @@
   <div class="footer-inner">
 
     <div class="footer-logo">
-      -- Logo to be placed here --
+      <img src="images/icons/logo.png">
     </div>
 
     <div class="footer-links">

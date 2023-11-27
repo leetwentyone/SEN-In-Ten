@@ -8,7 +8,7 @@
   <div class="header-inner">
 
     <div class="site-logo">
-      <a href="index.php">Logo</a>
+      <a href="index.php"><img src="images/icons/logo.png"></a>
     </div>
 
     <div class="mobile-actions">
@@ -22,12 +22,12 @@
         <a href="#" class="white-outline-icon"><span></span>Become A Guest</a>
         <a href="become-sponsor.php" class="yellow-icon"><span></span>Become A Sponsor</a>
         <div class="search-container">
-          <a href="#" class="close-search"><img src="images/close.png"></a>
+          <a href="#" class="close-search"><img src="images/icons/close.png"></a>
           <form action="search-results.php">
             <input type="text" placeholder="Search Our Website">
-            <button type="submit"><img src="images/search-black.png"></button>
+            <button type="submit"><img src="images/icons/search.png"></button>
           </form>
-          <a href="#" class="search-toggle"><img src="images/search.png"></a>
+          <a href="#" class="search-toggle"><img src="images/icons/search.png"></a>
         </div>
       </div>
   
@@ -65,7 +65,7 @@
   <div class="search-container">
     <form>
       <input type="text" placeholder="Search Our Website">
-      <button type="submit"><img src="images/search.png"></button>
+      <button type="submit"><img src="images/icons/search.png"></button>
     </form>
   </div>
 
