@@ -37,7 +37,7 @@
                 <ul>
                     <li>
                         <date>1st<span>Oct</span></date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-1.png">
                         
                         <div class="training-details">
                             <h3><a href="session.php">Training Name</a></h3>
@@ -47,7 +47,7 @@
 
                     <li>
                         <date>1st<span>Oct</span></date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-2.png">
                         
                         <div class="training-details">
                             <h3><a href="session.php">Training Name</a></h3>
@@ -57,7 +57,7 @@
 
                     <li>
                         <date>1st<span>Oct</span></date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-3.png">
                         
                         <div class="training-details">
                             <h3><a href="session.php">Training Name</a></h3>
@@ -67,7 +67,7 @@
 
                     <li>
                         <date>1st<span>Oct</span></date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-1.png">
                         
                         <div class="training-details">
                             <h3><a href="session.php">Training Name</a></h3>
@@ -77,7 +77,7 @@
 
                     <li>
                         <date>1st<span>Oct</span></date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-2.png">
                         
                         <div class="training-details">
                             <h3><a href="session.php">Training Name</a></h3>
@@ -87,7 +87,7 @@
 
                     <li>
                         <date>1st<span>Oct</span></date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-3.png">
                         
                         <div class="training-details">
                             <h3><a href="session.php">Training Name</a></h3>
@@ -100,8 +100,13 @@
             </div>
         </div><!-- end episode list -->
 
-        <div class="banner-callout">
-            -- Parent Pay Banner to be placed here --
+        <div class="banner-callout" style="padding-top: 0">
+            <div class="c-container">
+                <picture>
+                <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+                <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+                </picture>
+            </div>
         </div><!-- end banner callout -->
 
         <div class="testimonials">
@@ -132,7 +137,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                <img src="images/square-placeholder.jpg">
+                    <img src="images/desktop/about.png">
                 </div>
 
                 <div class="text-col">

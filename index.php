@@ -33,11 +33,21 @@
             <a href="become-sponsor.php" class="yellow-icon"><span></span>Become A Sponsor</a>
           </div>
         </div>
+
+        <img src="images/desktop/microphone.png" class="microphone">
+        <img src="images/desktop/woman-talking-shadow.png" class="the-talk">
+        <img src="images/waveform-pattern.png" class="wave">
+
       </div>
     </div><!-- end hero -->
 
     <div class="banner-callout">
-      -- Parent Pay Banner to be placed here --
+      <div class="c-container">
+        <picture>
+          <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+          <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+        </picture>
+      </div>
     </div><!-- end banner callout -->
 
     <div class="episode-list">
@@ -49,11 +59,11 @@
           <li>
             <date>1st<span>Oct</span></date>
             <div class="overlay-content">
-              <img src="images/square-placeholder.jpg">
+              <img src="images/podcast-1.png">
               <div class="overlay-inner">
                 <h4 class="episode-title">Episode 1 : OrCam Learn</h4>
                 <p>Sponsored By</p>
-                <span class="parent-pay">Parent Pay</span>
+                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                 <a class="listen-blue" href="#">Listen Now</a>
               </div>
             </div>
@@ -69,11 +79,11 @@
           <li>
             <date>31st<span>Oct</span></date>
             <div class="overlay-content">
-              <img src="images/square-placeholder.jpg">
+              <img src="images/podcast-2.png">
               <div class="overlay-inner">
                 <h4 class="episode-title">Episode 2 : OrCam Learn</h4>
                 <p>Sponsored By</p>
-                <span class="parent-pay">Parent Pay</span>
+                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                 <a class="listen-blue" href="#">Listen Now</a>
               </div>
             </div>
@@ -89,11 +99,11 @@
           <li>
             <date>3rd<span>Nov</span></date>
             <div class="overlay-content">
-              <img src="images/square-placeholder.jpg">
+              <img src="images/podcast-3.png">
               <div class="overlay-inner">
                 <h4 class="episode-title">Episode 3 : OrCam Learn</h4>
                 <p>Sponsored By</p>
-                <span class="parent-pay">Parent Pay</span>
+                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                 <a class="listen-blue" href="#">Listen Now</a>
               </div>
             </div>
@@ -142,28 +152,22 @@
 
         <ul>
           <li>
-            Partner One
+            <span><img src="images/partners/idl.png"></span>
           </li>
           <li>
-            Partner Two
+            <span><img src="images/partners/nook.png"></span>
           </li>
           <li>
-            Partner Three
+            <span><img src="images/partners/orcam.png"></span>
           </li>
           <li>
-            Partner Four
+            <span><img src="images/partners/parentpay.png"></span>
           </li>
           <li>
-            Partner Five
+            <span> <img src="images/partners/scanningpens.png"></span>
           </li>
           <li>
-            Partner Six
-          </li>
-          <li>
-            Partner Seven
-          </li>
-          <li>
-            Partner Eight
+            <span><img src="images/partners/sensible-senco.png"></span>
           </li>
         </ul>
 
@@ -181,7 +185,7 @@
 
         <ul>
           <li>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/blog-1.png">
             <div class="post-content">
               <h5><a href="article.php">Title of Post</a></h5>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
@@ -189,7 +193,7 @@
             </div>
           </li>
           <li>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/blog-2.png">
             <div class="post-content">
               <h5><a href="article.php">Title of Post</a></h5>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
@@ -197,7 +201,7 @@
             </div>
           </li>
           <li>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/blog-1.png">
             <div class="post-content">
               <h5><a href="article.php">Title of Post</a></h5>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
@@ -219,6 +223,7 @@
           <div class="callout-title">Become a Sponsor</div>
           <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
           <a href="become-sponsor.php" class="blue-btn2">Become A Sponsor</a>
+          <img src="images/waveform-pattern.png" class="waveform">
         </div>
       </div>
     </div><!-- end sponsor callout -->
@@ -228,18 +233,22 @@
         <h5>Why SEN In Ten?</h5>
         <ul>
           <li>
+            <img src="images/icons/experts.png">
             <h6>Delivered By Experts</h6>
             <p>We use a range of experts to curate and deliver our sessions.</p>
           </li>
           <li>
+            <img src="images/icons/high-quality.png">
             <h6>High Quality</h6>
             <p>Our state of the art studio lets us record in High Definition (1080p) with amazing audio quality.</p>
           </li>
           <li>
+            <img src="images/icons/accessible.png">
             <h6>High Accessible</h6>
             <p>All sessions are transcribed automatically. Users can choose to turn on subtitles for each video.</p>
           </li>
           <li>
+            <img src="images/icons/insightful.png">
             <h6>Insightful</h6>
             <p>Tempor incididunt ut labore et dolore magna aliqua.</p>
           </li>
@@ -262,7 +271,7 @@
 
           <li>
             <date>1st<span>Oct</span></date>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/event-1.png">
               
             <div class="event-details">
               <h5><a href="event.php">Event Name</a></h5>
@@ -272,7 +281,7 @@
 
           <li>
             <date>2nd<span>Dec</span></date>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/event-2.png">
               
             <div class="event-details">
               <h5><a href="event.php">Event Name</a></h5>
@@ -282,7 +291,7 @@
 
           <li>
             <date>8th<span>Dec</span></date>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/event-3.png">
               
             <div class="event-details">
               <h5><a href="event.php">Event Name</a></h5>
@@ -299,7 +308,7 @@
       <div class="c-container">
 
         <div class="image-col">
-          <img src="images/square-placeholder.jpg">
+          <img src="images/desktop/about.png">
         </div>
 
         <div class="text-col">

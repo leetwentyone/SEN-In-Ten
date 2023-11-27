@@ -19,6 +19,13 @@
 
 <body class="our-partners-page">
 
+    <div class="page-banner">
+        <picture>
+            <source media="(max-width:767px)" srcset="images/mobile/our-partners.png"><!-- Image for mobile devices -->        
+            <img src="images/desktop/our-partners.png" alt=""><!-- Image for desktop screens -->
+        </picture>
+    </div>
+
     <?php include('includes/header.php'); ?>
     <?php include('includes/breadcrumb.php'); ?>
 
@@ -31,6 +38,7 @@
 
         <ul class="partner-logos">
             <li>
+                <img src="images/partners/scanningpens.png">
                 <h2>Scanning Pens</h2>
                 <p>Vestibulum cursus pellentesque felis ac sodales. Phasellus rhoncus diam at arcu tincidunt, in vulputate tellus accumsan. 
                     Nullam condimentum varius elit, vel ultricies ex iaculis in.
@@ -38,30 +46,35 @@
                 <a href="#" target="_blank">Visit Website</a>
             </li>
             <li>
+            <img src="images/partners/parentpay.png">
                 <h2>ParentPay</h2>
                 <p>Vestibulum cursus pellentesque felis ac sodales. Phasellus rhoncus diam at arcu tincidunt.
                 </p>
                 <a href="#" target="_blank">Visit Website</a>
             </li>
             <li>
+                <img src="images/partners/orcam.png">
                 <h2>Orcam</h2>
                 <p>Fusce eu luctus enim, a facilisis purus. Praesent neque mauris, cursus sed imperdiet a, tempor eget arcu. Vestibulum ante ipsum primis in faucibus orci luctus et.
                 </p>
                 <a href="#" target="_blank">Visit Website</a>
             </li>
             <li>
+                <img src="images/partners/sensible-senco.png">
                 <h2>SENsible SENCO</h2>
                 <p>Fusce eu luctus enim, a facilisis purus. Praesent neque mauris, cursus sed imperdiet a, tempor eget arcu.
                 </p>
                 <a href="#" target="_blank">Visit Website</a>
             </li>
             <li>
+                <img src="images/partners/nook.png">
                 <h2>Nook</h2>
                 <p>Fusce eu luctus enim, a facilisis purus. Praesent neque mauris, cursus sed imperdiet a, tempor eget arcu. Vestibulum ante ipsum primis in faucibus orci.
                 </p>
                 <a href="#" target="_blank">Visit Website</a>
             </li>
             <li>
+                <img src="images/partners/idl.png">
                 <h2>IDL Group</h2>
                 <p>Fusce eu luctus enim, a facilisis purus. Praesent neque mauris, cursus sed imperdiet a, tempor eget arcu.
                 </p>
@@ -76,9 +89,10 @@
             ?>
             <div class="c-container">
                 <div class="callout-inner">
-                <div class="callout-title">Become a Sponsor</div>
-                <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
-                <a href="become-sponsor.php" class="blue-btn2">Become A Sponsor</a>
+                    <div class="callout-title">Become a Sponsor</div>
+                    <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
+                    <a href="become-sponsor.php" class="blue-btn2">Become A Sponsor</a>
+                    <img src="images/waveform-pattern.png" class="waveform">
                 </div>
             </div>
         </div><!-- end sponsor callout -->
@@ -87,7 +101,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                <img src="images/square-placeholder.jpg">
+                    <img src="images/desktop/about.png">
                 </div>
 
                 <div class="text-col">
@@ -105,18 +119,22 @@
             <h3>Why SEN In Ten?</h3>
             <ul>
                 <li>
+                    <img src="images/icons/experts.png">
                     <div class="icon-title">Delivered By Experts</div>
                     <p>We use a range of experts to curate and deliver our sessions.</p>
                 </li>
                 <li>
+                    <img src="images/icons/high-quality.png">
                     <div class="icon-title">High Quality</div>
                     <p>Our state of the art studio lets us record in High Definition (1080p) with amazing audio quality.</p>
                 </li>
                 <li>
+                    <img src="images/icons/accessible.png">
                     <div class="icon-title">Highly Accessible</div>
                     <p>All sessions are transcribed automatically. Users can choose to turn on subtitles for each video.</p>
                 </li>
                 <li>
+                    <img src="images/icons/insightful.png">
                     <div class="icon-title">Insightful</div>
                     <p>Tempor incididunt ut labore et dolore magna aliqua.</p>
                 </li>

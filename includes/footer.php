@@ -29,4 +29,7 @@
     </div>
 
   </div>
+
+  <img src="images/waveform-pattern.png" class="wave-bg">
+
 </footer>

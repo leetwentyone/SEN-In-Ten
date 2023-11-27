@@ -2,19 +2,20 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>SEN in Ten</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=1.0">
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="js/custom.js"></script>
+    <title>SEN in Ten</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
 </head>
 
 <body class="single-post">
@@ -25,8 +26,8 @@
 
         <div class="article-post--image">
             <picture>
-                <source media="(max-width:767px)" srcset="images/hero-mobile.jpg">      
-                <img src="images/hero-desktop.jpg" alt="">
+                <source media="(max-width:767px)" srcset="images/mobile/article.png">      
+                <img src="images/desktop/article.png" alt="">
             </picture>
         </div><!-- end article post -->
 
@@ -73,8 +74,13 @@
 
         </article>
 
-        <div class="banner-callout">
-            -- Parent Pay Banner to be placed here --
+        <div class="banner-callout" style="padding-bottom: 0">
+            <div class="c-container">
+                <picture>
+                <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+                <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+                </picture>
+            </div>
         </div><!-- end banner callout -->
 
     </main>
@@ -97,11 +103,11 @@
     <div class="news-list">
         <div class="c-container">
   
-            <h4>Related News <a href="blog.php">View All News</a></h4>
+            <h4>Related News <a href="blog.php" class="blue-outline">View All News</a></h4>
 
             <ul>
                 <li>
-                    <img src="images/square-placeholder.jpg">
+                    <img src="images/blog-1.png">
                     <div class="post-content">
                         <h5><a href="article.php">Title of Post</a></h5>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
@@ -109,7 +115,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="images/square-placeholder.jpg">
+                    <img src="images/blog-2.png">
                     <div class="post-content">
                         <h5><a href="article.php">Title of Post</a></h5>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
@@ -117,7 +123,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="images/square-placeholder.jpg">
+                    <img src="images/blog-1.png">
                     <div class="post-content">
                         <h5><a href="article.php">Title of Post</a></h5>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>

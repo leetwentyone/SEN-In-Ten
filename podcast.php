@@ -31,13 +31,13 @@
         <div class="podcast-summary">
         
             <div class="image-col">
-                <img src="images/square-placeholder.jpg">
+                <img src="images/desktop/featured-episode.png">
             </div>
 
             <div class="episode-details">
                 <h3>Episode Summary</h3>
                 <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, accuracy and comprehension.</p>
-                <a href="#">View Podcast Notes</a>
+                <a href="#podcast-notes">View Podcast Notes</a>
                 <div class="share">
                     <div class="share-title">Share Podcast</div>
                     <ul>
@@ -85,7 +85,12 @@
         </div><!-- End Embedded Player -->
 
         <div class="banner-callout">
-        -- Parent Pay Banner to be placed here --
+            <div class="c-container">
+                <picture>
+                    <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+                    <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+                </picture>
+            </div>
         </div><!-- end banner callout -->
 
         <div class="podcast-notes" id="podcast-notes">
@@ -123,6 +128,7 @@
                     <div class="callout-title">Become a Sponsor</div>
                     <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
                     <a href="#" class="blue-btn2">Become A Sponsor</a>
+                    <img src="images/waveform-pattern.png" class="waveform">
                 </div>
             </div>
         </div><!-- end sponsor callout -->
@@ -136,7 +142,7 @@
                     <li>
                         <date>1st<span>Oct</span></date>
                         <div class="overlay-content">
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/podcast-1.png">
                         <div class="overlay-inner">
                             <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
                             <p>Sponsored By</p>
@@ -156,7 +162,7 @@
                     <li>
                         <date>31st<span>Oct</span></date>
                         <div class="overlay-content">
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/podcast-2.png">
                         <div class="overlay-inner">
                             <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
                             <p>Sponsored By</p>
@@ -176,7 +182,7 @@
                     <li>
                         <date>3rd<span>Nov</span></date>
                         <div class="overlay-content">
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/podcast-3.png">
                         <div class="overlay-inner">
                             <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
                             <p>Sponsored By</p>

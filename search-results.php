@@ -44,11 +44,11 @@
                     <div class="image-col">
                         <date>1st<span>Oct</span></date>
                         <div class="overlay-content">
-                            <img src="images/square-placeholder.jpg">
+                            <img src="images/search-1.png">
                             <div class="overlay-inner">
                                 <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
                                 <p>Sponsored By</p>
-                                <span class="parent-pay">Parent Pay</span>
+                                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                                 <a class="listen-blue" href="#">Listen Now</a>
                             </div>
                         </div>
@@ -71,11 +71,11 @@
                     <div class="image-col">
                         <date>10th<span>Oct</span></date>
                         <div class="overlay-content">
-                            <img src="images/square-placeholder.jpg">
+                            <img src="images/search-2.png">
                             <div class="overlay-inner">
-                                <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                                <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
                                 <p>Sponsored By</p>
-                                <span class="parent-pay">Parent Pay</span>
+                                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                                 <a class="listen-blue" href="#">Listen Now</a>
                             </div>
                         </div>
@@ -98,11 +98,11 @@
                     <div class="image-col">
                         <date>29th<span>Sept</span></date>
                         <div class="overlay-content">
-                            <img src="images/square-placeholder.jpg">
+                            <img src="images/search-3.png">
                             <div class="overlay-inner">
-                                <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                                <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
                                 <p>Sponsored By</p>
-                                <span class="parent-pay">Parent Pay</span>
+                                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                                 <a class="listen-blue" href="#">Listen Now</a>
                             </div>
                         </div>

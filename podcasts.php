@@ -18,8 +18,16 @@
 </head>
 
 <body class="podcasts-page">
+
+  <div class="page-banner">
+    <picture>
+      <source media="(max-width:767px)" srcset="images/mobile/about-header.png"><!-- Image for mobile devices -->        
+      <img src="images/desktop/about-sen.png" alt=""><!-- Image for desktop screens -->
+    </picture>
+  </div>
   
   <?php include('includes/header.php'); ?>
+
   <?php include('includes/breadcrumb.php'); ?>
   
   <main class="site-main">
@@ -36,7 +44,7 @@
     
         <div class="image-col">
             <date>1st<span>Oct</span></date>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/event-1.png">
         </div>
 
         <div class="episode-details">
@@ -49,8 +57,13 @@
 
     </div><!-- end latest podcast -->
 
-    <div class="banner-callout">
-      -- Parent Pay Banner to be placed here --
+    <div class="banner-callout" style="padding-top: 0">
+      <div class="c-container">
+        <picture>
+          <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+          <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+        </picture>
+      </div>
     </div><!-- end banner callout -->
 
     <div class="filter-bar">
@@ -79,11 +92,11 @@
           <li>
             <date>1st<span>Oct</span></date>
             <div class="overlay-content">
-              <img src="images/square-placeholder.jpg">
+              <img src="images/podcast-1.png">
               <div class="overlay-inner">
                 <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
                 <p>Sponsored By</p>
-                <span class="parent-pay">Parent Pay</span>
+                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                 <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
@@ -99,11 +112,11 @@
           <li>
             <date>31st<span>Oct</span></date>
             <div class="overlay-content">
-              <img src="images/square-placeholder.jpg">
+              <img src="images/podcast-2.png">
               <div class="overlay-inner">
                 <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
                 <p>Sponsored By</p>
-                <span class="parent-pay">Parent Pay</span>
+                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                 <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
@@ -119,11 +132,11 @@
           <li>
             <date>3rd<span>Nov</span></date>
             <div class="overlay-content">
-              <img src="images/square-placeholder.jpg">
+              <img src="images/podcast-3.png">
               <div class="overlay-inner">
                 <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
                 <p>Sponsored By</p>
-                <span class="parent-pay">Parent Pay</span>
+                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                 <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
@@ -139,11 +152,11 @@
           <li>
             <date>31st<span>Oct</span></date>
             <div class="overlay-content">
-              <img src="images/square-placeholder.jpg">
+              <img src="images/podcast-1.png">
               <div class="overlay-inner">
                 <h3 class="episode-title">Episode 4 : OrCam Learn</h3>
                 <p>Sponsored By</p>
-                <span class="parent-pay">Parent Pay</span>
+                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                 <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
@@ -159,11 +172,11 @@
           <li>
             <date>3rd<span>Nov</span></date>
             <div class="overlay-content">
-              <img src="images/square-placeholder.jpg">
+              <img src="images/podcast-2.png">
               <div class="overlay-inner">
                 <h3 class="episode-title">Episode 5 : OrCam Learn</h3>
                 <p>Sponsored By</p>
-                <span class="parent-pay">Parent Pay</span>
+                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                 <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
@@ -179,11 +192,11 @@
           <li>
             <date>3rd<span>Nov</span></date>
             <div class="overlay-content">
-              <img src="images/square-placeholder.jpg">
+              <img src="images/podcast-3.png">
               <div class="overlay-inner">
                 <h3 class="episode-title">Episode 6 : OrCam Learn</h3>
                 <p>Sponsored By</p>
-                <span class="parent-pay">Parent Pay</span>
+                <span class="parent-pay"><img src="images/parent-pay.png"></span>
                 <a class="listen-blue" href="podcast.php">Listen Now</a>
               </div>
             </div>
@@ -229,27 +242,7 @@
       <p>How to listen? <a href="#">Learn More</a></p>
     </div><!-- End Listen Links -->
 
-    <div class="subscribe">
-      <div class="c-container">
-        <div class="form-col">
-          <h5>Subscribe to our mailing list</h5>
-          <form>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email Address">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur dapibus sollicitudin. Sed at nisi finibus, laoreet sem sed, consequat mi.</p>
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-        <div class="quote-col">
-          <div class="quote-box">
-            <blockquote>
-              "This is a quote for this column"
-            </blockquote>
-            <cite>Name of Person</cite>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Subscribe -->
+    <?php include('includes/subscribe.php'); ?>
 
   </main>
 

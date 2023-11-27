@@ -31,7 +31,7 @@
     <div class="latest-post">
     
       <div class="image-col">
-        <img src="images/square-placeholder.jpg">
+        <img src="images/desktop/featured-news.png">
       </div>
 
       <div class="post-details">
@@ -44,8 +44,13 @@
 
     </div><!-- end latest podcast -->
 
-    <div class="banner-callout">
-      -- Parent Pay Banner to be placed here --
+    <div class="banner-callout" style="padding-top: 0">
+      <div class="c-container">
+        <picture>
+          <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+          <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+        </picture>
+      </div>
     </div><!-- end banner callout -->
 
     <div class="filter-bar">
@@ -70,7 +75,7 @@
 
         <ul>
           <li>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/blog-1.png">
               
             <div class="post-content">
                 <h5><a href="article.php">Title of Post</a></h5>
@@ -80,7 +85,7 @@
           </li>
 
           <li>
-            <img src="images/square-placeholder.jpg">
+          <img src="images/blog-2.png">
               
             <div class="post-content">
                 <h5><a href="article.php">Title of Post</a></h5>
@@ -90,7 +95,7 @@
           </li>
 
           <li>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/blog-1.png">
               
             <div class="post-content">
                 <h5><a href="article.php">Title of Post</a></h5>
@@ -100,7 +105,7 @@
           </li>
 
           <li>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/blog-1.png">
               
             <div class="post-content">
                 <h5><a href="article.php">Title of Post</a></h5>
@@ -110,7 +115,7 @@
           </li>
 
           <li>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/blog-2.png">
               
             <div class="post-content">
                 <h5><a href="article.php">Title of Post</a></h5>
@@ -120,7 +125,7 @@
           </li>
 
           <li>
-            <img src="images/square-placeholder.jpg">
+            <img src="images/blog-1.png">
               
             <div class="post-content">
                 <h5><a href="article.php">Title of Post</a></h5>
