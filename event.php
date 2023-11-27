@@ -51,20 +51,54 @@
                 <div class="share">
                     <div class="share-title">Share Event</div>
                     <ul>
-                        <li><a href="#">F</a></li>
-                        <li><a href="#">X</a></li>
-                        <li><a href="#">In</a></li>
-                        <li><a href="#">IG</a></li>
-                        <li><a href="#">YT</a></li>
-                        <li><a href="#">TT</a></li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/facebook.png">
+                                <img src="images/icons/facebook-white.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/x.png">
+                                <img src="images/icons/x-white.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/linkedin.png">
+                                <img src="images/icons/linkedin-white.png">
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/instagram.png">
+                                <img src="images/icons/instagram-white.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/youtube.png">
+                                <img src="images/icons/youtube-white.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/tiktok.png">
+                                <img src="images/icons/tiktok-white.png">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
 
         </div><!-- end latest podcast -->
 
-        <div class="banner-callout">
-            -- Parent Pay Banner to be placed here --
+        <div class="banner-callout" style="padding-top: 0">
+            <div class="c-container">
+                <picture>
+                <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+                <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+                </picture>
+            </div>
         </div><!-- end banner callout -->
 
         <div class="text-image is-reversed">

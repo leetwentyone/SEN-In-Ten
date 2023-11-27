@@ -19,6 +19,13 @@
 
 <body class="about-page">
 
+    <div class="page-banner">
+        <picture>
+            <source media="(max-width:767px)" srcset="images/mobile/our-partners.png"><!-- Image for mobile devices -->        
+            <img src="images/desktop/our-partners.png" alt=""><!-- Image for desktop screens -->
+        </picture>
+    </div>
+
     <?php include('includes/header.php'); ?>
     <?php include('includes/breadcrumb.php'); ?>
 
@@ -71,20 +78,24 @@
                 <h5>Why SEN In Ten?</h5>
                 <ul>
                     <li>
+                        <img src="images/icons/experts.png">
                         <h6>Delivered By Experts</h6>
-                        <p>Etiam mattis quis nulla eget lacinia.</p>
+                        <p>We use a range of experts to curate and deliver our sessions.</p>
                     </li>
                     <li>
+                        <img src="images/icons/high-quality.png">
                         <h6>High Quality</h6>
-                        <p>Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
+                        <p>Our state of the art studio lets us record in High Definition (1080p) with amazing audio quality.</p>
                     </li>
                     <li>
+                        <img src="images/icons/accessible.png">
                         <h6>High Accessible</h6>
-                        <p>Fusce ut luctus mi, nec cursus massa. Etiam nec imperdiet erat.</p>
+                        <p>All sessions are transcribed automatically. Users can choose to turn on subtitles for each video.</p>
                     </li>
                     <li>
+                        <img src="images/icons/insightful.png">
                         <h6>Insightful</h6>
-                        <p>Fusce ut luctus mi, nec cursus massa.</p>
+                        <p>Tempor incididunt ut labore et dolore magna aliqua.</p>
                     </li>
                 </ul>
             </div>
@@ -112,7 +123,7 @@
                         <div class="overlay-inner">
                             <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
                             <p>Sponsored By</p>
-                            <span class="parent-pay">Parent Pay</span>
+                            <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
                         </div>
                         </div>
@@ -132,7 +143,7 @@
                         <div class="overlay-inner">
                             <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
                             <p>Sponsored By</p>
-                            <span class="parent-pay">Parent Pay</span>
+                            <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
                         </div>
                         </div>
@@ -152,7 +163,7 @@
                         <div class="overlay-inner">
                             <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
                             <p>Sponsored By</p>
-                            <span class="parent-pay">Parent Pay</span>
+                            <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
                         </div>
                         </div>

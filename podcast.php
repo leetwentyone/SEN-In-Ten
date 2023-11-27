@@ -41,12 +41,41 @@
                 <div class="share">
                     <div class="share-title">Share Podcast</div>
                     <ul>
-                        <li><a href="#">F</a></li>
-                        <li><a href="#">X</a></li>
-                        <li><a href="#">In</a></li>
-                        <li><a href="#">IG</a></li>
-                        <li><a href="#">YT</a></li>
-                        <li><a href="#">TT</a></li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/facebook.png">
+                                <img src="images/icons/facebook-white.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/x.png">
+                                <img src="images/icons/x-white.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/linkedin.png">
+                                <img src="images/icons/linkedin-white.png">
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/instagram.png">
+                                <img src="images/icons/instagram-white.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/youtube.png">
+                                <img src="images/icons/youtube-white.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/tiktok.png">
+                                <img src="images/icons/tiktok-white.png">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -146,7 +175,7 @@
                         <div class="overlay-inner">
                             <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
                             <p>Sponsored By</p>
-                            <span class="parent-pay">Parent Pay</span>
+                            <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
                         </div>
                         </div>
@@ -166,7 +195,7 @@
                         <div class="overlay-inner">
                             <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
                             <p>Sponsored By</p>
-                            <span class="parent-pay">Parent Pay</span>
+                            <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
                         </div>
                         </div>
@@ -186,7 +215,7 @@
                         <div class="overlay-inner">
                             <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
                             <p>Sponsored By</p>
-                            <span class="parent-pay">Parent Pay</span>
+                            <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
                         </div>
                         </div>

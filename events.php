@@ -120,8 +120,13 @@
             </div>
         </div><!-- end episode list -->
 
-        <div class="banner-callout">
-            -- Parent Pay Banner to be placed here --
+        <div class="banner-callout" style="padding-top: 0">
+            <div class="c-container">
+                <picture>
+                <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+                <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+                </picture>
+            </div>
         </div><!-- end banner callout -->
 
         <?php include('includes/subscribe.php'); ?>
