@@ -22,8 +22,16 @@
 
     </div>
 
-    <img src="images/desktop/microphone-white.png" class="bg1">
-    <img src="images/desktop/woman-on-phone-shadow.png" class="bg2">
+    <picture>
+        <source media="(max-width:767px)" srcset="images/mobile/mic-white.png" class="bg1-mob"><!-- Image for mobile devices -->        
+        <img src="images/desktop/microphone.png" alt="" class="bg1"><!-- Image for desktop screens -->
+    </picture>
+
+    <picture>
+        <source media="(max-width:767px)" srcset="images/mobile/woman-on-phone-shadow.png" class="bg2-mob"><!-- Image for mobile devices -->        
+        <img src="images/desktop/woman-talking-shadow.png" alt="" class="bg2"><!-- Image for desktop screens -->
+    </picture>
+
     <img src="images/waveform-pattern.png" class="bg3">
 
 </div><!-- End Subscribe -->

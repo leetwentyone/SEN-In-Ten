@@ -13,7 +13,7 @@
 
     <div class="mobile-actions">
       <a href="#" class="menu-toggle">Menu</a>
-      <a href="#" class="icon-yellow">Yellow Icon</a>
+      <a href="#" class="yellow-icon"><span></span>Become A Sponsor</a>
     </div>
 
     <div class="header-top">
