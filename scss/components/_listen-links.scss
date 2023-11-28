@@ -10,27 +10,29 @@
 
     h4 {
         color: $blue;
-        margin-bottom: 60px;
-
-        body.podcasts-page & {
-            margin-bottom: 30px;
-        }
+        margin-bottom: 15px;
     }
 
     ul {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
 
+    .slick-list {
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+
     li {
         display: inline-block;
+        margin: 0 20px;
     }
 
     p {
-        color: $blue;
-        margin-bottom: 0;
+        color: $copy;
+        margin-bottom: 30px;
 
         body.podcasts-page & {
             color: $copy;
@@ -39,6 +41,11 @@
             ~ p {
                 margin-bottom: 0;
             }
+        }
+
+        ~ p {
+            color: $blue;
+            margin-bottom: 0;
         }
 
         a {

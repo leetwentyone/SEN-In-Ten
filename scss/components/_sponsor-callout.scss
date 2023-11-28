@@ -58,12 +58,16 @@
     .callout-title {
         position: relative;
         color: $blue;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         font-family: $poppins;
         font-weight: 700;
         font-size: 30px;
         line-height: 40px;
         z-index: 2;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 30px; 
+        }
     }
 
     p {
@@ -71,7 +75,11 @@
         color: $blue;
         text-align: center;
         z-index: 2;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 30px; 
+        }
 
         a {
             color: $blue;

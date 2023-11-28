@@ -24,10 +24,10 @@
     border: none;
     outline: none;
     z-index: 20;
-    background: $lightgrey;
+    background: transparent;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 15px;
+    background-size: 30px;
 
     @media(max-width: 767px) {
         width: 30px;
@@ -41,10 +41,9 @@
 .slick-next:focus {
     color: transparent;
     outline: none;
-    background: $lightgrey;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 15px;
+    background-size: 30px;
 }
 
 .slick-prev:hover:before,
@@ -73,18 +72,18 @@
 
 .slick-prev {
     left: 0;
-    background-image: url('images/icons/arrow-previous.png');
+    background-image: url('images/icons/arrow-prev.png');
 
     @media(max-width: 767px) {
         left: 7px;
     }
 
     &:hover {
-        background-image: url('images/icons/arrow-previous.png');
+        background-image: url('images/icons/arrow-prev.png');
     }
 
     &:focus {
-        background-image: url('images/icons/arrow-previous.png');
+        background-image: url('images/icons/arrow-prev.png');
     }
 }
 
@@ -103,18 +102,18 @@
 
 .slick-next {
     right: 0;
-    background-image: url('images/icons/arrow-next.png');
+    background-image: url('images/icons/arrow.png');
 
     @media(max-width: 767px) {
         right: 7px;
     }
 
     &:hover {
-        background-image: url('images/icons/arrow-next.png');
+        background-image: url('images/icons/arrow.png');
     }
 
     &:focus {
-        background-image: url('images/icons/arrow-next.png');
+        background-image: url('images/icons/arrow.png');
     }
 }
 
