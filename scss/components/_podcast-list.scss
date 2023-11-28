@@ -1,7 +1,7 @@
 .podcast-list {
     background-color: $white;
     padding-top: 60px;
-    padding-bottom: 0;
+    padding-bottom: 1px;
 
     h2 {
         display: flex;
@@ -11,15 +11,30 @@
         color: $blue;
     }
 
+    ul {
+        @media(max-width: 767px) {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+
     li {
         position: relative;
         border: 1px solid $midgrey;
-        border-radius: 30px;
+        border-radius: 20px;
         padding: 20px;
         transition: all .3s ease;
         list-style-type: none;
         background-color: $white;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
+
+        &:last-of-type {
+            margin-bottom: 60px;
+        }
+
+        @include breakpoint(desktop) {
+            margin-bottom: 60px;
+        }
 
         &:hover {
             border-color: $blue;
@@ -39,6 +54,10 @@
                 margin-right: 0;
             }
         }
+
+        @include breakpoint(desktop) {
+            border-radius: 30px;
+        }
     }
 
     date {
@@ -47,23 +66,37 @@
         position: absolute;
         top: -20px;
         left: -20px;
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
         align-items: center;
         justify-content: center;
-        font-family: $poppins;
-        font-weight: 500;
         color: $white;
         background-color: $blue;
-        border: 10px solid $yellow;
+        border: 5px solid $yellow;
         border-radius: 100%;
         padding: 20px;
+        font-size: 11px;
+        line-height: 12px;
         z-index: 5;
+
+        @include breakpoint(desktop) {
+            top: -30px;
+            left: -20px;
+            width: 80px;
+            height: 80px;
+            border: 10px solid $yellow;
+            font-size: 14px;
+            line-height: 14px;
+        }
     }
 
     img {
-        border-radius: 30px;
+        border-radius: 20px;
         width: 100%;
+
+        @include breakpoint(desktop) {
+            border-radius: 30px;
+        }
     }
 
     .overlay-content {
@@ -76,7 +109,7 @@
         align-items: center;
         justify-content: center;
         position: absolute;
-        border-radius: 30px;
+        border-radius: 20px;
         background-color: rgba($yellow,0);
         top: 0;
         left: 0;
@@ -84,6 +117,10 @@
         height: 100%;
         transition: all .3s ease;
         opacity: 0;
+
+        @include breakpoint(desktop) {
+            border-radius: 30px;
+        }
 
         p {
             font-weight: 500;
@@ -94,19 +131,33 @@
     }
 
     .parent-pay {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 30px;
+        }
 
         img {
-            max-width: 150px;
+            max-width: 100px;
+
+            @include breakpoint(desktop) {
+                max-width: 150px;
+            }
         }
     }
 
     .episode-title {
-        font-size: 24px;
-        line-height: 34px;
-        margin-bottom: 20px;
-        color: $blue;
+        margin-bottom: 5px;
         text-align: center;
+        font-size: 15px;
+        line-height: 25px;
+        color: $blue;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 20px;
+            font-size: 36px;
+            line-height: 46px;
+        }
     }
 }
 
@@ -128,5 +179,13 @@
         line-height: 34px;
         color: $blue;
         margin-bottom: 20px;
+
+        a {
+            color: $blue;
+
+            &:visited {
+                color: $blue;
+            }
+        }
     }
 }

@@ -1,9 +1,13 @@
 .page-banner {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
+
+    @include breakpoint(desktop) {
+        position: relative; 
+    }
 
     &:before {
         content: "";

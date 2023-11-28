@@ -3,8 +3,12 @@
     padding-bottom: 60px;
 
     body.single-podcast & {
-        padding-top: 15rem;
+        padding-top: 60px;
         background-color: $white;
+
+        @include breakpoint(desktop) {
+            padding-top: 15rem;
+        }
     }
 
     body.about-page & {
@@ -46,11 +50,15 @@
     li {
         position: relative;
         border: 1px solid $midgrey;
-        border-radius: 30px;
+        border-radius: 20px;
         padding: 20px;
         transition: all .3s ease;
         list-style-type: none;
         background-color: $white;
+
+        @include breakpoint(desktop) {
+            border-radius: 30px;
+        }
 
         &:hover {
             border-color: $blue;
@@ -92,14 +100,18 @@
         z-index: 5;
 
         @media(max-width: 767px) {
-            top: 15px;
-            left: 15px;
+            top: 10px;
+            left: 10px;
         }
     }
 
     img {
-        border-radius: 30px;
+        border-radius: 20px;
         width: 100%;
+
+        @include breakpoint(desktop) {
+            border-radius: 30px;
+        }
     }
 
     .overlay-content {
@@ -112,7 +124,7 @@
         align-items: center;
         justify-content: center;
         position: absolute;
-        border-radius: 30px;
+        border-radius: 20px;
         background-color: rgba($yellow,0);
         top: 0;
         left: 0;
@@ -120,6 +132,10 @@
         height: 100%;
         transition: all .3s ease;
         opacity: 0;
+
+        @include breakpoint(desktop) {
+            border-radius: 30px;
+        }
 
         p {
             font-size: 13px;

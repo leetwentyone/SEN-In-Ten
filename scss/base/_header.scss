@@ -27,7 +27,10 @@
 	body.training-cpd-page &,
 	body.about-page &  {
 		background-color: transparent;
-		position: fixed;
+
+		@include breakpoint(desktop) {
+			position: fixed;
+		}
 	}
 }
 

@@ -2,10 +2,19 @@
     text-align: center;
     padding-bottom: 60px;
     overflow: hidden;
+    position: relative;
+    z-index: 20;
 
     body.podcasts-page & {
         padding-top: 60px;
         background-color: $white;
+    }
+
+    body.single-podcast & {
+        
+        @media(max-width: 767px) {
+            padding-bottom: 30px;
+        }
     }
 
     h4 {
@@ -18,6 +27,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 60px;
+        }
     }
 
     .slick-list {
@@ -36,7 +49,11 @@
 
         body.podcasts-page & {
             color: $copy;
-            margin-bottom: 60px;
+            margin-bottom: 30px;
+
+            @include breakpoint(desktop) {
+                margin-bottom: 60px;
+            }
 
             ~ p {
                 margin-bottom: 0;

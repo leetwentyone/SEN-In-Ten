@@ -22,6 +22,10 @@
 	align-items: flex-end;
 	position: relative;
 	z-index: 10;
+
+	@include breakpoint(tablet) {
+		align-items: flex-start;
+	}
 }
 
 .footer-logo {
@@ -50,7 +54,7 @@
 	width: 100%;
 
 	@include breakpoint(tablet) {
-		padding-top: 0;
+		padding-top: 30px;
 		order: 2;
 		width: 50%;
 	}
@@ -136,6 +140,8 @@
 
 	@include breakpoint(tablet) {
 		order: 3;
+		padding-top: 30px;
+		width: 30%;
 	}
 
 	p {

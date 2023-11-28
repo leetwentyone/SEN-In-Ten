@@ -1,7 +1,7 @@
 .why-icons {
     background-color: $lightblue;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0;
 
     @include breakpoint(tablet) {
         padding-top: 60px;
@@ -21,6 +21,8 @@
 
     ul {
         @extend .c-container;
+        padding-left: 10px;
+        padding-right: 10px;
         display: flex;
         flex-flow: row wrap;
     }
@@ -29,18 +31,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 48%;
+        width: 50%;
         text-align: center;
-        margin-right: 2%;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 0;
         margin-bottom: 30px;
-        margin-right: 2%;
-
-        &:nth-of-type(2n) {
-            margin-right: 0;
-        }
 
         @include breakpoint(tablet) {
             width: 22%;
+            padding-left: 0;
+            padding-right: 0;
             margin-bottom: 0;
             margin-right: 4%;
 
@@ -59,15 +60,29 @@
         }
 
         p {
+            color: $copy;
             margin-bottom: 0;
+            font-size: 12px;
+            line-height: 18px;
+    
+            @include breakpoint(desktop) {
+                font-size: 16px;
+                line-height: 24px;
+            }
         }
     }
 
     .icon-title {
-        font-size: 18px;
-        line-height: 24px;
         color: $blue;
         font-weight: 600;
-        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        color: $blue;
+
+        @include breakpoint(desktop) {
+            font-size: 20px;
+            line-height: 30px;
+        }
     }
 }

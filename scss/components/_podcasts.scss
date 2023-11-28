@@ -6,11 +6,15 @@ body.single-podcast {
 .latest-podcast {
     @extend .c-container;
     padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     flex-direction: column;
 
     @include breakpoint(tablet) {
         flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .image-col {
@@ -35,21 +39,30 @@ body.single-podcast {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: -60px;
-        left: -60px;
-        width: 120px;
-        height: 120px;
+        top: -20px;
+        left: -20px;
+        width: 40px;
+        height: 40px;
         align-items: center;
         justify-content: center;
-        text-align: center;
         color: $white;
         background-color: $blue;
-        border: 15px solid $yellow;
+        border: 5px solid $yellow;
         border-radius: 100%;
         padding: 20px;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 11px;
+        line-height: 12px;
         z-index: 5;
+
+        @include breakpoint(desktop) {
+            top: -60px;
+            left: -60px;
+            width: 120px;
+            height: 120px;
+            border: 15px solid $yellow;
+            font-size: 20px;
+            line-height: 28px;
+        }
     }
 
     img {
@@ -60,12 +73,15 @@ body.single-podcast {
 
 .podcast-summary {
     @extend .c-container;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     flex-direction: column;
 
     @include breakpoint(tablet) {
         flex-direction: row;
+        padding-bottom: 60px;
     }
 
     .image-col {
@@ -114,7 +130,11 @@ body.single-podcast {
         font-family: $poppins;
         font-weight: 600;
         color: $blue;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 15px;
+        }
     }
 
     ul {
@@ -128,10 +148,16 @@ body.single-podcast {
         position: relative;
         list-style: none;
         transition: all .3s ease;
-        width: 40px;
-        height: 40px;
+        width: 25px;
+        height: 25px;
+        aspect-ratio: 1/1;
         border: 1px solid $blue;
         border-radius: 100%;
+
+        @include breakpoint(desktop) {
+            width: 40px;
+            height: 40px;
+        }
 
         &:not(:first-of-type) {
             margin-left: 10px;
@@ -151,11 +177,17 @@ body.single-podcast {
 
         img {
             position: absolute;
-            top: 9px;
-            left: 9px;
+            top: 4px;
+            left: 4px;
             transition: all .3s ease;
-            max-width: 20px;
+            max-width: 15px;
             opacity: 1;
+
+            @include breakpoint(desktop) {
+                top: 9px;
+                left: 9px;
+                max-width: 20px;
+            }
 
             + img {
                 opacity: 0;
@@ -176,12 +208,16 @@ body.single-podcast {
 
     .col-l {
         width: 100%;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
         background-color: $white;
 
         @include breakpoint(tablet) {
             width: 50%;
+            padding-top: 60px;
+            padding-bottom: 60px;
             padding-left: 5%;
             padding-right: 5%;
         }
@@ -199,6 +235,10 @@ body.single-podcast {
         flex-direction: column;
         justify-content: center;
         position: relative;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
         width: 100%;
         background-color: $blue;
 
@@ -212,7 +252,11 @@ body.single-podcast {
 
         h4 {
             color: $white;
-            margin-bottom: 60px;
+            margin-bottom: 30px;
+
+            @include breakpoint(desktop) {
+                margin-bottom: 60px;
+            }
         }
 
         p {
@@ -238,6 +282,7 @@ body.single-podcast {
 
     ul {
         display: flex;
+        position: relative;
         flex-direction: column;
         width: 100%;
     }
@@ -254,6 +299,7 @@ body.single-podcast {
         }
 
         a {
+            font-family: $poppins;
             color: $white;
             font-size: 18px;
             line-height: 18px;

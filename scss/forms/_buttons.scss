@@ -90,10 +90,15 @@
     background-color: $white;
     border-color: $white;
     padding-left: 50px;
+    background-image: url('images/icons/blue-plus.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: top 50% left 20px;
     color: $blue;
 
     &:hover {
         background-color: $blue;
+        background-image: url('images/icons/white-plus.png');
         border-color: $blue;
         color: $white;
     }
@@ -104,6 +109,10 @@
     background-color: $blue;
     border-color: $blue;
     padding-left: 50px;
+    background-image: url('images/icons/white-plus.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: top 50% left 20px;
     color: $white;
 
     &:hover {
@@ -118,9 +127,14 @@
     background-color: $white;
     border-color: $blue;
     padding-left: 50px;
+    background-image: url('images/icons/blue-plus.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: top 50% left 20px;
     color: $blue;
 
     &:hover {
+        background-image: url('images/icons/white-plus.png');
         background-color: darken($blue, 10%);
         border-color: darken($blue, 10%);
         color: $white;
@@ -202,6 +216,11 @@
     padding-right: 15px;
     color: $white;
 
+    @include breakpoint(tablet) {
+        padding-left: 40px;
+        padding-right: 25px;
+    }
+
     &:hover {
         background-color: darken($blue, 10%);
         border-color: $blue;
@@ -221,6 +240,12 @@
         box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
         -webkit-box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
         -moz-box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
+
+        @include breakpoint(tablet) {
+            top: -6px;
+            width: 46px;
+            height: 46px;
+        }
     }
 }
 
@@ -231,6 +256,11 @@
     padding-left: 35px;
     padding-right: 15px;
     color: $blue;
+
+    @include breakpoint(tablet) {
+        padding-left: 40px;
+        padding-right: 25px;
+    }
 
     &:hover {
         background-color: darken($blue, 10%);
@@ -251,6 +281,12 @@
         box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
         -webkit-box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
         -moz-box-shadow: 11px 0px 5px -9px rgba(0,0,0,0.75);
+
+        @include breakpoint(tablet) {
+            top: -6px;
+            width: 46px;
+            height: 46px;
+        }
     }
 }
 
@@ -261,6 +297,11 @@
     padding-left: 35px;
     padding-right: 15px;
     color: $blue;
+
+    @include breakpoint(tablet) {
+        padding-left: 40px;
+        padding-right: 25px;
+    }
 
     &:hover {
         background-color: darken($yellow, 5%);
@@ -281,6 +322,12 @@
         box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
         -webkit-box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
         -moz-box-shadow: 11px 0px 11px -8px rgba(0,0,0,0.75);
+
+        @include breakpoint(tablet) {
+            top: -6px;
+            width: 46px;
+            height: 46px;
+        }
     }
 }
 

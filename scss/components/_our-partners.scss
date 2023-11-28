@@ -3,13 +3,16 @@ ul.partner-logos {
     display: flex;
     flex-flow: row wrap;
 
+    @media(max-width: 767px) {
+        padding-bottom: 60px;
+    }
+
     li {
         display: inline-flex;
         flex-direction: column;
         height: auto;
-        width: 48%;
-        margin-right: 2%;
-        margin-bottom: 60px;
+        width: 100%;
+        margin-right: 0;
 
         &:nth-of-type(2n) {
             margin-right: 0;
@@ -17,6 +20,7 @@ ul.partner-logos {
 
         @include breakpoint(tablet) {
             width: 30.666%;
+            margin-bottom: 60px;
             margin-right: 4%;
 
             &:nth-of-type(2n) {
@@ -25,6 +29,13 @@ ul.partner-logos {
 
             &:nth-of-type(3n) {
                 margin-right: 0;
+            }
+        }
+
+        p {
+            @media(max-width: 767px) {
+                padding-left: 30px;
+                padding-right: 30px;
             }
         }
     }
@@ -41,6 +52,11 @@ ul.partner-logos {
         font-weight: 600;
         color: $blue;
         margin-bottom: 15px;
+
+        @media(max-width: 767px) {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
     }
 
     a {
@@ -48,6 +64,11 @@ ul.partner-logos {
         font-weight: 500;
         color: $blue;
         text-decoration: underline;
+
+        @media(max-width: 767px) {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
 
         &:hover {
             text-decoration: none;
