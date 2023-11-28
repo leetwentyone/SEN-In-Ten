@@ -1577,6 +1577,10 @@ img.wave {
     padding-bottom: 0; }
   body.single-podcast .banner-callout, body.training-cpd-page .banner-callout, body.events-page .banner-callout {
     background-color: #fff; }
+  @media (max-width: 767px) {
+    body.single-post .banner-callout {
+      padding-left: 0;
+      padding-right: 0; } }
 
 .episode-list {
   padding-top: 60px;
@@ -3174,16 +3178,22 @@ body.blog {
 .latest-post {
   padding-bottom: 60px;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px; }
   @media (min-width: 768px) {
     .latest-post {
-      flex-direction: row; } }
+      flex-direction: row;
+      padding-left: 0;
+      padding-right: 0; } }
   .latest-post .image-col {
     position: relative;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 30px; }
     @media (min-width: 768px) {
       .latest-post .image-col {
-        width: 50%; } }
+        width: 50%;
+        margin-bottom: 0; } }
   .latest-post .post-details {
     width: 100%; }
     @media (min-width: 768px) {
@@ -3198,7 +3208,17 @@ body.blog {
         margin-bottom: 20px; }
     .latest-post .post-details h3 {
       color: #067997;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      font-size: 24px;
+      line-height: 34px; }
+      @media (min-width: 1152px) {
+        .latest-post .post-details h3 {
+          font-size: 36px;
+          line-height: 46px; } }
+      .latest-post .post-details h3 a {
+        text-decoration: none; }
+        .latest-post .post-details h3 a:hover {
+          text-decoration: underline; }
     .latest-post .post-details a {
       font-family: "Poppins", sans-serif;
       color: #067997;
@@ -3213,10 +3233,14 @@ body.blog {
 body.single-post {
   background-color: #E0E8ED; }
   body.single-post .site-main {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px; }
+    @media (min-width: 1152px) {
+      body.single-post .site-main {
+        padding-top: 60px;
+        padding-bottom: 60px; } }
   body.single-post article {
     padding-top: 60px; }
     @media (min-width: 768px) {
@@ -3243,8 +3267,8 @@ body.single-post {
   background-color: #067997;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-left: 5px;
+  padding-right: 5px; }
   @media (min-width: 1152px) {
     .post-navigation {
       padding-left: 60px;
@@ -3255,8 +3279,13 @@ body.single-post {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
+    width: 130px;
+    font-size: 12px;
     font-family: "Poppins", sans-serif; }
+    @media (min-width: 1152px) {
+      .post-navigation .prev-post {
+        font-size: 14px;
+        width: 150px; } }
     .post-navigation .prev-post:hover:before {
       background-image: url("images/icons/arrow-rollover.png"); }
     .post-navigation .prev-post:before {
@@ -3279,8 +3308,13 @@ body.single-post {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
+    width: 130px;
+    font-size: 12px;
     font-family: "Poppins", sans-serif; }
+    @media (min-width: 1152px) {
+      .post-navigation .next-post {
+        font-size: 14px;
+        width: 150px; } }
     .post-navigation .next-post:hover:before {
       background-image: url("images/icons/arrow-rollover.png"); }
     .post-navigation .next-post:before {
@@ -3301,8 +3335,11 @@ body.single-post {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: calc(100% - 300px);
+    width: calc(100% - 260px);
     margin-top: 0; }
+    @media (min-width: 1152px) {
+      .post-navigation .follow {
+        width: calc(100% - 300px); } }
     .post-navigation .follow p {
       width: 100%;
       text-align: center;
@@ -3315,8 +3352,16 @@ body.single-post {
       justify-content: center; }
     .post-navigation .follow li {
       list-style: none; }
+      .post-navigation .follow li:not(:first-of-type) {
+        margin-left: 10px; }
+        @media (min-width: 1152px) {
+          .post-navigation .follow li:not(:first-of-type) {
+            margin-left: 20px; } }
       .post-navigation .follow li img {
-        max-width: 30px; }
+        max-width: 20px; }
+        @media (min-width: 1152px) {
+          .post-navigation .follow li img {
+            max-width: 30px; } }
 
 body.training-cpd-page {
   background-color: #E0E8ED; }
