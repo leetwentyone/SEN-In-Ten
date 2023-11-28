@@ -59,6 +59,12 @@
                         <h3>OrCam Learn</h3>
                         <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
                             Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
+                        <ul>
+                            <li>This is a list item</li>
+                            <li>This is a list item</li>
+                            <li>This is a another list item but this list item is so long it flows onto multiple lines</li>
+                            <li>This is a list item</li>
+                        </ul>
                         <a class="listen-blue-outline" href="#">Listen Now</a>
                     </div>
 

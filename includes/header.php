@@ -63,7 +63,7 @@
   </div>
 
   <div class="search-container">
-    <form>
+    <form action="search-results.php">
       <input type="text" placeholder="Search Our Website">
       <button type="submit"><img src="images/icons/search.png"></button>
     </form>
