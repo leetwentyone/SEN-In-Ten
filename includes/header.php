@@ -69,4 +69,47 @@
     </form>
   </div>
 
+  <div class="mobile-menu">
+
+    <div class="close-container">
+      <a href="#" class="close"><img src="images/icons/close.png"></a>
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="podcasts.php">Podcasts</a>
+        </li>
+        <li>
+          <a href="our-partners.php">Our Partners</a>
+        </li>
+        <li>
+          <a href="news.php">News</a>
+        </li>
+        <li>
+          <a href="training-cpd.php">Training &amp; CPD</a>
+        </li>
+        <li>
+          <a href="events.php">Events</a>
+        </li>
+        <li>
+          <a href="about.php">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="#" class="yellow-icon"><span></span>Become A Sponsor</a>
+    <a href="#" class="blue-icon"><span></span>Become A Guest</a>
+
+    <div class="socials">
+      <p>Follow Us:</p>
+      <ul>
+        <li><a href="#" target="_blank"><img src="images/icons/x.png"></a></li>
+        <li><a href="#" target="_blank"><img src="images/icons/facebook.png"></a></li>
+        <li><a href="#" target="_blank"><img src="images/icons/instagram.png"></a></li>
+      </ul>
+    </div>
+
+  </div>
+
 </header>

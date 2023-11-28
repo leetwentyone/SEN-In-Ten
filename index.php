@@ -130,6 +130,7 @@
 
     <div class="listen-links">
       <h4>Listen Now</h4>
+      <p>Listen to the latest episodes here or find us on Spotify, Apple Podcast and more</p>
       <ul>
         <li>
           <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Spotify</a>
