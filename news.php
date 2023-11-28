@@ -36,7 +36,7 @@
 
       <div class="post-details">
         <p>Most Recent</p>
-        <h3>This is the latest blog article</h3>
+        <h3><a href="article.php">This is the latest blog article</a></h3>
         <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
           Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
         <a href="article.php">Read More</a>
@@ -57,7 +57,7 @@
       <div class="c-container">
         <form>
           <input type="text" placeholder="Search Our Blog">
-          <button type="submit"><img src="images/search.png"></button>
+          <button type="submit"><img src="images/icons/search-blue.png"></button>
         </form>
         <form>
           <select>
