@@ -173,7 +173,7 @@
                         <div class="overlay-content">
                         <img src="images/podcast-1.png">
                         <div class="overlay-inner">
-                            <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                            <h4 class="episode-title">Episode 1 : OrCam Learn</h4>
                             <p>Sponsored By</p>
                             <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
@@ -182,7 +182,7 @@
 
                         <div class="episode-details">
                         <p>Episode 1 :</p>
-                        <h3>OrCam Learn</h3>
+                        <h4>OrCam Learn</h4>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
                         <a class="listen-blue-outline" href="#">Listen Now</a>
                         </div>
@@ -193,7 +193,7 @@
                         <div class="overlay-content">
                         <img src="images/podcast-2.png">
                         <div class="overlay-inner">
-                            <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
+                            <h4 class="episode-title">Episode 2 : OrCam Learn</h4>
                             <p>Sponsored By</p>
                             <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
@@ -202,7 +202,7 @@
 
                         <div class="episode-details">
                         <p>Episode 2 :</p>
-                        <h3>OrCam Learn</h3>
+                        <h4>OrCam Learn</h4>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
                         <a class="listen-blue-outline" href="#">Listen Now</a>
                         </div>
@@ -213,7 +213,7 @@
                         <div class="overlay-content">
                         <img src="images/podcast-3.png">
                         <div class="overlay-inner">
-                            <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
+                            <h4 class="episode-title">Episode 3 : OrCam Learn</h4>
                             <p>Sponsored By</p>
                             <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
@@ -222,7 +222,7 @@
 
                         <div class="episode-details">
                         <p>Episode 3 :</p>
-                        <h3>OrCam Learn</h3>
+                        <h4>OrCam Learn</h4>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
                         <a class="listen-blue-outline" href="#">Listen Now</a>
                         </div>

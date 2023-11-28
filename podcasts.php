@@ -67,20 +67,20 @@
     </div><!-- end banner callout -->
 
     <div class="filter-bar">
-        <div class="c-container">
-            <form>
-                <input type="text" placeholder="Search Our Podcasts">
-                <button type="submit"><img src="images/search.png"></button>
-            </form>
-            <form>
-                <select>
-                    <option>Collection</option>
-                    <option>Option Two</option>
-                    <option>Option Three</option>
-                    <option>Option Four</option>
-                </select>
-            </form>
-        </div>  
+      <div class="c-container">
+        <form>
+          <input type="text" placeholder="Search Our Podcasts">
+          <button type="submit"><img src="images/icons/search-blue.png"></button>
+        </form>
+        <form>
+          <select>
+            <option>Collection</option>
+            <option>Option Two</option>
+            <option>Option Three</option>
+            <option>Option Four</option>
+          </select>
+        </form>
+      </div>  
     </div><!-- end filter bar -->
 
     <div class="podcast-list">
@@ -103,7 +103,7 @@
 
             <div class="episode-details">
               <p>Episode 1 :</p>
-              <h3>OrCam Learn</h3>
+              <h3><a href="podcast.php">OrCam Learn</a></h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
               <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
@@ -123,7 +123,7 @@
 
             <div class="episode-details">
               <p>Episode 2 :</p>
-              <h3>OrCam Learn</h3>
+              <h3><a href="podcast.php">OrCam Learn</a></h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
               <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
@@ -143,7 +143,7 @@
 
             <div class="episode-details">
               <p>Episode 3 :</p>
-              <h3>OrCam Learn</h3>
+              <h3><a href="podcast.php">OrCam Learn</a></h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
               <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
@@ -163,7 +163,7 @@
 
             <div class="episode-details">
               <p>Episode 4 :</p>
-              <h3>OrCam Learn</h3>
+              <h3><a href="podcast.php">OrCam Learn</a></h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
               <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
@@ -183,7 +183,7 @@
 
             <div class="episode-details">
               <p>Episode 5 :</p>
-              <h3>OrCam Learn</h3>
+              <h3><a href="podcast.php">OrCam Learn</a></h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
               <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
@@ -203,7 +203,7 @@
 
             <div class="episode-details">
               <p>Episode 6 :</p>
-              <h3>OrCam Learn</h3>
+              <h3><a href="podcast.php">OrCam Learn</a></h3>
               <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
               <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
             </div>
