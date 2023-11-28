@@ -24,6 +24,22 @@ jQuery(function($) {
   })
 });
 
+jQuery(function($){
+  jQuery(document).on('click','.menu-toggle',function(e){
+    e.stopPropagation();
+    jQuery(".mobile-menu").toggleClass("opened");
+    jQuery("html,body").toggleClass("menu-opened")
+  });
+});
+
+jQuery(function($) {
+  jQuery('.close').click(function(e) {
+    e.preventDefault();
+    jQuery(".mobile-menu").removeClass("opened");
+    jQuery("html,body").removeClass("menu-opened")
+  })
+});
+
 /* Episode List */
 jQuery(document).ready(function(){
   if (window.matchMedia("(max-width: 768px)").matches) {
@@ -94,4 +110,39 @@ jQuery(function($){
     jQuery(this).toggleClass("active-tab").find("span").toggleClass("icon-minus icon-plus");
     jQuery(this).next().toggleClass("open").slideToggle("fast")
   });
+});
+
+/* Episode List */
+jQuery(document).ready(function(){
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    jQuery('.listen-links ul').slick({
+      autoplay: true,
+      autoplaySpeed: 6000,
+      slidesToShow: 3,
+      dots: false,
+      arrows: false,
+      responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          centerMode: true,
+          variableWidth: true
+        }
+      }
+    ]
+    });
+  }
 });
