@@ -316,7 +316,12 @@ label {
 .listen-blue {
   background-color: #067997;
   border-color: #067997;
-  padding-left: 50px;
+  padding-left: 40px;
+  padding-right: 30px;
+  background-image: url("images/icons/listen-now-white.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: top 50% left 15px;
   color: #fff; }
   .listen-blue:hover {
     background-color: #045266;
@@ -326,12 +331,18 @@ label {
 .listen-blue-outline {
   background-color: transparent;
   border-color: #067997;
-  padding-left: 50px;
-  color: #067997; }
+  padding-left: 40px;
+  padding-right: 30px;
+  color: #067997;
+  background-image: url("images/icons/listen-now-blue.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: top 50% left 15px; }
   .listen-blue-outline:hover {
     background-color: #045266;
     border-color: #045266;
-    color: #fff; }
+    color: #fff;
+    background-image: url("images/icons/listen-now-white.png"); }
 
 .blue-icon {
   background-color: #067997;
@@ -1609,22 +1620,35 @@ img.wave {
     transition: all .3s ease;
     opacity: 0; }
     .episode-list .overlay-inner p {
-      font-size: 20px;
-      line-height: 30px;
+      font-size: 13px;
+      line-height: 18px;
       text-transform: uppercase;
-      font-weight: 500;
-      margin-bottom: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
       color: #067997; }
+      @media (min-width: 1152px) {
+        .episode-list .overlay-inner p {
+          font-size: 20px;
+          line-height: 30px;
+          margin-bottom: 20px; } }
   .episode-list .parent-pay {
     margin-bottom: 30px; }
     .episode-list .parent-pay img {
-      max-width: 150px; }
+      max-width: 100px; }
+      @media (min-width: 1152px) {
+        .episode-list .parent-pay img {
+          max-width: 150px; } }
   .episode-list .episode-title {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: center;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 25px;
     color: #067997; }
+    @media (min-width: 1152px) {
+      .episode-list .episode-title {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 30px; } }
 
 .episode-details {
   padding: 20px; }
@@ -2285,18 +2309,19 @@ body.search-results-page {
     width: 100%;
     text-align: center;
     color: #067997;
-    margin-bottom: 30px; }
+    margin-bottom: 0; }
     @media (min-width: 768px) {
       .search-box h1 {
         margin-bottom: 60px; } }
   .search-box form {
-    display: flex;
+    display: none;
     position: relative;
     width: 90%;
     margin-left: auto;
     margin-right: auto; }
     @media (min-width: 768px) {
       .search-box form {
+        display: flex;
         width: 500px; } }
   .search-box input[type="text"] {
     border: 1px solid #067997;
@@ -2318,13 +2343,21 @@ body.search-results-page {
     .search-box button[type="submit"] img {
       max-width: 20px; }
 
+@media (max-width: 767px) {
+  .result-list {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px; } }
 .result-item {
   border-bottom: 1px solid #067997;
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   width: 95%;
   margin-left: 2.5%;
   margin-right: 2.5%; }
+  @media (min-width: 1152px) {
+    .result-item {
+      padding-top: 120px; } }
   .result-item:last-of-type {
     border-bottom: 0; }
 
@@ -2344,29 +2377,47 @@ body.search-results-page {
       .item-inner .image-col {
         width: 50%; } }
   .item-inner .episode-details {
-    width: 100%; }
+    width: 100%;
+    padding-bottom: 0; }
     @media (min-width: 768px) {
       .item-inner .episode-details {
         width: 50%;
         padding: 60px; } }
+    .item-inner .episode-details ul {
+      padding-left: 15px;
+      margin-bottom: 20px; }
+    .item-inner .episode-details li {
+      color: #808080;
+      font-family: "Poppins", sans-serif; }
+      .item-inner .episode-details li:not(:last-of-type) {
+        margin-bottom: 5px; }
   .item-inner date {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: -60px;
-    left: -60px;
-    width: 120px;
-    height: 120px;
+    top: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
     align-items: center;
     justify-content: center;
     color: #fff;
     background-color: #067997;
-    border: 15px solid #FDC243;
+    border: 5px solid #FDC243;
     border-radius: 100%;
     padding: 20px;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 11px;
+    line-height: 12px;
     z-index: 5; }
+    @media (min-width: 1152px) {
+      .item-inner date {
+        top: -60px;
+        left: -60px;
+        width: 120px;
+        height: 120px;
+        border: 15px solid #FDC243;
+        font-size: 20px;
+        line-height: 28px; } }
   .item-inner img {
     border-radius: 30px;
     width: 100%; }
@@ -2387,20 +2438,41 @@ body.search-results-page {
     transition: all .3s ease;
     opacity: 0; }
     .item-inner .overlay-inner p {
-      font-weight: 500;
+      font-size: 13px;
+      line-height: 18px;
       text-transform: uppercase;
-      margin-bottom: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
       color: #067997; }
+      @media (min-width: 1152px) {
+        .item-inner .overlay-inner p {
+          font-size: 20px;
+          line-height: 30px;
+          margin-bottom: 20px; } }
     .item-inner .overlay-inner .listen-blue {
       padding-top: 15px;
       padding-bottom: 15px; }
   .item-inner .parent-pay {
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
+    @media (min-width: 1152px) {
+      .item-inner .parent-pay {
+        margin-bottom: 30px; } }
     .item-inner .parent-pay img {
-      max-width: 150px; }
+      max-width: 100px; }
+      @media (min-width: 1152px) {
+        .item-inner .parent-pay img {
+          max-width: 150px; } }
   .item-inner .episode-title {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
     color: #067997; }
+    @media (min-width: 1152px) {
+      .item-inner .episode-title {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 30px; } }
 
 .cant-find {
   background-color: #fff;
@@ -2414,6 +2486,8 @@ body.search-results-page {
   .cant-find h4 {
     color: #067997;
     margin-bottom: 30px; }
+  .cant-find p {
+    margin-bottom: 0; }
 
 body.podcasts-page,
 body.single-podcast {

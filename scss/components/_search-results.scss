@@ -18,7 +18,7 @@ body.search-results-page {
         width: 100%;
         text-align: center;
         color: $blue;
-        margin-bottom: 30px;
+        margin-bottom: 0;
 
         @include breakpoint(tablet) {
             margin-bottom: 60px;
@@ -26,13 +26,14 @@ body.search-results-page {
     }
 
     form {
-        display: flex;
+        display: none;
         position: relative;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
 
         @include breakpoint(tablet) {
+            display: flex;
             width: 500px;
         }
     }
@@ -63,13 +64,26 @@ body.search-results-page {
     }
 }
 
+@media(max-width: 767px) {
+
+    .result-list {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+    }
+}
+
 .result-item {
     border-bottom: 1px solid $blue;
-    padding-top: 120px;
-    padding-bottom: 90px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     width: 95%;
     margin-left: 2.5%;
     margin-right: 2.5%;
+
+    @include breakpoint(desktop) {
+        padding-top: 120px;
+    }
 
     &:last-of-type {
         border-bottom: 0;
@@ -104,10 +118,25 @@ body.search-results-page {
 
     .episode-details {
         width: 100%;
+        padding-bottom: 0;
 
         @include breakpoint(tablet) {
             width: 50%;
             padding: 60px;
+        }
+
+        ul {
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            color: $copy;
+            font-family: $poppins;
+
+            &:not(:last-of-type) {
+                margin-bottom: 5px;
+            }
         }
     }
 
@@ -115,20 +144,30 @@ body.search-results-page {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: -60px;
-        left: -60px;
-        width: 120px;
-        height: 120px;
+        top: -20px;
+        left: -20px;
+        width: 40px;
+        height: 40px;
         align-items: center;
         justify-content: center;
         color: $white;
         background-color: $blue;
-        border: 15px solid $yellow;
+        border: 5px solid $yellow;
         border-radius: 100%;
         padding: 20px;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 11px;
+        line-height: 12px;
         z-index: 5;
+
+        @include breakpoint(desktop) {
+            top: -60px;
+            left: -60px;
+            width: 120px;
+            height: 120px;
+            border: 15px solid $yellow;
+            font-size: 20px;
+            line-height: 28px;
+        }
     }
 
     img {
@@ -156,10 +195,18 @@ body.search-results-page {
         opacity: 0;
 
         p {
-            font-weight: 500;
+            font-size: 13px;
+            line-height: 18px;
             text-transform: uppercase;
-            margin-bottom: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
             color: $blue;
+
+            @include breakpoint(desktop) {
+                font-size: 20px;
+                line-height: 30px;
+                margin-bottom: 20px;
+            }
         }
 
         .listen-blue {
@@ -169,16 +216,33 @@ body.search-results-page {
     }
 
     .parent-pay {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 30px;
+        }
 
         img {
-            max-width: 150px;
+            max-width: 100px;
+
+            @include breakpoint(desktop) {
+                max-width: 150px;
+            }
         }
     }
 
     .episode-title {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px;
         color: $blue;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 20px;
+            font-size: 20px;
+            line-height: 30px;
+        }
     }
 }
 
@@ -196,5 +260,9 @@ body.search-results-page {
     h4 {
         color: $blue;
         margin-bottom: 30px;
+    }
+
+    p {
+        margin-bottom: 0;
     }
 }
