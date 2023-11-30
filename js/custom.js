@@ -112,7 +112,7 @@ jQuery(function($){
   });
 });
 
-/* Episode List */
+/* Listen Links */
 jQuery(document).ready(function(){
   if (window.matchMedia("(max-width: 768px)").matches) {
     jQuery('.listen-links ul').slick({
