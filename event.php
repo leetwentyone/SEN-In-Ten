@@ -17,7 +17,7 @@
   <script src="js/custom.js"></script>
 </head>
 
-<body class="single-session">
+<body class="single-event">
 
     <?php include('includes/header.php'); ?>
     <?php include('includes/breadcrumb.php'); ?>

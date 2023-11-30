@@ -44,7 +44,12 @@
             <div class="c-container">
 
                 <div class="image-col">
-                <img src="images/square-placeholder.jpg">
+
+                    <picture>
+                        <source media="(max-width:767px)" srcset="images/mobile/about.png"><!-- Image for mobile devices -->        
+                        <img src="images/desktop/about.png" alt=""><!-- Image for desktop screens -->
+                    </picture>
+
                 </div>
 
                 <div class="text-col">
@@ -121,7 +126,7 @@
                         <div class="overlay-content">
                         <img src="images/square-placeholder.jpg">
                         <div class="overlay-inner">
-                            <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                            <h4 class="episode-title">Episode 1 : OrCam Learn</h4>
                             <p>Sponsored By</p>
                             <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
@@ -130,7 +135,7 @@
 
                         <div class="episode-details">
                         <p>Episode 1 :</p>
-                        <h3>OrCam Learn</h3>
+                        <h4>OrCam Learn</h4>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
                         <a class="listen-blue-outline" href="#">Listen Now</a>
                         </div>
@@ -141,7 +146,7 @@
                         <div class="overlay-content">
                         <img src="images/square-placeholder.jpg">
                         <div class="overlay-inner">
-                            <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
+                            <h4 class="episode-title">Episode 2 : OrCam Learn</h4>
                             <p>Sponsored By</p>
                             <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
@@ -150,7 +155,7 @@
 
                         <div class="episode-details">
                         <p>Episode 2 :</p>
-                        <h3>OrCam Learn</h3>
+                        <h4>OrCam Learn</h4>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
                         <a class="listen-blue-outline" href="#">Listen Now</a>
                         </div>
@@ -161,7 +166,7 @@
                         <div class="overlay-content">
                         <img src="images/square-placeholder.jpg">
                         <div class="overlay-inner">
-                            <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
+                            <h4 class="episode-title">Episode 3 : OrCam Learn</h4>
                             <p>Sponsored By</p>
                             <span class="parent-pay"><img src="images/parent-pay.png"></span>
                             <a class="listen-blue" href="#">Listen Now</a>
@@ -170,7 +175,7 @@
 
                         <div class="episode-details">
                         <p>Episode 3 :</p>
-                        <h3>OrCam Learn</h3>
+                        <h4>OrCam Learn</h4>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
                         <a class="listen-blue-outline" href="#enquire">Listen Now</a>
                         </div>

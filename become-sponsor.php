@@ -36,7 +36,10 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/square-placeholder.jpg">
+                    <picture>
+                        <source media="(max-width:767px)" srcset="images/mobile/whats-included.png"><!-- Image for mobile devices -->        
+                        <img src="images/desktop/whats-included.png" alt=""><!-- Image for desktop screens -->
+                    </picture>
                 </div>
 
                 <div class="text-col">

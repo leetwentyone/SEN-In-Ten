@@ -62,6 +62,7 @@
 
                 <ul>
                     <li>
+                        <date>8th<br>Dec</date>
                         <img src="images/square-placeholder.jpg">
                         
                         <div class="event-content">
@@ -71,6 +72,7 @@
                     </li>
 
                     <li>
+                        <date>8th<br>Dec</date>
                         <img src="images/square-placeholder.jpg">
                         
                         <div class="event-content">
@@ -80,6 +82,7 @@
                     </li>
 
                     <li>
+                        <date>8th<br>Dec</date>
                         <img src="images/square-placeholder.jpg">
                         
                         <div class="event-content">
@@ -89,6 +92,7 @@
                     </li>
 
                     <li>
+                        <date>8th<br>Dec</date>
                         <img src="images/square-placeholder.jpg">
                         
                         <div class="event-content">
@@ -98,6 +102,7 @@
                     </li>
 
                     <li>
+                        <date>8th<br>Dec</date>
                         <img src="images/square-placeholder.jpg">
                         
                         <div class="event-content">
@@ -107,6 +112,7 @@
                     </li>
 
                     <li>
+                        <date>8th<br>Dec</date>
                         <img src="images/square-placeholder.jpg">
                         
                         <div class="event-content">
