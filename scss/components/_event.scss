@@ -1,4 +1,6 @@
-body.events-page {
+body.events-page,
+body.single-event {
+    background-color: $lightblue;
     background-color: $lightblue;
 }
 
@@ -8,39 +10,54 @@ body.events-page {
     display: flex;
     flex-direction: column;
     position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
 
     @include breakpoint(tablet) {
         flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     date {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: -60px;
-        left: -60px;
-        width: 120px;
-        height: 120px;
+        top: -25px;
+        left: 10px;
+        width: 80px;
+        height: 80px;
         align-items: center;
         justify-content: center;
         text-align: center;
         color: $white;
         background-color: $blue;
-        border: 15px solid $yellow;
+        border: 10px solid $yellow;
         border-radius: 100%;
         padding: 20px;
-        font-family: $poppins;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 16px;
         z-index: 5;
+
+        @include breakpoint(desktop) {
+            top: -60px;
+            left: -60px;
+            width: 120px;
+            height: 120px;
+            border: 15px solid $yellow;
+            font-size: 20px;
+            line-height: 28px;
+        }
     }
 
     .image-col {
         position: relative;
         width: 100%;
+        margin-bottom: 30px;
 
         @include breakpoint(tablet) {
             width: 50%;
+            margin-bottom: 0;
         }
     }
 
@@ -118,10 +135,25 @@ body.events-page {
     }
 
     .event-actions {
+        display: flex;
 
         a {
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 50%;
+
+            @include breakpoint(tablet) {
+                width: auto;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
             &:not(:first-of-type) {
-                margin-left: 20px;
+                margin-left: 10px;
+
+                @include breakpoint(tablet) {
+                    margin-left: 20px;
+                }
             }
         }
     }
@@ -145,7 +177,7 @@ body.events-page {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 90px;
+        margin-bottom: 60px;
         color: $blue;
 
         a {
@@ -159,10 +191,9 @@ body.events-page {
         flex-direction: column;
         position: absolute;
         top: -40px;
-        left: -40px;
+        left: -20px;
         width: 80px;
         height: 80px;
-        font-family: $poppins;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -174,21 +205,34 @@ body.events-page {
         z-index: 5;
     }
 
+    ul {
+        @media(max-width: 767px) {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
     li {
         position: relative;
         transition: all .3s ease;
         list-style-type: none;
         padding: 0;
+        margin-bottom: 60px;
         background-color: $white;
 
         @include breakpoint(tablet) {
             display: inline-block;
+            margin-bottom: 0;
             width: 30.444%;
             margin-right: 4%;
 
             &:nth-of-type(3n) {
                 margin-right: 0;
             }
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
         }
     }
 
@@ -214,14 +258,24 @@ body.events-page {
 }
 
 .event-content {
-    padding: 40px 20px;
+    padding: 20px 20px;
+
+    @include breakpoint(desktop) {
+        padding: 40px 20px;
+    }
 
     h5 {
-        font-size: 24px;
-        line-height: 34px;
-        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
         color: $blue;
+        font-weight: 500;
         margin-bottom: 10px;
+
+        @include breakpoint(desktop) {
+            font-size: 24px;
+            line-height: 34px;
+            margin-bottom: 20px;
+        }
 
         a {
             font-family: $poppins;
@@ -251,42 +305,57 @@ body.events-page {
 
 .event-summary {
     @extend .c-container;
-    padding-bottom: 60px;
+    position: relative;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     flex-direction: column;
-    position: relative;
 
     @include breakpoint(tablet) {
         flex-direction: row;
+        padding-bottom: 60px;
     }
 
     date {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: -60px;
-        left: -60px;
-        width: 120px;
-        height: 120px;
+        top: -25px;
+        left: 10px;
+        width: 80px;
+        height: 80px;
         align-items: center;
         justify-content: center;
         text-align: center;
         color: $white;
         background-color: $blue;
-        border: 15px solid $yellow;
+        border: 10px solid $yellow;
         border-radius: 100%;
         padding: 20px;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 16px;
         z-index: 5;
+
+        @include breakpoint(desktop) {
+            top: -60px;
+            left: -60px;
+            width: 120px;
+            height: 120px;
+            border: 15px solid $yellow;
+            font-size: 20px;
+            line-height: 28px;
+        }
     }
 
     .image-col {
         position: relative;
         width: 100%;
+        margin-bottom: 30px;
 
         @include breakpoint(tablet) {
             width: 50%;
+            margin-bottom: 0;
         }
     }
 
@@ -354,10 +423,25 @@ body.events-page {
     }
 
     .event-actions {
+        display: flex;
 
         a {
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 50%;
+
+            @include breakpoint(tablet) {
+                width: auto;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
             &:not(:first-of-type) {
-                margin-left: 20px;
+                margin-left: 10px;
+
+                @include breakpoint(tablet) {
+                    margin-left: 20px;
+                }
             }
         }
     }

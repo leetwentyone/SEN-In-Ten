@@ -21,22 +21,33 @@
 
     ul {
         @extend .c-container;
+        padding-left: 30px;
+        padding-right: 30px;
 
         @include breakpoint(desktop) {
             display: flex;
             justify-content: space-between;
+            padding-left: 0;
+            padding-right: 0;
         }
     }
 
     li {
         list-style-type: none;
+        background-color: $white;
+        border: 3px solid $blue;
+        border-radius: 30px;
+        padding: 30px;
 
-        @include breakpoint(desktop) {
-            background-color: $white;
-            border: 3px solid $blue;
-            border-radius: 30px;
-            padding: 30px;
-            color: $white;
+        &:not(:last-of-type) {
+            margin-bottom: 20px;
+
+            @include breakpoint(tablet) {
+                margin-bottom: 0;
+            }
+        }
+
+        @include breakpoint(tablet) {
             flex: 1;
 
             &:not(:first-of-type) {
@@ -47,10 +58,15 @@
 
     blockquote {
         color: $blue;
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 14px;
+        line-height: 20px;
         font-family: $poppins;
         font-weight: 600;
+
+        @include breakpoint(desktop) {
+            font-size: 18px;
+            line-height: 26px;
+        }
     }
 
     cite {
@@ -58,7 +74,13 @@
         color: $blue;
         font-style: normal;
         margin-top: 20px;
+        font-size: 13px;
         font-family: $poppins;
         font-weight: 500;
+
+        @include breakpoint(desktop) {
+            font-size: 16px;
+            line-height: 20px;
+        }
     }
 }

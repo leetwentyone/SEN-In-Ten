@@ -11,12 +11,17 @@
 
     body.training-cpd-page &,
     body.single-session &,
+    body.single-event &,
     body.about-page & {
         background-color: $white;
     }
 
     body.about-page & {
-        padding-bottom: 15rem;
+        padding-bottom: 60px;
+
+        @include breakpoint(tablet) {
+            padding-bottom: 15rem;
+        }
     }
 
     .c-container {
@@ -41,6 +46,16 @@
     .image-col {
         width: 100%;
         padding-bottom: 30px;
+
+        body.single-session &,
+        body.single-event &, {
+
+            @media(max-width: 767px) {
+                order: 2;
+                padding-bottom: 0;
+                padding-top: 30px;
+            }
+        }
 
         @include breakpoint(tablet) {
             width: 50%;
@@ -71,7 +86,7 @@
         margin-bottom: 30px;
 
         @media(max-width: 767px) {
-            font-size: 26px;
+            font-size: 22px;
             line-height: 32px;
         }
     }

@@ -5,7 +5,7 @@ body.training-cpd-page {
 .training-list {
     background-color: $white;
     padding-top: 60px;
-    padding-bottom: 0;
+    padding-bottom: 1px;
 
     h2 {
         display: flex;
@@ -13,6 +13,13 @@ body.training-cpd-page {
         justify-content: center;
         margin-bottom: 60px;
         color: $blue;
+    }
+
+    ul {
+        @media(max-width: 767px) {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
     }
 
     li {
@@ -31,18 +38,23 @@ body.training-cpd-page {
                 margin-right: 0;
             }
         }
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
     }
 
     date {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: -20px;
+        top: -35px;
         left: -20px;
         width: 80px;
         height: 80px;
         align-items: center;
         justify-content: center;
+        text-align: center;
         color: $white;
         background-color: $blue;
         border: 10px solid $yellow;
@@ -71,11 +83,17 @@ body.training-cpd-page {
     }
 
     h3 {
-        font-size: 24px;
-        line-height: 34px;
-        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
         color: $blue;
-        margin-bottom: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+
+        @include breakpoint(desktop) {
+            font-size: 24px;
+            line-height: 34px;
+            margin-bottom: 20px;
+        }
 
         a {
             color: $blue;
