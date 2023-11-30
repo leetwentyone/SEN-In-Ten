@@ -13,14 +13,14 @@
 
     <div class="mobile-actions">
       <a href="#" class="menu-toggle">Menu</a>
-      <a href="become-sponsor.php" class="yellow-icon"><span></span>Become A Sponsor</a>
+      <a href="become-sponsor.php" class="yellow-icon"><span><img src="images/icons/sponsor.png"></span>Become A Sponsor</a>
     </div>
 
     <div class="header-top">
       <div class="header-top--actions">
         <a href="tel:0800123456">0800 123 456</a>
         <a href="#" class="white-outline-icon"><span></span>Become A Guest</a>
-        <a href="become-sponsor.php" class="yellow-icon"><span></span>Become A Sponsor</a>
+        <a href="become-sponsor.php" class="yellow-icon"><span><img src="images/icons/sponsor.png"></span>Become A Sponsor</a>
         <div class="search-container">
           <a href="#" class="close-search"><img src="images/icons/close.png"></a>
           <form action="search-results.php">
@@ -98,7 +98,7 @@
       </ul>
     </nav>
 
-    <a href="#" class="yellow-icon"><span></span>Become A Sponsor</a>
+    <a href="become-sponsor.php" class="yellow-icon"><span></span>Become A Sponsor</a>
     <a href="#" class="blue-icon"><span></span>Become A Guest</a>
 
     <div class="socials">
