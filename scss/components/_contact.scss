@@ -6,21 +6,28 @@ body.contact-page {
     @extend .c-container;
     display: flex;
     flex-direction: column;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 
     @include breakpoint(tablet) {
         flex-direction: row;
+        padding-bottom: 60px;
     }
 }
 
 .get-in-touch {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
     border: 1px solid $blue;
     border-radius: 30px;
     padding: 30px;
+    order: 2;
 
     @include breakpoint(tablet) {
         width: 40%;
+        margin-top: 0;
+        order: 1;
     }
 
     @include breakpoint(laptop) {
@@ -29,7 +36,15 @@ body.contact-page {
 
     h2 {
         color: $blue;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 30px;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 30px;
+            width: 30px;
+            line-height: 40px;
+        }
     }
 
     li {
@@ -50,11 +65,21 @@ body.contact-page {
                 left: 0;
                 width: 30px;
                 height: 30px;
-                background-color: #eee;
+                background-image: url('images/icons/email.png');
+                background-repeat: no-repeat;
+                background-size: 25px;
+                background-position: center;
             }
 
             &:not(:last-of-type) {
                 margin-bottom: 20px;
+
+                &:before {
+                    background-image: url('images/icons/call-blue.png');
+                    background-repeat: no-repeat;
+                    background-size: 25px;
+                    background-position: center;
+                }
             }
 
             a {
@@ -65,11 +90,23 @@ body.contact-page {
 }
 
 .follow {
-    margin-top: 60px;
+    margin-top: 30px;
+
+    @include breakpoint(desktop) {
+        margin-top: 60px;
+    }
 
     h3 {
         color: $blue;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 30px;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 30px;
+            width: 30px;
+            line-height: 40px;
+        }
     }
 
     ul {
@@ -83,15 +120,19 @@ body.contact-page {
             margin-left: 20px;
         }
     }
+
+    img {
+        max-width: 20px;
+    }
 }
 
 .contact-form {
     width: 100%;
     background-color: $blue;
     padding: 30px;
-    border-radius: 30px;
 
     @include breakpoint(tablet) {
+        border-radius: 30px;
         width: 55%;
         margin-left: 5%;
     }
@@ -108,8 +149,12 @@ body.contact-page {
     }
 
     fieldset {
-        padding: 30px;
+        padding: 30px 0;
         border: 0;
+
+        @include breakpoint(tablet) {
+            padding: 30px;
+        }
     }
 
     legend {
@@ -196,6 +241,14 @@ body.contact-page {
 
             &:last-of-type {
                 margin-right: 0;
+            }
+        }
+
+        &:not(:first-of-type) {
+            margin-top: 20px;
+
+            @include breakpoint(tablet) {
+                margin-top: 0;
             }
         }
     }

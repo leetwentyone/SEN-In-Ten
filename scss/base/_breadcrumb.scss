@@ -13,8 +13,13 @@
         list-style: none;
         color: $copy;
         font-family: $poppins;
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 11px;
+        line-height: 11px;
+
+        @include breakpoint(desktop) {
+            font-size: 13px;
+            line-height: 13px;
+        }
 
         &:not(:first-of-type) {
 
@@ -22,9 +27,14 @@
                 content: "/";
                 display: inline-block;
                 position: relative;
-                font-size: 13px;
-                line-height: 13px;
                 margin: 0 5px;
+                font-size: 11px;
+                line-height: 11px;
+
+                @include breakpoint(desktop) {
+                    font-size: 13px;
+                    line-height: 13px;
+                }
             }
         }
 

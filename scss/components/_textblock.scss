@@ -33,6 +33,16 @@
     .btn-container {
         justify-content: center;
         align-items: center;
-        margin-top: 60px;
+        margin-top: 30px;
+
+        @include breakpoint(desktop) {
+            margin-bottom: 60px;
+        }
+    }
+
+    &:has(.btn-container) {
+        p {
+            margin-bottom: 0;
+        }
     }
 }

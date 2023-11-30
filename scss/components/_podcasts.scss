@@ -200,7 +200,7 @@ body.single-podcast {
     display: flex;
     flex-direction: column;
     width: 100%;
-    scroll-margin: 150px;
+    scroll-margin: 250px;
 
     @include breakpoint(tablet) {
         flex-direction: row;

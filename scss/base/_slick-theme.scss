@@ -216,3 +216,17 @@
     opacity: .90;
     color: $black;
 }
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+    > div {
+        &:not(:first-of-type) {
+            margin-left: 20px;
+        }
+    }
+}

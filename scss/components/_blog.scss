@@ -121,8 +121,13 @@ body.single-post {
     h2,h3 {
         margin-bottom: 30px;
         color: $blue;
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 22px;
+        line-height: 32px;
+
+        @include breakpoint(desktop) {
+            font-size: 26px;
+            line-height: 36px;
+        }
     }
 }
 
