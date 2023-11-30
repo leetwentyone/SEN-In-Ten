@@ -216,31 +216,7 @@
 
     <div class="seperator"><div class="c-container"></div></div>
 
-    <div class="listen-links">
-      <h4>Listen Now</h4>
-      <p>Listen to the latest episode here or find us on Spotify, Apple Podcasts and more</p>
-      <ul>
-        <li>
-          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Spotify</a>
-        </li>
-        <li>
-          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Apple Podcast</a>
-        </li>
-        <li>
-          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Amazon Music</a>
-        </li>
-        <li>
-          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Google Podcast</a>
-        </li>
-        <li>
-          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on TuneIn</a>
-        </li>
-        <li>
-          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Overcast</a>
-        </li>
-      </ul>
-      <p>How to listen? <a href="#">Learn More</a></p>
-    </div><!-- End Listen Links -->
+    <?php include('includes/listen-links.php'); ?>
 
     <?php include('includes/subscribe.php'); ?>
 

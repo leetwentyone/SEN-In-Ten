@@ -33,12 +33,15 @@
         
             <date>8th<br>Dec</date>
             <div class="image-col">
-                <img src="images/square-placeholder.jpg">
+                <picture>
+                    <source media="(max-width:767px)" srcset="images/mobile/featured-podcast.png"><!-- Image for mobile devices -->        
+                    <img src="images/desktop/featured-podcast.png" alt=""><!-- Image for desktop screens -->
+                </picture>
             </div>
 
             <div class="event-overview">
                 <p>Featured Event</p>
-                <h3>Event Name</h3>
+                <h3><a href="event.php">Event Name</a></h3>
                 <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
                     Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla.
                 </p>
@@ -63,7 +66,7 @@
                 <ul>
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-1.png" alt="">
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -73,7 +76,7 @@
 
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-2.png" alt="">
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -83,7 +86,7 @@
 
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-3.png" alt="">
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -93,7 +96,7 @@
 
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-1.png" alt="">
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -103,7 +106,7 @@
 
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-2.png" alt="">
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -113,7 +116,7 @@
 
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-3.png" alt="">
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>

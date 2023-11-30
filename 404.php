@@ -20,13 +20,18 @@
 <body class="error-page">
 
     <?php include('includes/header.php'); ?>
+    <?php include('includes/breadcrumb.php'); ?>
 
     <main class="site-main">
 
+      <div class="error-image">
+        <img src="images/desktop/404.png">
+      </div>
+
        <div class="error-text">
-           <h1>We need a re-tune!</h1>
-           <p>Oops we can’t seem to find that page. Our bad, if you need some help, get in touch. </p>
-           <a href="contanct.php" class="blue-outline">Contact Us</a>
+          <h1>We need a re-tune!</h1>
+          <p>Oops we can’t seem to find that page. Our bad, if you need some help, get in touch. </p>
+          <a href="contanct.php" class="blue-outline">Contact Us</a>
        </div> 
 
     </main>

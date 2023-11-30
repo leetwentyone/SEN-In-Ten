@@ -124,33 +124,33 @@
                     <li>
                         <date>1st<span>Oct</span></date>
                         <div class="overlay-content">
-                        <img src="images/square-placeholder.jpg">
-                        <div class="overlay-inner">
-                            <h4 class="episode-title">Episode 1 : OrCam Learn</h4>
-                            <p>Sponsored By</p>
-                            <span class="parent-pay"><img src="images/parent-pay.png"></span>
-                            <a class="listen-blue" href="#">Listen Now</a>
-                        </div>
+                            <img src="images/podcast-1.png">
+                            <div class="overlay-inner">
+                                <h4 class="episode-title">Episode 1 : OrCam Learn</h4>
+                                <p>Sponsored By</p>
+                                <span class="parent-pay"><img src="images/parent-pay.png"></span>
+                                <a class="listen-blue" href="#">Listen Now</a>
+                            </div>
                         </div>
 
                         <div class="episode-details">
-                        <p>Episode 1 :</p>
-                        <h4>OrCam Learn</h4>
-                        <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-                        <a class="listen-blue-outline" href="#">Listen Now</a>
+                            <p>Episode 1 :</p>
+                            <h4>OrCam Learn</h4>
+                            <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
+                            <a class="listen-blue-outline" href="#">Listen Now</a>
                         </div>
                     </li>
 
                     <li>
                         <date>31st<span>Oct</span></date>
                         <div class="overlay-content">
-                        <img src="images/square-placeholder.jpg">
-                        <div class="overlay-inner">
-                            <h4 class="episode-title">Episode 2 : OrCam Learn</h4>
-                            <p>Sponsored By</p>
-                            <span class="parent-pay"><img src="images/parent-pay.png"></span>
-                            <a class="listen-blue" href="#">Listen Now</a>
-                        </div>
+                            <img src="images/podcast-2.png">
+                            <div class="overlay-inner">
+                                <h4 class="episode-title">Episode 2 : OrCam Learn</h4>
+                                <p>Sponsored By</p>
+                                <span class="parent-pay"><img src="images/parent-pay.png"></span>
+                                <a class="listen-blue" href="#">Listen Now</a>
+                            </div>
                         </div>
 
                         <div class="episode-details">
@@ -164,13 +164,13 @@
                     <li>
                         <date>3rd<span>Nov</span></date>
                         <div class="overlay-content">
-                        <img src="images/square-placeholder.jpg">
-                        <div class="overlay-inner">
-                            <h4 class="episode-title">Episode 3 : OrCam Learn</h4>
-                            <p>Sponsored By</p>
-                            <span class="parent-pay"><img src="images/parent-pay.png"></span>
-                            <a class="listen-blue" href="#">Listen Now</a>
-                        </div>
+                            <img src="images/podcast-3.png">
+                            <div class="overlay-inner">
+                                <h4 class="episode-title">Episode 3 : OrCam Learn</h4>
+                                <p>Sponsored By</p>
+                                <span class="parent-pay"><img src="images/parent-pay.png"></span>
+                                <a class="listen-blue" href="#">Listen Now</a>
+                            </div>
                         </div>
 
                         <div class="episode-details">
@@ -181,6 +181,11 @@
                         </div>
                     </li>
                 </ul>
+
+                <div class="controls">
+                    <div class="previous">Previous</div>
+                    <div class="next">Next</div>
+                </div>
 
             </div>
         </div><!-- end episode list -->

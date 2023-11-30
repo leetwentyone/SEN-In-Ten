@@ -29,8 +29,8 @@
           <h1>Podcast for Special Educational Needs and Disability</h1>
           <p>SEN In Ten is for teachers, parents and anyone else supporting or working with children or young people with special education needs.</p>
           <div class="btn-container">
-            <a href="#" class="white-icon"><span></span>Latest Episode</a>
-            <a href="become-sponsor.php" class="yellow-icon"><span></span>Become A Sponsor</a>
+            <a href="#" class="white-icon"><span><img src="images/icons/listen-now-blue.png"></span>Latest Episode</a>
+            <a href="become-sponsor.php" class="yellow-icon"><span><img src="images/icons/sponsor.png"></span>Become A Sponsor</a>
           </div>
         </div>
 
@@ -80,7 +80,7 @@
               <p>Episode 1 :</p>
               <h4>OrCam Learn</h4>
               <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, accuracy and comprehension.</p>
-              <a class="blue-outline-icon" href="#">Listen Now</a>
+              <a class="listen-blue-outline" href="#">Listen Now</a>
             </div>
           </li>
 
@@ -100,7 +100,7 @@
               <p>Episode 2 :</p>
               <h4>OrCam Learn</h4>
               <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, accuracy and comprehension.</p>
-              <a class="blue-outline-icon" href="#">Listen Now</a>
+              <a class="listen-blue-outline" href="#">Listen Now</a>
             </div>
           </li>
 
@@ -120,10 +120,15 @@
               <p>Episode 3 :</p>
               <h4>OrCam Learn</h4>
               <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, accuracy and comprehension.</p>
-              <a class="blue-outline-icon" href="#">Listen Now</a>
+              <a class="listen-blue-outline" href="#">Listen Now</a>
             </div>
           </li>
         </ul>
+
+        <div class="controls">
+          <div class="previous">Previous</div>
+          <div class="next">Next</div>
+        </div>
 
       </div>
     </div><!-- end episode list -->
@@ -133,22 +138,22 @@
       <p>Listen to the latest episodes here or find us on Spotify, Apple Podcast and more</p>
       <ul>
         <li>
-          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Spotify</a>
+          <a href="#" target="_blank" class="blue-icon"><span><img src="images/icons/spotify.png"></span>Listen on Spotify</a>
         </li>
         <li>
-          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Apple Podcast</a>
+          <a href="#" target="_blank" class="yellow-icon"><span><img src="images/icons/apple-podcasts.png"></span>Listen on Apple Podcast</a>
         </li>
         <li>
-          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Amazon Music</a>
+          <a href="#" target="_blank" class="blue-icon"><span><img src="images/icons/amazon-music.png"></span>Listen on Amazon Music</a>
         </li>
         <li>
-          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Google Podcast</a>
+          <a href="#" target="_blank" class="yellow-icon"><span><img src="images/icons/google-podcasts.png"></span>Listen on Google Podcast</a>
         </li>
         <li>
-          <a href="#" target="_blank" class="blue-icon"><span></span>Listen on TuneIn</a>
+          <a href="#" target="_blank" class="blue-icon"><span><img src="images/icons/tunein.png"></span>Listen on TuneIn</a>
         </li>
         <li>
-          <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Overcast</a>
+          <a href="#" target="_blank" class="yellow-icon"><span><img src="images/icons/overcast.png"></span>Listen on Overcast</a>
         </li>
       </ul>
       <p>How to listen? <a href="#">Learn More</a></p>

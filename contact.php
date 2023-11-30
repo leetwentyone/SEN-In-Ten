@@ -48,9 +48,9 @@
                 <div class="follow">
                     <h3>Follow Us</h3>
                     <ul>
-                        <li><a href="#" target="_blank">X</a></li>
-                        <li><a href="#" target="_blank">F</a></li>
-                        <li><a href="#" target="_blank">IG</a></li>
+                        <li><a href="#" target="_blank"><img src="images/icons/x.png"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/icons/facebook.png"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/icons/instagram.png"></a></li>
                     </ul>
                 </div>
 

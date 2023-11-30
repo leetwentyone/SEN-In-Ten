@@ -32,7 +32,10 @@
         
             <date>8th<br>Dec</date>
             <div class="image-col">
-                <img src="images/square-placeholder.jpg">
+                <picture>
+                    <source media="(max-width:767px)" srcset="images/mobile/featured-podcast.png"><!-- Image for mobile devices -->        
+                    <img src="images/desktop/featured-podcast.png" alt=""><!-- Image for desktop screens -->
+                </picture>
             </div>
 
             <div class="event-overview">
@@ -105,7 +108,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                <img src="images/square-placeholder.jpg">
+                    <img src="images/podcast-2.png">
                 </div>
 
                 <div class="text-col">
@@ -194,7 +197,7 @@
 
                     <li>
                         <date>1st<span>Oct</span></date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-1.png">
                         
                         <div class="event-details">
                         <h5><a href="event.php">Event Name</a></h5>
@@ -204,7 +207,7 @@
 
                     <li>
                         <date>2nd<span>Dec</span></date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-2.png">
                         
                         <div class="event-details">
                         <h5><a href="event.php">Event Name</a></h5>
@@ -214,7 +217,7 @@
 
                     <li>
                         <date>8th<span>Dec</span></date>
-                        <img src="images/square-placeholder.jpg">
+                        <img src="images/event-3.png">
                         
                         <div class="event-details">
                         <h5><a href="event.php">Event Name</a></h5>

@@ -82,30 +82,7 @@
 
         </div><!-- end latest podcast -->
 
-        <div class="listen-links">
-            <h4>Listen Now</h4>
-            <ul>
-                <li>
-                <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Spotify</a>
-                </li>
-                <li>
-                <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Apple Podcast</a>
-                </li>
-                <li>
-                <a href="#" target="_blank" class="blue-icon"><span></span>Listen on Amazon Music</a>
-                </li>
-                <li>
-                <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Google Podcast</a>
-                </li>
-                <li>
-                <a href="#" target="_blank" class="blue-icon"><span></span>Listen on TuneIn</a>
-                </li>
-                <li>
-                <a href="#" target="_blank" class="yellow-icon"><span></span>Listen on Overcast</a>
-                </li>
-            </ul>
-            <p>How to listen? <a href="#">Learn More</a></p>
-        </div><!-- End Listen Links -->
+        <?php include('includes/listen-links.php'); ?>
 
         <div class="embedded-player">
             <div class="c-container">
@@ -228,6 +205,11 @@
                         </div>
                     </li>
                 </ul>
+
+                <div class="controls">
+                    <div class="previous">Previous</div>
+                    <div class="next">Next</div>
+                </div>
 
             </div>
         </div><!-- end episode list -->

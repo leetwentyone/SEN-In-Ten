@@ -20,6 +20,7 @@
 <body class="misc-page">
 
     <?php include('includes/header.php'); ?>
+    <?php include('includes/breadcrumb.php'); ?>
 
     <main class="site-main">
 
