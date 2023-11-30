@@ -73,6 +73,17 @@ jQuery(document).ready(function(){
   }
 });
 
+/* Custom Navigation */
+jQuery(function($){
+  jQuery('.previous').click(function(){
+    jQuery('.episode-list ul').slick('slickPrev');
+  });
+
+  jQuery('.next').click(function(){
+    jQuery('.episode-list ul').slick('slickNext');
+  });
+});
+
 /* Our Partners */
 jQuery(document).ready(function(){
   jQuery('.partners ul').slick({
