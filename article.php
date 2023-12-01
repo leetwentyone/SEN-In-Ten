@@ -105,10 +105,12 @@
 
         <div class="banner-callout" style="padding-bottom: 0">
             <div class="c-container">
-                <picture>
-                <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
-                <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
-                </picture>
+                <a href="#">
+                    <picture>
+                        <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+                        <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+                    </picture>
+                </a>
             </div>
         </div><!-- end banner callout -->
 
@@ -136,7 +138,10 @@
 
             <ul>
                 <li>
-                    <img src="images/blog-1.png">
+
+                    <a href="article.php">
+                        <img src="images/blog-1.png">
+                    </a>
                     <div class="post-content">
                         <h5><a href="article.php">Title of Post</a></h5>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
@@ -144,7 +149,9 @@
                     </div>
                 </li>
                 <li>
-                    <img src="images/blog-2.png">
+                    <a href="article.php">
+                        <img src="images/blog-2.png">
+                    </a>
                     <div class="post-content">
                         <h5><a href="article.php">Title of Post</a></h5>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
@@ -152,7 +159,9 @@
                     </div>
                 </li>
                 <li>
-                    <img src="images/blog-1.png">
+                    <a href="article.php">
+                        <img src="images/blog-1.png">
+                    </a>
                     <div class="post-content">
                         <h5><a href="article.php">Title of Post</a></h5>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>

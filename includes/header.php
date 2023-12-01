@@ -37,15 +37,28 @@
             <div class="submenu">
               
               <div class="col">
-                Column One
+                <img src="images/search-1.png">
+                <div class="col-content">
+                  <div class="col-content--heading"><a href="podcast.php">Episode 2 : Title of the episode to be placed here</a></div>
+                  <p>Suspendisse vel arcu tincidunt, maximus elit eu, sollicitudin urna.</p>
+                  <a href="#" class="listen-blue-outline">Listen Now</a>
+                </div>
               </div>
 
               <div class="col">
-                Column Two
+                <img src="images/search-2.png">
+                <div class="col-content">
+                  <div class="col-content--heading"><a href="podcast.php">Episode 2 : Title of the episode</a></div>
+                  <p>Suspendisse vel arcu tincidunt, maximus elit eu, sollicitudin urna.</p>
+                  <a href="#" class="listen-blue-outline">Listen Now</a>
+                </div>
               </div>
 
               <div class="col-slim">
-                Column Three
+                <div class="slim-link">
+                  <a href="podcasts.php">View All <br> Episodes</a>
+                  <img src="images/nav-col--woman.png">
+                </div>
               </div>
 
             </div>

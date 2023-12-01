@@ -59,10 +59,12 @@
 
     <div class="banner-callout" style="padding-top: 0">
       <div class="c-container">
-        <picture>
-          <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
-          <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
-        </picture>
+        <a href="#">
+          <picture>
+            <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+            <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+          </picture>
+        </a>
       </div>
     </div><!-- end banner callout -->
 

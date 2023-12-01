@@ -74,6 +74,7 @@
                 <div class="callout-title">Become a Sponsor</div>
                 <p>Interested in becoming a sponsor call us on <a href="tel:<?php echo $phone_number_nospace; ?>"><?php echo $phone_number; ?></a> or <a href="#">contact us</a> today!</p>
                 <a href="become-sponsor.php" class="blue-btn2">Become A Sponsor</a>
+                <img src="images/waveform-pattern.png" class="waveform">
                 </div>
             </div>
         </div><!-- end sponsor callout -->
@@ -118,7 +119,7 @@
         <div class="episode-list">
             <div class="c-container">
   
-                <h3>Latest SEN in Ten Episodes <a href="#" class="blue-outline-cross">View All Episodes</a></h3>
+                <h3>Latest SEN in Ten Episodes <a href="podcasts.php" class="blue-outline-cross">View All Episodes</a></h3>
 
                 <ul>
                     <li>
@@ -126,18 +127,18 @@
                         <div class="overlay-content">
                             <img src="images/podcast-1.png">
                             <div class="overlay-inner">
-                                <h4 class="episode-title">Episode 1 : OrCam Learn</h4>
+                                <h4 class="episode-title"><a href="podcast.php">Episode 1 : OrCam Learn</a></h4>
                                 <p>Sponsored By</p>
                                 <span class="parent-pay"><img src="images/parent-pay.png"></span>
-                                <a class="listen-blue" href="#">Listen Now</a>
+                                <a class="listen-blue" href="podcast.php">Listen Now</a>
                             </div>
                         </div>
 
                         <div class="episode-details">
                             <p>Episode 1 :</p>
-                            <h4>OrCam Learn</h4>
+                            <h4><a href="podcast.php">OrCam Learn</a></h4>
                             <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-                            <a class="listen-blue-outline" href="#">Listen Now</a>
+                            <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
                         </div>
                     </li>
 
@@ -146,18 +147,18 @@
                         <div class="overlay-content">
                             <img src="images/podcast-2.png">
                             <div class="overlay-inner">
-                                <h4 class="episode-title">Episode 2 : OrCam Learn</h4>
+                                <h4 class="episode-title"><a href="podcast.php">Episode 2 : OrCam Learn</a></h4>
                                 <p>Sponsored By</p>
                                 <span class="parent-pay"><img src="images/parent-pay.png"></span>
-                                <a class="listen-blue" href="#">Listen Now</a>
+                                <a class="listen-blue" href="podcast.php">Listen Now</a>
                             </div>
                         </div>
 
                         <div class="episode-details">
                         <p>Episode 2 :</p>
-                        <h4>OrCam Learn</h4>
+                        <h4><a href="podcast.php">OrCam Learn</a></h4>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-                        <a class="listen-blue-outline" href="#">Listen Now</a>
+                        <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
                         </div>
                     </li>
 
@@ -166,18 +167,18 @@
                         <div class="overlay-content">
                             <img src="images/podcast-3.png">
                             <div class="overlay-inner">
-                                <h4 class="episode-title">Episode 3 : OrCam Learn</h4>
+                                <h4 class="episode-title"><a href="podcast.php">Episode 3 : OrCam Learn</a></h4>
                                 <p>Sponsored By</p>
                                 <span class="parent-pay"><img src="images/parent-pay.png"></span>
-                                <a class="listen-blue" href="#">Listen Now</a>
+                                <a class="listen-blue" href="podcast.php">Listen Now</a>
                             </div>
                         </div>
 
                         <div class="episode-details">
                         <p>Episode 3 :</p>
-                        <h4>OrCam Learn</h4>
+                        <h4><a href="podcast.php">OrCam Learn</a></h4>
                         <p>Phasellus egestas, ipsum vitae molestie condimentum, lorem risus bibendum diam, eu lobortis odio eros eget velit.</p>
-                        <a class="listen-blue-outline" href="#enquire">Listen Now</a>
+                        <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
                         </div>
                     </li>
                 </ul>

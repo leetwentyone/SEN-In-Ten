@@ -58,7 +58,7 @@
 
         </div><!-- end featured event -->
 
-        <div class="event-listing">
+        <div class="event-listing" style="padding-bottom: 0;">
             <div class="c-container">
 
                 <h4>Upcoming Events</h4>
@@ -66,7 +66,9 @@
                 <ul>
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/event-1.png" alt="">
+                        <a href="event.php">
+                            <img src="images/event-1.png" alt="">
+                        </a>
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -76,7 +78,9 @@
 
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/event-2.png" alt="">
+                        <a href="event.php">
+                            <img src="images/event-2.png" alt="">
+                        </a>
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -86,7 +90,9 @@
 
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/event-3.png" alt="">
+                        <a href="event.php">
+                            <img src="images/event-3.png" alt="">
+                        </a>
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -96,7 +102,9 @@
 
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/event-1.png" alt="">
+                        <a href="event.php">
+                            <img src="images/event-1.png" alt="">
+                        </a>
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -106,7 +114,9 @@
 
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/event-2.png" alt="">
+                        <a href="event.php">
+                            <img src="images/event-2.png" alt="">
+                        </a>
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -116,7 +126,9 @@
 
                     <li>
                         <date>8th<br>Dec</date>
-                        <img src="images/event-3.png" alt="">
+                        <a href="event.php">
+                            <img src="images/event-3.png" alt="">
+                        </a>
                         
                         <div class="event-content">
                             <h5><a href="event.php">Event Name</a></h5>
@@ -131,10 +143,12 @@
 
         <div class="banner-callout" style="padding-top: 0">
             <div class="c-container">
-                <picture>
-                <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
-                <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
-                </picture>
+                <a href="#">
+                    <picture>
+                        <source media="(max-width:767px)" srcset="images/mobile/sponsor-banner.png"><!-- Image for mobile devices -->        
+                        <img src="images/desktop/sponsor-banner.png" alt=""><!-- Image for desktop screens -->
+                    </picture>
+                </a>
             </div>
         </div><!-- end banner callout -->
 
