@@ -21,7 +21,8 @@
 
   <div class="page-banner">
     <picture>
-      <source media="(max-width:767px)" srcset="images/mobile/about-header.png"><!-- Image for mobile devices -->        
+      <source media="(max-width:767px)" srcset="images/mobile/about-header.png"><!-- Image for mobile devices -->  
+      <source media="(max-width:1151px)" srcset="images/tablet/about.png"><!-- Image for tablet devices -->      
       <img src="images/desktop/about-sen.png" alt=""><!-- Image for desktop screens -->
     </picture>
   </div>

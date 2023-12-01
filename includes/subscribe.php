@@ -28,7 +28,7 @@
     </picture>
 
     <picture>
-        <source media="(max-width:767px)" srcset="images/mobile/woman-on-phone-shadow.png" class="bg2-mob"><!-- Image for mobile devices -->        
+        <source media="(max-width:991px)" srcset="images/mobile/woman-on-phone-shadow.png" class="bg2-mob"><!-- Image for mobile devices -->        
         <img src="images/desktop/woman-on-phone-shadow.png" alt="" class="bg2"><!-- Image for desktop screens -->
     </picture>
 
