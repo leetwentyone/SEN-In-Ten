@@ -21,6 +21,17 @@
 
             body.home &,
             body.about-page & {
+                padding-bottom: 60px;
+                padding-top: 100px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+
+        @include breakpoint(desktop) {
+
+            body.home &,
+            body.about-page & {
                 padding-bottom: 10rem;
                 padding-top: 14rem;
             }
@@ -112,6 +123,11 @@
         width: 100%;
         padding-left: 10px;
         padding-right: 10px;
+
+        @include breakpoint(tablet) {
+            padding-left: 0;
+            padding-right: 0;
+        }
     }
 
     li {
@@ -124,6 +140,11 @@
         padding-right: 5px;
 
         @include breakpoint(tablet) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        @include breakpoint(desktop) {
             padding-left: 30px;
             padding-right: 30px;
         }
@@ -131,6 +152,14 @@
         img {
             max-width: 100px;
             margin-bottom: 20px;
+
+            @include breakpoint(tablet) {
+                max-width: 60px;
+            }
+
+            @include breakpoint(desktop) {
+                max-width: 100px;
+            }
         }
     }
 
@@ -143,6 +172,11 @@
         color: $copy;
         font-size: 12px;
         line-height: 18px;
+
+        @include breakpoint(tablet) {
+            font-size: 11px;
+            line-height: 16px;
+        }
 
         @include breakpoint(desktop) {
             font-size: 16px;

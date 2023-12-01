@@ -81,6 +81,14 @@ img.microphone {
   bottom: 0;
   max-width: 85%;
   z-index: 2;
+
+  @include breakpoint(tablet) {
+    max-width: 100%;
+  }
+
+  @include breakpoint(desktop) {
+    max-width: 85%;
+  }
 }
 
 img.the-talk {
@@ -90,6 +98,14 @@ img.the-talk {
   bottom: 0;
   max-width: 85%;
   z-index: 3;
+
+  @include breakpoint(tablet) {
+    max-width: 100%;
+  }
+
+  @include breakpoint(desktop) {
+    max-width: 85%;
+  }
 }
 
 img.wave {
@@ -101,15 +117,25 @@ img.wave {
 }
 
 .hero-inner {
-  width: 100%;
+  width: 400px;
   position: relative;
   max-width: $sitewidth;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  z-index: 5;
   border-left: 1px dashed red;
   border-right: 1px dashed red;
+
+  @include breakpoint(phablet) {
+    margin-left: 0;
+    width: 65%;
+  }
+
+  @include breakpoint(tablet) {
+    width: 100%;
+  }
 
   @include breakpoint(desktop) {
     margin-top: 100px;

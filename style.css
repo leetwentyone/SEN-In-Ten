@@ -39,6 +39,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 40px;
   font-family: "Poppins", sans-serif;
   font-weight: 700; }
+  @media (min-width: 768px) {
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 26px;
+      line-height: 36px; } }
   @media (min-width: 1152px) {
     h1, h2, h3, h4, h5, h6 {
       font-size: 36px;
@@ -491,7 +495,7 @@ label {
     -moz-box-shadow: 11px 0px 5px -9px rgba(0, 0, 0, 0.75); }
     @media (min-width: 768px) {
       .yellow-icon span {
-        top: -6px;
+        top: -7px;
         width: 46px;
         height: 46px; } }
     .yellow-icon span img {
@@ -736,6 +740,9 @@ body.menu-opened {
   background-color: #E0E8ED;
   transition: all .3s ease;
   padding: 40px 40px 60px 40px; }
+  @media (min-width: 768px) {
+    .mobile-menu {
+      width: 75%; } }
   .mobile-menu nav {
     margin-bottom: 40px; }
   .mobile-menu li:not(.socials li) {
@@ -762,7 +769,8 @@ body.menu-opened {
     line-height: 13px;
     width: 200px;
     color: #fff;
-    text-align: left; }
+    text-align: left;
+    margin-left: 20px; }
   .mobile-menu .socials {
     margin-top: 30px; }
     .mobile-menu .socials p {
@@ -1628,6 +1636,12 @@ img.microphone {
   bottom: 0;
   max-width: 85%;
   z-index: 2; }
+  @media (min-width: 768px) {
+    img.microphone {
+      max-width: 100%; } }
+  @media (min-width: 1152px) {
+    img.microphone {
+      max-width: 85%; } }
 
 img.the-talk {
   display: block;
@@ -1636,6 +1650,12 @@ img.the-talk {
   bottom: 0;
   max-width: 85%;
   z-index: 3; }
+  @media (min-width: 768px) {
+    img.the-talk {
+      max-width: 100%; } }
+  @media (min-width: 1152px) {
+    img.the-talk {
+      max-width: 85%; } }
 
 img.wave {
   display: block;
@@ -1645,15 +1665,23 @@ img.wave {
   opacity: .1; }
 
 .hero-inner {
-  width: 100%;
+  width: 400px;
   position: relative;
   max-width: 1366px;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  z-index: 5;
   border-left: 1px dashed red;
   border-right: 1px dashed red; }
+  @media (min-width: 576px) {
+    .hero-inner {
+      margin-left: 0;
+      width: 65%; } }
+  @media (min-width: 768px) {
+    .hero-inner {
+      width: 100%; } }
   @media (min-width: 1152px) {
     .hero-inner {
       margin-top: 100px; } }
@@ -1714,8 +1742,6 @@ img.wave {
   border-bottom: 1px dashed blue; }
   @media (min-width: 768px) {
     .banner-callout {
-      padding-left: 0;
-      padding-right: 0;
       padding-top: 30px;
       padding-bottom: 30px; } }
   @media (min-width: 992px) {
@@ -1730,6 +1756,8 @@ img.wave {
     body.single-post .banner-callout {
       padding-left: 0;
       padding-right: 0; } }
+  .banner-callout img {
+    width: 100%; }
 
 .episode-list {
   padding-top: 60px;
@@ -1754,13 +1782,18 @@ img.wave {
       .episode-list h3 {
         justify-content: space-between;
         flex-direction: row;
-        text-align: left; } }
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px; } }
     .episode-list h3 a {
       font-size: 14px;
       line-height: 14px; }
       @media (max-width: 767px) {
         .episode-list h3 a {
           margin-top: 20px; } }
+  @media (min-width: 576px) {
+    .episode-list .slick-list {
+      padding: 0 20px; } }
   @media (max-width: 767px) {
     .episode-list ul {
       padding-left: 20px;
@@ -1773,9 +1806,16 @@ img.wave {
     transition: all .3s ease;
     list-style-type: none;
     background-color: #fff; }
+    @media (min-width: 576px) {
+      .episode-list li {
+        margin: 0 10px !important; } }
+    @media (min-width: 768px) {
+      .episode-list li {
+        padding: 10px; } }
     @media (min-width: 1152px) {
       .episode-list li {
-        border-radius: 30px; } }
+        border-radius: 30px;
+        padding: 20px; } }
     .episode-list li:hover {
       border-color: #067997; }
       .episode-list li:hover .overlay-inner {
@@ -1810,6 +1850,22 @@ img.wave {
       .episode-list date {
         top: 10px;
         left: 10px; } }
+    @media (min-width: 768px) {
+      .episode-list date {
+        top: 0px;
+        left: -15px;
+        width: 50px;
+        height: 50px;
+        font-size: 11px;
+        line-height: 11px; } }
+    @media (min-width: 1152px) {
+      .episode-list date {
+        top: -20px;
+        left: -20px;
+        width: 80px;
+        height: 80px;
+        font-size: 14px;
+        line-height: 14px; } }
   .episode-list img {
     border-radius: 20px;
     width: 100%; }
@@ -1842,6 +1898,11 @@ img.wave {
       font-weight: 600;
       margin-bottom: 10px;
       color: #067997; }
+      @media (min-width: 768px) {
+        .episode-list .overlay-inner p {
+          font-size: 11px;
+          line-height: 15px;
+          margin-bottom: 5px; } }
       @media (min-width: 1152px) {
         .episode-list .overlay-inner p {
           font-size: 20px;
@@ -1849,6 +1910,12 @@ img.wave {
           margin-bottom: 20px; } }
   .episode-list .parent-pay {
     margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .episode-list .parent-pay {
+        margin-bottom: 15px; } }
+    @media (min-width: 1152px) {
+      .episode-list .parent-pay {
+        margin-bottom: 30px; } }
     .episode-list .parent-pay img {
       max-width: 100px; }
       @media (min-width: 1152px) {
@@ -1860,6 +1927,12 @@ img.wave {
     font-size: 15px;
     line-height: 25px;
     color: #067997; }
+    @media (min-width: 768px) {
+      .episode-list .episode-title {
+        margin-bottom: 5px;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 10px; } }
     @media (min-width: 1152px) {
       .episode-list .episode-title {
         margin-bottom: 20px;
@@ -1870,15 +1943,39 @@ img.wave {
 
 .episode-details {
   padding: 20px; }
+  @media (min-width: 768px) {
+    .episode-details {
+      padding: 10px 0 0 0; } }
+  @media (min-width: 1152px) {
+    .episode-details {
+      padding: 20px; } }
   .episode-details p {
-    color: #067997; }
+    color: #067997;
+    margin-bottom: 0; }
     .episode-details p:nth-of-type(2) {
       color: #808080; }
+      @media (min-width: 768px) {
+        .episode-details p:nth-of-type(2) {
+          font-size: 12px;
+          line-height: 16px;
+          margin-bottom: 20px; } }
+      @media (min-width: 1152px) {
+        .episode-details p:nth-of-type(2) {
+          font-size: 14px;
+          line-height: 20px; } }
   .episode-details h4 {
     font-size: 24px;
     line-height: 34px;
     color: #067997;
     margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .episode-details h4 {
+        font-size: 18px;
+        line-height: 26px; } }
+    @media (min-width: 1152px) {
+      .episode-details h4 {
+        font-size: 24px;
+        line-height: 34px; } }
     .episode-details h4 a {
       color: #067997; }
 
@@ -1911,6 +2008,14 @@ img.wave {
   .listen-links li {
     display: inline-block;
     margin: 0 20px; }
+    @media (min-width: 768px) {
+      .listen-links li a {
+        font-size: 11px;
+        line-height: 11px; } }
+    @media (min-width: 1152px) {
+      .listen-links li a {
+        font-size: 14px;
+        line-height: 14px; } }
   .listen-links p {
     color: #808080;
     margin-bottom: 30px; }
@@ -1960,6 +2065,8 @@ img.wave {
       width: 150px;
       height: 150px;
       border-radius: 100%;
+      margin-left: auto;
+      margin-right: auto;
       aspect-ratio: 1/1;
       background-color: #fff; }
       @media (max-width: 767px) {
@@ -1978,7 +2085,13 @@ img.wave {
   @media (min-width: 768px) {
     .news-list {
       padding-top: 60px;
-      padding-bottom: 60px; } }
+      padding-bottom: 60px;
+      padding-left: 30px;
+      padding-right: 30px; } }
+  @media (min-width: 1152px) {
+    .news-list {
+      padding-left: 0;
+      padding-right: 0; } }
   @media (min-width: 768px) {
     body.home .news-list {
       padding-bottom: 10rem; } }
@@ -2013,10 +2126,13 @@ img.wave {
     @media (min-width: 768px) {
       .news-list li {
         display: inline-block;
-        width: 31.8%;
+        width: 31.6%;
         margin-right: 2%; }
         .news-list li:nth-of-type(3n) {
           margin-right: 0; } }
+    @media (min-width: 992px) {
+      .news-list li {
+        width: 31.8%; } }
     .news-list li a:not(.post-content a) {
       display: block;
       position: relative;
@@ -2162,8 +2278,14 @@ img.wave {
         padding-left: 5%;
         padding-right: 5%; }
         body.home .equal-cols .col-l, body.about-page .equal-cols .col-l {
-          padding-bottom: 10rem;
-          padding-top: 14rem; } }
+          padding-bottom: 60px;
+          padding-top: 100px;
+          padding-left: 30px;
+          padding-right: 30px; } }
+    @media (min-width: 1152px) {
+      body.home .equal-cols .col-l, body.about-page .equal-cols .col-l {
+        padding-bottom: 10rem;
+        padding-top: 14rem; } }
     .equal-cols .col-l h5 {
       width: 100%;
       text-align: center;
@@ -2228,6 +2350,10 @@ img.wave {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px; }
+    @media (min-width: 768px) {
+      .equal-cols ul {
+        padding-left: 0;
+        padding-right: 0; } }
   .equal-cols li {
     display: flex;
     flex-direction: column;
@@ -2238,11 +2364,21 @@ img.wave {
     padding-right: 5px; }
     @media (min-width: 768px) {
       .equal-cols li {
+        padding-left: 0;
+        padding-right: 0; } }
+    @media (min-width: 1152px) {
+      .equal-cols li {
         padding-left: 30px;
         padding-right: 30px; } }
     .equal-cols li img {
       max-width: 100px;
       margin-bottom: 20px; }
+      @media (min-width: 768px) {
+        .equal-cols li img {
+          max-width: 60px; } }
+      @media (min-width: 1152px) {
+        .equal-cols li img {
+          max-width: 100px; } }
   .equal-cols h5 {
     margin-bottom: 15px;
     color: #067997; }
@@ -2250,6 +2386,10 @@ img.wave {
     color: #808080;
     font-size: 12px;
     line-height: 18px; }
+    @media (min-width: 768px) {
+      .equal-cols p {
+        font-size: 11px;
+        line-height: 16px; } }
     @media (min-width: 1152px) {
       .equal-cols p {
         font-size: 16px;
@@ -2259,9 +2399,15 @@ img.wave {
   padding-top: 60px;
   padding-bottom: 0;
   border-bottom: 1px solid #067997; }
+  @media (min-width: 768px) {
+    .event-list .c-container, .event-list .breadcrumb ul, .breadcrumb .event-list ul, .event-list .footer-inner, .event-list .item-inner, .event-list .latest-podcast, .event-list .podcast-summary, .event-list .textblock, .event-list ul.partner-logos, .event-list .why-icons ul, .why-icons .event-list ul, .event-list .latest-post, .event-list body.single-post .site-main, body.single-post .event-list .site-main, .event-list .testimonials ul, .testimonials .event-list ul, .event-list .session-summary, .event-list .featured-event, .event-list .event-summary, .event-list .contact-container {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px; } }
   @media (min-width: 1152px) {
     .event-list .c-container, .event-list .breadcrumb ul, .breadcrumb .event-list ul, .event-list .footer-inner, .event-list .item-inner, .event-list .latest-podcast, .event-list .podcast-summary, .event-list .textblock, .event-list ul.partner-logos, .event-list .why-icons ul, .why-icons .event-list ul, .event-list .latest-post, .event-list body.single-post .site-main, body.single-post .event-list .site-main, .event-list .testimonials ul, .testimonials .event-list ul, .event-list .session-summary, .event-list .featured-event, .event-list .event-summary, .event-list .contact-container {
-      padding-bottom: 30px; } }
+      padding-left: 0;
+      padding-right: 0; } }
 .event-list h4 {
   display: flex;
   align-items: center;
@@ -2296,10 +2442,14 @@ img.wave {
   @media (min-width: 768px) {
     .event-list li {
       display: inline-block;
-      width: 31.8%;
-      margin-right: 2%; }
+      width: 31.6%;
+      margin-right: 2%;
+      padding: 0; }
       .event-list li:nth-of-type(3) {
         margin-right: 0; } }
+  @media (min-width: 1152px) {
+    .event-list li {
+      width: 31.8%; } }
   .event-list li a:not(.event-content a) {
     display: block;
     position: relative;
@@ -2330,6 +2480,24 @@ img.wave {
   border-radius: 100%;
   padding: 20px;
   z-index: 5; }
+  @media (min-width: 768px) {
+    .event-list date {
+      top: -15px;
+      left: -15px;
+      width: 50px;
+      height: 50px;
+      font-size: 11px;
+      line-height: 11px;
+      border: 5px solid #FDC243; } }
+  @media (min-width: 1152px) {
+    .event-list date {
+      top: -20px;
+      left: -20px;
+      width: 80px;
+      height: 80px;
+      font-size: 14px;
+      line-height: 14px;
+      border: 10px solid #FDC243; } }
 .event-list img {
   border-radius: 30px;
   width: 100%; }
@@ -2478,7 +2646,13 @@ img.wave {
     padding-bottom: 150px; }
     @media (min-width: 768px) {
       .subscribe .form-col {
+        width: 45%;
+        margin-right: 5%;
+        padding-bottom: 0; } }
+    @media (min-width: 1152px) {
+      .subscribe .form-col {
         width: 40%;
+        margin-right: 0;
         padding-bottom: 0; } }
     .subscribe .form-col p {
       color: #067997;
@@ -2509,9 +2683,11 @@ img.wave {
     width: 100%; }
     @media (min-width: 768px) {
       .subscribe .quote-col {
-        width: 60%;
-        padding-left: 20%;
+        width: 50%;
         justify-content: flex-end; } }
+    @media (min-width: 1152px) {
+      .subscribe .quote-col {
+        padding-left: 20%; } }
   .subscribe .quote-box {
     background-color: #fff;
     border: 3px solid #067997;
@@ -2548,6 +2724,14 @@ img.wave {
         text-align: center;
         font-size: 20px;
         line-height: 26px; } }
+    @media (min-width: 768px) {
+      .subscribe h5 {
+        font-size: 20px;
+        line-height: 30px; } }
+    @media (min-width: 1152px) {
+      .subscribe h5 {
+        font-size: 26px;
+        line-height: 36px; } }
   .subscribe .bg1 {
     display: block;
     position: absolute;
@@ -2566,6 +2750,9 @@ img.wave {
     right: 0;
     width: 200px;
     z-index: 3; }
+    @media (min-width: 768px) {
+      .subscribe .bg2 {
+        width: 35%; } }
     @media (min-width: 1152px) {
       .subscribe .bg2 {
         width: 85%; } }
@@ -3216,28 +3403,6 @@ body.single-podcast {
         line-height: 36px; } }
     .podcast-list .episode-title a {
       color: #067997; }
-
-.episode-details {
-  padding: 20px; }
-  .episode-details p {
-    color: #067997;
-    margin-bottom: 5px; }
-    .episode-details p:nth-of-type(2) {
-      color: #808080;
-      margin-bottom: 20px; }
-  .episode-details h3 {
-    font-size: 24px;
-    line-height: 34px;
-    color: #067997;
-    margin-bottom: 10px; }
-    @media (min-width: 1152px) {
-      .episode-details h3 {
-        font-size: 36px;
-        line-height: 46px; } }
-    .episode-details h3 a {
-      color: #067997; }
-      .episode-details h3 a:visited {
-        color: #067997; }
 
 .embedded-player {
   position: relative; }

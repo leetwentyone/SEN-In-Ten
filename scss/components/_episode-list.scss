@@ -28,6 +28,8 @@
             justify-content: space-between; 
             flex-direction: row;
             text-align: left;
+            padding-left: 30px;
+            padding-right: 30px;
         }
 
         a {
@@ -37,6 +39,13 @@
             @media(max-width: 767px) {
                 margin-top: 20px;
             }
+        }
+    }
+
+    .slick-list {
+
+        @include breakpoint(phablet) {
+            padding: 0 20px;
         }
     }
 
@@ -56,8 +65,17 @@
         list-style-type: none;
         background-color: $white;
 
+        @include breakpoint(phablet) {
+            margin: 0 10px!important;
+        }
+
+        @include breakpoint(tablet) {
+            padding: 10px;
+        }
+
         @include breakpoint(desktop) {
             border-radius: 30px;
+            padding: 20px;
         }
 
         &:hover {
@@ -103,6 +121,24 @@
             top: 10px;
             left: 10px;
         }
+
+        @include breakpoint(tablet) {
+            top: 0px;
+            left: -15px;
+            width: 50px;
+            height: 50px;
+            font-size: 11px;
+            line-height: 11px;
+        }
+
+        @include breakpoint(desktop) {
+            top: -20px;
+            left: -20px;
+            width: 80px;
+            height: 80px;
+            font-size: 14px;
+            line-height: 14px;
+        }
     }
 
     img {
@@ -145,6 +181,12 @@
             margin-bottom: 10px;
             color: $blue;
 
+            @include breakpoint(tablet) {
+                font-size: 11px;
+                line-height: 15px;
+                margin-bottom: 5px;
+            }
+
             @include breakpoint(desktop) {
                 font-size: 20px;
                 line-height: 30px;
@@ -155,6 +197,14 @@
 
     .parent-pay {
         margin-bottom: 30px;
+
+        @include breakpoint(tablet) {
+            margin-bottom: 15px;
+        }
+
+        @include breakpoint(desktop) {
+            margin-bottom: 30px;
+        }
 
         img {
             max-width: 100px;
@@ -172,6 +222,13 @@
         line-height: 25px;
         color: $blue;
 
+        @include breakpoint(tablet) {
+            margin-bottom: 5px;
+            font-size: 15px;
+            line-height: 20px;
+            padding: 0 10px;
+        }
+
         @include breakpoint(desktop) {
             margin-bottom: 20px;
             font-size: 20px;
@@ -187,11 +244,31 @@
 .episode-details {
     padding: 20px;
 
+    @include breakpoint(tablet) {
+        padding: 10px 0 0 0;
+    }
+
+    @include breakpoint(desktop) {
+        padding: 20px;
+    }
+
     p {
         color: $blue;
+        margin-bottom: 0;
 
         &:nth-of-type(2) {
             color: $copy;
+
+            @include breakpoint(tablet) {
+                font-size: 12px;
+                line-height: 16px;
+                margin-bottom: 20px;
+            }
+
+            @include breakpoint(desktop) {
+                font-size: 14px;
+                line-height: 20px;
+            }
         }
     }
 
@@ -200,6 +277,16 @@
         line-height: 34px;
         color: $blue;
         margin-bottom: 20px;
+
+        @include breakpoint(tablet) {
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+        @include breakpoint(desktop) {
+            font-size: 24px;
+            line-height: 34px;
+        }
 
         a {
             color: $blue;
