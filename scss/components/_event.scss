@@ -259,13 +259,36 @@ body.single-event {
             text-decoration: none;
         }
     }
+
+    a {
+        &:not(.event-content a) {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border-radius: 30px;
+
+            img {
+                transition: all .6s ease;
+                transform: scale(1);
+            }
+
+            &:hover {
+
+                img {
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
 }
 
 .event-content {
     padding: 20px 20px;
 
     @include breakpoint(desktop) {
-        padding: 40px 20px;
+        padding: 40px 20px 80px 20px;
     }
 
     h5 {
@@ -284,6 +307,7 @@ body.single-event {
         a {
             font-family: $poppins;
             color: $blue;
+            font-weight: 600;
             text-decoration: none;
 
             &:hover {

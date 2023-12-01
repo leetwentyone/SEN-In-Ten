@@ -155,8 +155,12 @@
 
         @include breakpoint(desktop) {
             margin-bottom: 20px;
-            font-size: 36px;
-            line-height: 46px;
+            font-size: 26px;
+            line-height: 36px;
+        }
+
+        a {
+            color: $blue;
         }
     }
 }
@@ -178,7 +182,12 @@
         font-size: 24px;
         line-height: 34px;
         color: $blue;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+
+        @include breakpoint(desktop) {
+            font-size: 36px;
+            line-height: 46px;
+        }
 
         a {
             color: $blue;

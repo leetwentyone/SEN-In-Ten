@@ -111,6 +111,10 @@ img.wave {
   border-left: 1px dashed red;
   border-right: 1px dashed red;
 
+  @include breakpoint(desktop) {
+    margin-top: 100px;
+  }
+
   h1 {
     color: $white;
     margin-bottom: 20px;

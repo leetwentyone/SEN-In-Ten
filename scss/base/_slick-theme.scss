@@ -224,6 +224,10 @@
     width: 100%;
     margin-top: 30px;
 
+    @include breakpoint(desktop) {
+        display: none;
+    }
+
     > div {
         &:not(:first-of-type) {
             margin-left: 20px;

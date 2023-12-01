@@ -177,6 +177,10 @@
             font-size: 20px;
             line-height: 30px;
         }
+
+        a {
+            color: $blue;
+        }
     }
 }
 
@@ -196,5 +200,9 @@
         line-height: 34px;
         color: $blue;
         margin-bottom: 20px;
+
+        a {
+            color: $blue;
+        }
     }
 }

@@ -6,6 +6,7 @@
     padding-right: 30px;
     padding-top: 60px;
     padding-bottom: 30px;
+    overflow: hidden;
 
     @include breakpoint(tablet) {
         padding-bottom: 60px;

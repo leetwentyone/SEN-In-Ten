@@ -221,6 +221,11 @@
         }
 	}
 
+	.white-outline-icon,
+	.yellow-icon {
+		text-transform: uppercase;
+	}
+
 	a[href^="tel:"] {
 		display: flex;
 		align-items: center;

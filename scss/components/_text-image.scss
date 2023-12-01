@@ -76,6 +76,12 @@
             background-size: 200%;
             background-position: bottom -50px left 0;
             opacity: .3;
+
+            body.home &,
+            body.our-partners-page &,
+            body.training-cpd-page & {
+                display: none;
+            }
         }
     }
 
