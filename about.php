@@ -177,8 +177,8 @@
                 </ul>
 
                 <div class="controls">
-                    <div class="previous">Previous</div>
-                    <div class="next">Next</div>
+                    <div class="previous"><img src="images/previous-blue.png"></div>
+                    <div class="next"><img src="images/next-blue.png"></div>
                 </div>
 
             </div>

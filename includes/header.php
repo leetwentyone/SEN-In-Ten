@@ -85,7 +85,7 @@
   <div class="mobile-menu">
 
     <div class="close-container">
-      <a href="#" class="close"><img src="images/icons/close.png"></a>
+      <a href="#" class="close"><img src="images/blue-cross.png"></a>
     </div>
 
     <nav>
@@ -111,7 +111,7 @@
       </ul>
     </nav>
 
-    <a href="become-sponsor.php" class="yellow-icon"><span></span>Become A Sponsor</a>
+    <a href="become-sponsor.php" class="yellow-icon"><span><img src="images/icons/sponsor.png"></span>Become A Sponsor</a>
     <a href="#" class="blue-icon"><span></span>Become A Guest</a>
 
     <div class="socials">
