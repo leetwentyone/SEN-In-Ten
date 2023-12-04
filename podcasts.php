@@ -18,14 +18,6 @@
 </head>
 
 <body class="podcasts-page">
-
-  <div class="page-banner">
-    <picture>
-      <source media="(max-width:767px)" srcset="images/mobile/about-header.png"><!-- Image for mobile devices -->  
-      <source media="(max-width:1151px)" srcset="images/tablet/about.png"><!-- Image for tablet devices -->      
-      <img src="images/desktop/about-sen.png" alt=""><!-- Image for desktop screens -->
-    </picture>
-  </div>
   
   <?php include('includes/header.php'); ?>
 
@@ -50,7 +42,7 @@
 
         <div class="episode-details">
             <p>Latest Episode</p>
-            <h3>OrCam Learn</h3>
+            <h3><a href="podcast.php">OrCam Learn</a></h3>
             <p>A new solution developed for students with reading and learning differences including Dyslexia and ADHD that improves fluency, 
               accuracy and comprehension.</p>
             <a class="listen-blue" href="podcast.php">Listen Now</a>
