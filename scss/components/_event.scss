@@ -15,6 +15,9 @@ body.single-event {
 
     @include breakpoint(tablet) {
         flex-direction: row;
+    }
+
+    @include breakpoint(desktop) {
         padding-left: 0;
         padding-right: 0;
     }
@@ -33,6 +36,7 @@ body.single-event {
         color: $white;
         background-color: $blue;
         border: 10px solid $yellow;
+        font-family: $poppins;
         border-radius: 100%;
         padding: 20px;
         font-size: 16px;
@@ -66,6 +70,10 @@ body.single-event {
 
         @include breakpoint(tablet) {
             width: 50%;
+            padding: 0 0 0 60px;
+        }
+
+        @include breakpoint(desktop) {
             padding: 60px;
         }
 
@@ -80,6 +88,7 @@ body.single-event {
 
         h3 {
             color: $blue;
+
             margin-bottom: 30px;
 
             a {
@@ -91,6 +100,14 @@ body.single-event {
     .event-details {
         padding-left: 0;
         margin-bottom: 30px;
+
+        @include breakpoint(tablet) {
+            margin-bottom: 10px;
+        }
+
+        @include breakpoint(desktop) {
+            margin-bottom: 30px;
+        }
 
         li {
             display: flex;
@@ -148,14 +165,21 @@ body.single-event {
 
             @include breakpoint(tablet) {
                 width: auto;
+                font-size: 11px;
+                line-height: 11px;
+            }
+
+            @include breakpoint(desktop) {
                 padding-left: 20px;
                 padding-right: 20px;
+                font-size: 14px;
+                line-height: 14px;
             }
 
             &:not(:first-of-type) {
                 margin-left: 10px;
 
-                @include breakpoint(tablet) {
+                @include breakpoint(desktop) {
                     margin-left: 20px;
                 }
             }
@@ -194,23 +218,46 @@ body.single-event {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: -40px;
+        top: -20px;
         left: -20px;
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
         align-items: center;
         justify-content: center;
         text-align: center;
         color: $white;
         background-color: $blue;
-        border: 10px solid $yellow;
+        border: 5px solid $yellow;
         border-radius: 100%;
         padding: 20px;
+        font-family: $poppins;
+        font-size: 11px;
+        line-height: 12px;
         z-index: 5;
+
+        @include breakpoint(tablet) {
+            top: -15px;
+            left: -15px;
+            width: 50px;
+            height: 50px;
+            font-size: 11px;
+            line-height: 11px;
+            border: 5px solid $yellow;
+        }
+
+        @include breakpoint(desktop) {
+            top: -30px;
+            left: -20px;
+            width: 80px;
+            height: 80px;
+            border: 10px solid $yellow;
+            font-size: 14px;
+            line-height: 14px;
+        }
     }
 
     ul {
-        @media(max-width: 767px) {
+        @media(max-width: 991px) {
             padding-left: 40px;
             padding-right: 40px;
         }
@@ -227,7 +274,7 @@ body.single-event {
         @include breakpoint(tablet) {
             display: inline-block;
             margin-bottom: 0;
-            width: 30.444%;
+            width: 30.2%;
             margin-right: 4%;
 
             &:nth-of-type(3n) {
@@ -285,7 +332,7 @@ body.single-event {
 }
 
 .event-content {
-    padding: 20px 20px;
+    padding: 20px 20px 40px 20px;
 
     @include breakpoint(desktop) {
         padding: 40px 20px 80px 20px;

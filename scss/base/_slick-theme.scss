@@ -224,7 +224,7 @@
     width: 100%;
     margin-top: 30px;
 
-    @include breakpoint(desktop) {
+    @include breakpoint(tablet) {
         display: none;
     }
 

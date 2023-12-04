@@ -96,7 +96,7 @@ body.single-post {
 
     .site-main {
         @extend .c-container;
-        padding-top: 30px;
+        padding-top: 0;
         padding-bottom: 30px;
         padding-left: 20px;
         padding-right: 20px;
@@ -142,6 +142,7 @@ body.single-post {
 
     img {
         border-radius: 30px;
+        width: 100%;
     }
 }
 

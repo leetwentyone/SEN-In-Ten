@@ -2,6 +2,10 @@
     padding-top: 30px;
     padding-bottom: 0;
 
+    body.search-results-page & {
+        padding-top: 10px;
+    }
+
     ul {
         @extend .c-container;
         display: flex;

@@ -12,6 +12,11 @@ body.search-results-page {
 
     @include breakpoint(tablet) {
         padding-top: 60px;
+
+        body.search-results-page & {
+            padding-top: 30px;
+            padding-bottom: 0;
+        }
     }
 
     h1 {
@@ -19,10 +24,6 @@ body.search-results-page {
         text-align: center;
         color: $blue;
         margin-bottom: 0;
-
-        @include breakpoint(tablet) {
-            margin-bottom: 60px;
-        }
     }
 
     form {
@@ -32,9 +33,10 @@ body.search-results-page {
         margin-left: auto;
         margin-right: auto;
 
-        @include breakpoint(tablet) {
+        @include breakpoint(laptop) {
             display: flex;
             width: 500px;
+            margin-top: 60px;
         }
     }
 
@@ -81,8 +83,15 @@ body.search-results-page {
     margin-left: 2.5%;
     margin-right: 2.5%;
 
+    @include breakpoint(tablet) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     @include breakpoint(desktop) {
         padding-top: 120px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     &:last-of-type {
@@ -122,7 +131,32 @@ body.search-results-page {
 
         @include breakpoint(tablet) {
             width: 50%;
+            padding: 0 0 60px 60px;
+        }
+
+        @include breakpoint(desktop) {
             padding: 60px;
+        }
+
+        h3 {
+            color: $blue;
+            margin-bottom: 20px;
+            font-size: 24px;
+            line-height: 34px;
+    
+            @include breakpoint(tablet) {
+                font-size: 18px;
+                line-height: 26px;
+            }
+    
+            @include breakpoint(desktop) {
+                font-size: 24px;
+                line-height: 34px;
+            }
+
+            a {
+                color: $blue;
+            }
         }
 
         ul {
@@ -133,6 +167,17 @@ body.search-results-page {
         li {
             color: $copy;
             font-family: $poppins;
+
+            @include breakpoint(tablet) {
+                font-size: 12px;
+                line-height: 16px;
+                margin-bottom: 20px;
+            }
+
+            @include breakpoint(desktop) {
+                font-size: 14px;
+                line-height: 20px;
+            }
 
             &:not(:last-of-type) {
                 margin-bottom: 5px;
@@ -151,12 +196,14 @@ body.search-results-page {
         align-items: center;
         justify-content: center;
         color: $white;
+        font-family: $poppins;
         background-color: $blue;
         border: 5px solid $yellow;
         border-radius: 100%;
         padding: 20px;
         font-size: 11px;
         line-height: 12px;
+        text-align: center;
         z-index: 5;
 
         @include breakpoint(desktop) {
@@ -242,6 +289,10 @@ body.search-results-page {
             margin-bottom: 20px;
             font-size: 36px;
             line-height: 46px;
+        }
+
+        a {
+            color: $blue;
         }
     }
 }

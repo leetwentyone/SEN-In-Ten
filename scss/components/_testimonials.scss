@@ -24,9 +24,12 @@
         padding-left: 30px;
         padding-right: 30px;
 
-        @include breakpoint(desktop) {
+        @include breakpoint(tablet) {
             display: flex;
             justify-content: space-between;
+        }
+
+        @include breakpoint(desktop) {
             padding-left: 0;
             padding-right: 0;
         }
@@ -49,10 +52,15 @@
 
         @include breakpoint(tablet) {
             flex: 1;
+            padding: 20px;
 
             &:not(:first-of-type) {
                 margin-left: 5%;
             }
+        }
+
+        @include breakpoint(desktop) {
+            padding: 30px;
         }
     }
 

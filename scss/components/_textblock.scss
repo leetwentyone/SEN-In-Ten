@@ -6,14 +6,17 @@
     padding-right: 30px;
     text-align: center;
 
-    @include breakpoint(tablet) {
-        padding-top: 60px;
+    @include breakpoint(desktop) {
         padding-bottom: 60px;
     }
 
     h1 {
         color: $blue;
         margin-bottom: 30px;
+
+        &:only-child {
+            margin-bottom: 0;
+        }
     }
 
     p {
@@ -28,6 +31,10 @@
         a {
             color: $copy;
         }
+    }
+
+    &:has(.btn-container) {
+        padding-bottom: 60px;
     }
 
     .btn-container {

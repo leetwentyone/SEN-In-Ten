@@ -57,6 +57,14 @@
         img {
             max-width: 100px;
             margin-bottom: 20px;
+
+            @include breakpoint(tablet) {
+                max-width: 70px;
+            }
+
+            @include breakpoint(desktop) {
+                max-width: 100px;
+            }
         }
 
         p {

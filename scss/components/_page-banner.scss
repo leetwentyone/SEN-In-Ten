@@ -5,8 +5,24 @@
     width: 100%;
     overflow: hidden;
 
+    @include breakpoint(tablet) {
+        height: 275px;
+    }
+
+    @include breakpoint(laptop) {
+        height: auto;
+    }
+
     @include breakpoint(desktop) {
         position: relative; 
+    }
+
+    img {
+        @include breakpoint(tablet) {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
     }
 
     &:before {

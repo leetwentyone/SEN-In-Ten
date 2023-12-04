@@ -19,7 +19,7 @@
     body.about-page & {
         padding-bottom: 60px;
 
-        @include breakpoint(tablet) {
+        @include breakpoint(laptop) {
             padding-bottom: 15rem;
         }
     }

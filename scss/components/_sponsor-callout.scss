@@ -5,7 +5,7 @@
     .c-container {
         max-width: 100%;
         
-        @include breakpoint(tablet) {
+        @include breakpoint(laptop) {
             body.home &,
             body.single-podcast &,
             body.about-page & {
