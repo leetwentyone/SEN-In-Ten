@@ -51,8 +51,8 @@
                     <li class="location">Arena</li>
                 </ul>
                 <ul class="event-actions">
-                    <a href="#" target="_blank" class="blue-btn">Book Via Eventbrite</a>
-                    <a href="#" target="_blank" class="blue-outline">Book Via Zoom</a>
+                    <a href="https://www.eventbrite.com" target="_blank" class="blue-btn">Book Via Eventbrite</a>
+                    <a href="https://www.zoom.com" target="_blank" class="blue-outline">Book Via Zoom</a>
                 </ul>
             </div>
 

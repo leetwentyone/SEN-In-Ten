@@ -55,7 +55,7 @@
                     </li>
 
                     <li>
-                        <date>1st<span>Oct</span></date>
+                        <date>8th<span>Oct</span></date>
                         <a href="session.php">
                             <img src="images/event-2.png">
                         </a>
@@ -67,7 +67,7 @@
                     </li>
 
                     <li>
-                        <date>1st<span>Oct</span></date>
+                        <date>26th<span>Nov</span></date>
                         <a href="session.php">
                             <img src="images/event-3.png">
                         </a>
@@ -79,7 +79,7 @@
                     </li>
 
                     <li>
-                        <date>1st<span>Oct</span></date>
+                        <date>28th<span>Nov</span></date>
                         <a href="session.php">
                             <img src="images/event-1.png">
                         </a>
@@ -91,7 +91,7 @@
                     </li>
 
                     <li>
-                        <date>1st<span>Oct</span></date>
+                        <date>3rd<span>Dec</span></date>
                         <a href="session.php">
                             <img src="images/event-2.png">
                         </a>
@@ -103,7 +103,7 @@
                     </li>
 
                     <li>
-                        <date>1st<span>Oct</span></date>
+                        <date>5th<span>Dec</span></date>
                         <a href="session.php">
                             <img src="images/event-3.png">
                         </a>

@@ -46,17 +46,17 @@
                         <div class="overlay-content">
                             <img src="images/search-1.png">
                             <div class="overlay-inner">
-                                <h3 class="episode-title">Episode 1 : OrCam Learn</h3>
+                                <h3 class="episode-title"><a href="podcast.php">Episode 1 : OrCam Learn</a></h3>
                                 <p>Sponsored By</p>
                                 <span class="parent-pay"><img src="images/parent-pay.png"></span>
-                                <a class="listen-blue" href="#">Listen Now</a>
+                                <a class="listen-blue" href="podcast.php">Listen Now</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="episode-details">
                         <p>Episode 1 :</p>
-                        <h3>OrCam Learn</h3>
+                        <h3><a href="podcast.php">OrCam Learn</a></h3>
                         <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
                             Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
                         <ul>
@@ -65,7 +65,7 @@
                             <li>This is a another list item but this list item is so long it flows onto multiple lines</li>
                             <li>This is a list item</li>
                         </ul>
-                        <a class="listen-blue-outline" href="#">Listen Now</a>
+                        <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
                     </div>
 
                 </div>
@@ -79,20 +79,20 @@
                         <div class="overlay-content">
                             <img src="images/search-2.png">
                             <div class="overlay-inner">
-                                <h3 class="episode-title">Episode 2 : OrCam Learn</h3>
+                                <h3 class="episode-title"><a href="podcast.php">Episode 2 : OrCam Learn</a></h3>
                                 <p>Sponsored By</p>
                                 <span class="parent-pay"><img src="images/parent-pay.png"></span>
-                                <a class="listen-blue" href="#">Listen Now</a>
+                                <a class="listen-blue" href="podcast.php">Listen Now</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="episode-details">
                         <p>Episode 2 :</p>
-                        <h3>OrCam Learn</h3>
+                        <h3><a href="podcast.php">OrCam Learn</a></h3>
                         <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
                             Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
-                        <a class="listen-blue-outline" href="#">Listen Now</a>
+                        <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
                     </div>
 
                 </div>
@@ -106,20 +106,20 @@
                         <div class="overlay-content">
                             <img src="images/search-3.png">
                             <div class="overlay-inner">
-                                <h3 class="episode-title">Episode 3 : OrCam Learn</h3>
+                                <h3 class="episode-title"><a href="podcast.php">Episode 3 : OrCam Learn</a></h3>
                                 <p>Sponsored By</p>
                                 <span class="parent-pay"><img src="images/parent-pay.png"></span>
-                                <a class="listen-blue" href="#">Listen Now</a>
+                                <a class="listen-blue" href="podcast.php">Listen Now</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="episode-details">
                         <p>Episode 3 :</p>
-                        <h3>OrCam Learn</h3>
+                        <h3><a href="podcast.php">OrCam Learn</a></h3>
                         <p>Praesent euismod auctor lectus, pulvinar aliquam nulla auctor non. Pellentesque tristique pellentesque sem, a condimentum magna viverra in. 
                             Vestibulum ut lacinia purus. Praesent molestie rutrum fringilla. </p>
-                        <a class="listen-blue-outline" href="#">Listen Now</a>
+                        <a class="listen-blue-outline" href="podcast.php">Listen Now</a>
                     </div>
 
                 </div>
