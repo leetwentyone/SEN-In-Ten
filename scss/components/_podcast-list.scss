@@ -75,18 +75,19 @@
         position: absolute;
         top: -20px;
         left: -20px;
-        width: 40px;
-        height: 40px;
+        width: 80px;
+        height: 80px;
+        font-size: 13px;
+        line-height: 13px;
         align-items: center;
         justify-content: center;
+        font-family: $poppins;
+        font-weight: 500;
         color: $white;
         background-color: $blue;
-        border: 5px solid $yellow;
+        border: 10px solid $yellow;
         border-radius: 100%;
         padding: 20px;
-        font-family: $poppins;
-        font-size: 11px;
-        line-height: 12px;
         z-index: 5;
 
         @include breakpoint(tablet) {
@@ -171,9 +172,14 @@
         text-align: center;
         padding-left: 5px;
         padding-right: 5px;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 20px;
+        line-height: 30px;
         color: $blue;
+
+        @include breakpoint(tablet) {
+            font-size: 15px;
+            line-height: 20px;
+        }
 
         @include breakpoint(desktop) {
             margin-bottom: 20px;

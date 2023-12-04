@@ -122,6 +122,16 @@
             font-size: 18px;
             line-height: 26px;
 
+            @include breakpoint(tablet) {
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            @include breakpoint(desktop) {
+                font-size: 18px;
+                line-height: 26px;
+            }
+
             body.training-cpd-page &,
             body.single-session & {
                 color: $copy;

@@ -2,7 +2,8 @@
     padding-top: 30px;
     padding-bottom: 0;
 
-    body.search-results-page & {
+    body.search-results-page &,
+    body.about-page & {
         padding-top: 10px;
     }
 

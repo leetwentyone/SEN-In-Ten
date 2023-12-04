@@ -97,6 +97,12 @@
 
         p {
             color: $white;
+            z-index: 10;
+            position: relative;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
         }
     }
 

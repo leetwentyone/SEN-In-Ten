@@ -773,8 +773,10 @@ body.menu-opened {
     line-height: 13px;
     width: 200px;
     color: #fff;
-    text-align: left;
-    margin-left: 20px; }
+    text-align: left; }
+    @media (min-width: 768px) {
+      .mobile-menu .blue-icon {
+        margin-left: 20px; } }
   .mobile-menu .socials {
     margin-top: 30px; }
     .mobile-menu .socials p {
@@ -865,10 +867,10 @@ a {
       background-color: transparent;
       position: fixed;
       height: auto; } }
-  body.podcasts-page .site-header, body.our-partners-page .site-header, body.training-cpd-page .site-header, body.about-page .site-header, body.training-cpd-page .site-header, body.about-page .site-header {
+  body.our-partners-page .site-header, body.training-cpd-page .site-header {
     background-color: transparent; }
     @media (min-width: 1152px) {
-      body.podcasts-page .site-header, body.our-partners-page .site-header, body.training-cpd-page .site-header, body.about-page .site-header, body.training-cpd-page .site-header, body.about-page .site-header {
+      body.our-partners-page .site-header, body.training-cpd-page .site-header {
         position: fixed; } }
 
 .mobile-top {
@@ -1399,7 +1401,7 @@ a {
 .breadcrumb {
   padding-top: 30px;
   padding-bottom: 0; }
-  body.search-results-page .breadcrumb {
+  body.search-results-page .breadcrumb, body.about-page .breadcrumb {
     padding-top: 10px; }
   .breadcrumb ul {
     display: flex;
@@ -1677,7 +1679,7 @@ img.wave {
   opacity: .1; }
 
 .hero-inner {
-  width: 400px;
+  width: 100%;
   position: relative;
   max-width: 1366px;
   margin-left: 0;
@@ -1856,8 +1858,8 @@ img.wave {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: -20px;
-    left: -20px;
+    top: 15px;
+    left: 10px;
     width: 40px;
     height: 40px;
     align-items: center;
@@ -1948,8 +1950,8 @@ img.wave {
   .episode-list .episode-title {
     margin-bottom: 5px;
     text-align: center;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 22px;
+    line-height: 32px;
     color: #067997; }
     @media (min-width: 768px) {
       .episode-list .episode-title {
@@ -2014,6 +2016,9 @@ img.wave {
         line-height: 34px; } }
     .episode-details h4 a {
       color: #067997; }
+  @media (max-width: 767px) {
+    .episode-details .listen-blue-outline {
+      margin-top: 30px; } }
 
 .listen-links {
   text-align: center;
@@ -2054,7 +2059,9 @@ img.wave {
         line-height: 14px; } }
   .listen-links p {
     color: #808080;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px; }
     body.podcasts-page .listen-links p {
       color: #808080;
       margin-bottom: 30px; }
@@ -2065,7 +2072,9 @@ img.wave {
         margin-bottom: 0; }
     .listen-links p ~ p {
       color: #067997;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      padding-left: 0;
+      padding-right: 0; }
     .listen-links p a {
       color: #067997;
       text-decoration: underline; }
@@ -2085,7 +2094,7 @@ img.wave {
     margin-bottom: 60px; }
     @media (max-width: 767px) {
       .partners ul {
-        padding: 0 40px; } }
+        padding: 0 70px; } }
     .partners ul.slick-initialized {
       display: block; }
   .partners li {
@@ -2128,7 +2137,7 @@ img.wave {
     .news-list {
       padding-left: 0;
       padding-right: 0; } }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     body.home .news-list {
       padding-bottom: 10rem; } }
   .news-list h4 {
@@ -2137,13 +2146,18 @@ img.wave {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: #067997; }
     @media (min-width: 768px) {
       .news-list h4 {
         justify-content: space-between;
         flex-direction: row;
-        text-align: left; } }
+        text-align: left;
+        margin-bottom: 60px;
+        padding-left: 0;
+        padding-right: 0; } }
     .news-list h4 a {
       font-size: 14px;
       line-height: 14px; }
@@ -2153,7 +2167,8 @@ img.wave {
   @media (max-width: 767px) {
     .news-list ul {
       padding-left: 20px;
-      padding-right: 20px; } }
+      padding-right: 20px;
+      padding-bottom: 30px; } }
   .news-list li {
     position: relative;
     transition: all .3s ease;
@@ -2372,7 +2387,11 @@ img.wave {
       color: #fff;
       margin-bottom: 30px; }
     .equal-cols .col-r p {
-      color: #fff; }
+      color: #fff;
+      z-index: 10;
+      position: relative; }
+      .equal-cols .col-r p:last-of-type {
+        margin-bottom: 0; }
   .equal-cols h5 {
     font-weight: 600; }
   .equal-cols h6 {
@@ -2511,6 +2530,8 @@ img.wave {
   left: -20px;
   width: 80px;
   height: 80px;
+  font-size: 13px;
+  line-height: 13px;
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
@@ -2656,6 +2677,14 @@ img.wave {
       color: #067997;
       font-size: 18px;
       line-height: 26px; }
+      @media (min-width: 768px) {
+        .text-image p:first-of-type {
+          font-size: 16px;
+          line-height: 24px; } }
+      @media (min-width: 1152px) {
+        .text-image p:first-of-type {
+          font-size: 18px;
+          line-height: 26px; } }
       body.training-cpd-page .text-image p:first-of-type, body.single-session .text-image p:first-of-type {
         color: #808080;
         font-size: 16px;
@@ -2764,8 +2793,8 @@ img.wave {
     @media (max-width: 767px) {
       .subscribe h5 {
         text-align: center;
-        font-size: 20px;
-        line-height: 26px; } }
+        font-size: 24px;
+        line-height: 30px; } }
     @media (min-width: 768px) {
       .subscribe h5 {
         font-size: 20px;
@@ -2790,7 +2819,7 @@ img.wave {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 200px;
+    width: 250px;
     z-index: 3; }
     @media (min-width: 768px) {
       .subscribe .bg2 {
@@ -3085,31 +3114,28 @@ body.single-podcast {
         .latest-podcast .episode-details h3 {
           font-size: 36px;
           line-height: 46px; } }
+      .latest-podcast .episode-details h3 a {
+        color: #067997; }
   .latest-podcast date {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: -20px;
     left: -20px;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
+    font-size: 13px;
+    line-height: 13px;
     align-items: center;
     justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
     color: #fff;
     background-color: #067997;
-    border: 5px solid #FDC243;
+    border: 10px solid #FDC243;
     border-radius: 100%;
     padding: 20px;
-    font-family: "Poppins", sans-serif;
-    font-size: 11px;
-    line-height: 12px;
     z-index: 5; }
-    @media (min-width: 768px) {
-      .latest-podcast date {
-        height: 60px;
-        width: 60px;
-        font-size: 14px;
-        line-height: 14px; } }
     @media (min-width: 1152px) {
       .latest-podcast date {
         top: -60px;
@@ -3258,13 +3284,15 @@ body.single-podcast {
     position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 100%;
     background-color: #067997; }
     @media (min-width: 768px) {
       .podcast-notes .col-r {
-        width: 50%; } }
+        width: 50%;
+        padding-left: 60px;
+        padding-right: 60px; } }
     @media (min-width: 992px) {
       .podcast-notes .col-r {
         padding-top: 10rem;
@@ -3461,18 +3489,19 @@ body.single-podcast {
     position: absolute;
     top: -20px;
     left: -20px;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
+    font-size: 13px;
+    line-height: 13px;
     align-items: center;
     justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
     color: #fff;
     background-color: #067997;
-    border: 5px solid #FDC243;
+    border: 10px solid #FDC243;
     border-radius: 100%;
     padding: 20px;
-    font-family: "Poppins", sans-serif;
-    font-size: 11px;
-    line-height: 12px;
     z-index: 5; }
     @media (min-width: 768px) {
       .podcast-list date {
@@ -3537,9 +3566,13 @@ body.single-podcast {
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
     color: #067997; }
+    @media (min-width: 768px) {
+      .podcast-list .episode-title {
+        font-size: 15px;
+        line-height: 20px; } }
     @media (min-width: 1152px) {
       .podcast-list .episode-title {
         margin-bottom: 20px;
@@ -3550,14 +3583,21 @@ body.single-podcast {
 
 .embedded-player {
   position: relative; }
+  @media (max-width: 767px) {
+    .embedded-player {
+      max-width: 90%;
+      margin-left: 5%;
+      margin-bottom: 5%; } }
   .embedded-player .c-container, .embedded-player .breadcrumb ul, .breadcrumb .embedded-player ul, .embedded-player .footer-inner, .embedded-player .item-inner, .embedded-player .latest-podcast, .embedded-player .podcast-summary, .embedded-player .textblock, .embedded-player ul.partner-logos, .embedded-player .why-icons ul, .why-icons .embedded-player ul, .embedded-player .latest-post, .embedded-player body.single-post .site-main, body.single-post .embedded-player .site-main, .embedded-player .testimonials ul, .testimonials .embedded-player ul, .embedded-player .session-summary, .embedded-player .featured-event, .embedded-player .event-summary, .embedded-player .contact-container {
     position: relative;
-    z-index: 5; }
+    z-index: 5;
+    background-color: #E0E8ED; }
   .embedded-player span {
     display: block;
     width: 100%;
     height: 300px;
     background-color: #067997;
+    border-radius: 20px;
     padding: 20px;
     z-index: 10; }
   .embedded-player:before {
@@ -3994,18 +4034,20 @@ body.training-cpd-page {
     position: absolute;
     top: -20px;
     left: -20px;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
+    font-size: 13px;
+    line-height: 13px;
     align-items: center;
     justify-content: center;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 500;
     color: #fff;
     background-color: #067997;
-    border: 5px solid #FDC243;
+    border: 10px solid #FDC243;
     border-radius: 100%;
     padding: 20px;
-    font-family: "Poppins", sans-serif;
-    font-size: 11px;
-    line-height: 12px;
     z-index: 5; }
     @media (min-width: 768px) {
       .training-list date {
@@ -4462,19 +4504,20 @@ body.single-event {
     position: absolute;
     top: -20px;
     left: -20px;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
     color: #fff;
     background-color: #067997;
-    border: 5px solid #FDC243;
+    border: 10px solid #FDC243;
     border-radius: 100%;
     padding: 20px;
-    font-family: "Poppins", sans-serif;
-    font-size: 11px;
-    line-height: 12px;
     z-index: 5; }
     @media (min-width: 768px) {
       .event-listing date {
@@ -4503,7 +4546,7 @@ body.single-event {
     transition: all .3s ease;
     list-style-type: none;
     padding: 0;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     background-color: #fff; }
     @media (min-width: 768px) {
       .event-listing li {
@@ -4622,13 +4665,28 @@ body.single-event {
     @media (min-width: 768px) {
       .event-summary .event-overview {
         width: 50%;
+        padding: 0 0 60px 60px; } }
+    @media (min-width: 1152px) {
+      .event-summary .event-overview {
         padding: 60px; } }
     .event-summary .event-overview p {
       color: #808080;
       margin-bottom: 30px; }
+      @media (min-width: 768px) {
+        .event-summary .event-overview p {
+          margin-bottom: 10px; } }
+      @media (min-width: 1152px) {
+        .event-summary .event-overview p {
+          margin-bottom: 30px; } }
   .event-summary .event-details {
     padding-left: 0;
     margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .event-summary .event-details {
+        margin-bottom: 10px; } }
+    @media (min-width: 1152px) {
+      .event-summary .event-details {
+        margin-bottom: 30px; } }
     .event-summary .event-details li {
       display: flex;
       align-items: center;
@@ -4661,11 +4719,19 @@ body.single-event {
       @media (min-width: 768px) {
         .event-summary .event-actions a {
           width: auto;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 11px;
+          line-height: 11px; } }
+      @media (min-width: 1152px) {
+        .event-summary .event-actions a {
           padding-left: 20px;
-          padding-right: 20px; } }
+          padding-right: 20px;
+          font-size: 14px;
+          line-height: 14px; } }
       .event-summary .event-actions a:not(:first-of-type) {
         margin-left: 10px; }
-        @media (min-width: 768px) {
+        @media (min-width: 1152px) {
           .event-summary .event-actions a:not(:first-of-type) {
             margin-left: 20px; } }
   .event-summary img {

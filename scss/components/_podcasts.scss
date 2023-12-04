@@ -50,6 +50,10 @@ body.single-podcast {
                 font-size: 36px;
                 line-height: 46px;
             }
+
+            a {
+                color: $blue;
+            }
         }
     }
 
@@ -59,26 +63,20 @@ body.single-podcast {
         position: absolute;
         top: -20px;
         left: -20px;
-        width: 40px;
-        height: 40px;
+        width: 80px;
+        height: 80px;
+        font-size: 13px;
+        line-height: 13px;
         align-items: center;
         justify-content: center;
+        font-family: $poppins;
+        font-weight: 500;
         color: $white;
         background-color: $blue;
-        border: 5px solid $yellow;
+        border: 10px solid $yellow;
         border-radius: 100%;
         padding: 20px;
-        font-family: $poppins;
-        font-size: 11px;
-        line-height: 12px;
         z-index: 5;
-
-        @include breakpoint(tablet) {
-            height: 60px;
-            width: 60px;
-            font-size: 14px;
-            line-height: 14px;
-        }
 
         @include breakpoint(desktop) {
             top: -60px;
@@ -285,13 +283,15 @@ body.single-podcast {
         position: relative;
         padding-top: 60px;
         padding-bottom: 60px;
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
         width: 100%;
         background-color: $blue;
 
         @include breakpoint(tablet) {
             width: 50%;
+            padding-left: 60px;
+            padding-right: 60px;
         }
 
         @include breakpoint(laptop) {
