@@ -42,7 +42,7 @@ jQuery(function($) {
 
 /* Episode List */
 jQuery(document).ready(function(){
-  if (window.matchMedia("(max-width: 768px)").matches) {
+  if (window.matchMedia("(max-width: 767px)").matches) {
     jQuery('.episode-list ul').slick({
       autoplay: true,
       autoplaySpeed: 6000,
