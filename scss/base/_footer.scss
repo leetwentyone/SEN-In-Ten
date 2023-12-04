@@ -56,7 +56,14 @@
 	@include breakpoint(tablet) {
 		padding-top: 30px;
 		order: 2;
-		width: 50%;
+		width: 55%;
+		margin-left: 5%;
+	}
+
+	@include breakpoint(desktop) {
+		padding-top: 30px;
+		order: 2;
+		width: 45%;
 	}
 
 	ul {
@@ -75,13 +82,13 @@
 			font-size: 9px;
 			line-height: 9px;
 
-			@include breakpoint(tablet) {
+			@include breakpoint(desktop) {
 				font-size: 13px;
 				line-height: 13px;
 			}
 		}
 
-		@include breakpoint(tablet) {
+		@include breakpoint(desktop) {
 			font-size: 13px;
 			line-height: 13px;
 		}
@@ -139,6 +146,12 @@
 	color: $white;
 
 	@include breakpoint(tablet) {
+		order: 3;
+		padding-top: 30px;
+		width: 20%;
+	}
+
+	@include breakpoint(desktop) {
 		order: 3;
 		padding-top: 30px;
 		width: 30%;

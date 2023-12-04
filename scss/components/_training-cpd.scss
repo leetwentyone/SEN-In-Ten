@@ -16,9 +16,12 @@ body.training-cpd-page {
     }
 
     ul {
-        @media(max-width: 767px) {
-            padding-left: 40px;
-            padding-right: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+        @include breakpoint(desktop) {
+            padding-left: 0;
+            padding-right: 0;
         }
     }
 
@@ -31,12 +34,16 @@ body.training-cpd-page {
 
         @include breakpoint(tablet) {
             display: inline-block;
-            width: 30.444%;
+            width: 30.222%;
             margin-right: 4%;
 
             &:nth-of-type(3n) {
                 margin-right: 0;
             }
+        }
+
+        @include breakpoint(desktop) {
+            width: 30.444%;
         }
 
         &:last-of-type {

@@ -173,8 +173,12 @@
             width: 35%;
         }
 
-        @include breakpoint(desktop) {
-            width: 85%;
+        @include breakpoint(laptop) {
+            width: 100%;
+        }
+
+        @include breakpoint(xldesktop) {
+            width: 75%;
         }
     }
 

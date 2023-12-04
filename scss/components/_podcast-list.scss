@@ -3,6 +3,11 @@
     padding-top: 60px;
     padding-bottom: 1px;
 
+    @include breakpoint(tablet) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     h2 {
         display: flex;
         align-items: center;
@@ -32,10 +37,6 @@
             margin-bottom: 60px;
         }
 
-        @include breakpoint(desktop) {
-            margin-bottom: 60px;
-        }
-
         &:hover {
             border-color: $blue;
 
@@ -47,7 +48,7 @@
 
         @include breakpoint(tablet) {
             display: inline-block;
-            width: 31.8%;
+            width: 31.6%;
             margin-right: 2%;
 
             &:nth-of-type(3n) {
@@ -56,7 +57,15 @@
         }
 
         @include breakpoint(desktop) {
+            width: 31.8%;
             border-radius: 30px;
+            margin-bottom: 60px;
+        }
+
+        h3 {
+            a {
+                color: $blue;
+            }
         }
     }
 
@@ -78,6 +87,16 @@
         font-size: 11px;
         line-height: 12px;
         z-index: 5;
+
+        @include breakpoint(tablet) {
+            top: -15px;
+            left: -15px;
+            width: 50px;
+            height: 50px;
+            font-size: 11px;
+            line-height: 11px;
+            border: 5px solid $yellow;
+        }
 
         @include breakpoint(desktop) {
             top: -30px;

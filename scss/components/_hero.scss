@@ -106,6 +106,10 @@ img.the-talk {
   @include breakpoint(desktop) {
     max-width: 85%;
   }
+
+  @include breakpoint(xldesktop) {
+    max-width: 1600px;
+  }
 }
 
 img.wave {
@@ -139,6 +143,7 @@ img.wave {
 
   @include breakpoint(desktop) {
     margin-top: 100px;
+    margin-left: auto;
   }
 
   h1 {
