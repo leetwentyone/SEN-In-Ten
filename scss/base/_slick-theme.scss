@@ -230,7 +230,12 @@
 
     > div {
         &:not(:first-of-type) {
-            margin-left: 20px;
+            margin-left: 10px;
         }
+    }
+
+    img {
+        max-width: 40px;
+        cursor: pointer;
     }
 }

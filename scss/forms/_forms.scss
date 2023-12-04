@@ -67,14 +67,9 @@ label {
 .enquiry {
     background-color: $blue;
     position: relative;
-    padding-top:  30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     scroll-margin: 150px;
-
-    @include breakpoint(tablet) {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
 
     &:before {
         content: "";

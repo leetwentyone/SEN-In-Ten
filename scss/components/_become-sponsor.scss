@@ -13,6 +13,9 @@ body.become-sponsor-page {
     @include breakpoint(tablet) {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    @include breakpoint(desktop) {
         padding-left: 0;
         padding-right: 0;
     }
@@ -92,7 +95,7 @@ body.become-sponsor-page {
         color: $blue;
 
         &:not(:last-of-type) {
-            margin-bottom: 25px;
+            margin-bottom: 15px;
         }
 
         &:before {

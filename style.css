@@ -123,13 +123,9 @@ label {
 .enquiry {
   background-color: #067997;
   position: relative;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   scroll-margin: 150px; }
-  @media (min-width: 768px) {
-    .enquiry {
-      padding-top: 60px;
-      padding-bottom: 60px; } }
   .enquiry:before {
     content: "";
     display: block;
@@ -763,12 +759,14 @@ body.menu-opened {
   .mobile-menu.opened {
     right: 0; }
   .mobile-menu .yellow-icon {
+    display: block;
     font-size: 13px;
     line-height: 13px;
     margin-bottom: 15px;
     width: 200px;
     text-align: left; }
   .mobile-menu .blue-icon {
+    display: block;
     font-size: 13px;
     line-height: 13px;
     width: 200px;
@@ -1308,7 +1306,10 @@ a {
     .controls {
       display: none; } }
   .controls > div:not(:first-of-type) {
-    margin-left: 20px; }
+    margin-left: 10px; }
+  .controls img {
+    max-width: 40px;
+    cursor: pointer; }
 
 /* Slider */
 .slick-slider {
@@ -1401,7 +1402,7 @@ a {
 .breadcrumb {
   padding-top: 30px;
   padding-bottom: 0; }
-  body.search-results-page .breadcrumb, body.about-page .breadcrumb {
+  body.search-results-page .breadcrumb, body.about-page .breadcrumb, body.become-sponsor-page .breadcrumb, body.contact-page .breadcrumb, body.misc-page .breadcrumb {
     padding-top: 10px; }
   .breadcrumb ul {
     display: flex;
@@ -4095,8 +4096,8 @@ body.training-cpd-page {
 
 .testimonials {
   background-color: #FDC243;
-  padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
   @media (min-width: 768px) {
     .testimonials {
       padding-top: 60px;
@@ -4105,17 +4106,16 @@ body.training-cpd-page {
     width: 100%;
     color: #067997;
     text-align: center;
-    margin-bottom: 30px; }
-    @media (min-width: 768px) {
-      .testimonials h4 {
-        margin-bottom: 60px; } }
+    margin-bottom: 60px; }
   .testimonials ul {
-    padding-left: 30px;
-    padding-right: 30px; }
+    padding-left: 60px;
+    padding-right: 60px; }
     @media (min-width: 768px) {
       .testimonials ul {
         display: flex;
-        justify-content: space-between; } }
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px; } }
     @media (min-width: 1152px) {
       .testimonials ul {
         padding-left: 0;
@@ -4754,7 +4754,9 @@ body.become-sponsor-page {
   @media (min-width: 768px) {
     .whats-included {
       padding-top: 60px;
-      padding-bottom: 60px;
+      padding-bottom: 60px; } }
+  @media (min-width: 1152px) {
+    .whats-included {
       padding-left: 0;
       padding-right: 0; } }
   .whats-included .c-container, .whats-included .breadcrumb ul, .breadcrumb .whats-included ul, .whats-included .footer-inner, .whats-included .item-inner, .whats-included .latest-podcast, .whats-included .podcast-summary, .whats-included .textblock, .whats-included ul.partner-logos, .whats-included .why-icons ul, .why-icons .whats-included ul, .whats-included .latest-post, .whats-included body.single-post .site-main, body.single-post .whats-included .site-main, .whats-included .testimonials ul, .testimonials .whats-included ul, .whats-included .session-summary, .whats-included .featured-event, .whats-included .event-summary, .whats-included .contact-container {
@@ -4814,7 +4816,7 @@ body.become-sponsor-page {
     padding-left: 40px;
     color: #067997; }
     .whats-included li:not(:last-of-type) {
-      margin-bottom: 25px; }
+      margin-bottom: 15px; }
     .whats-included li:before {
       content: "";
       display: inline-block;
@@ -4856,13 +4858,14 @@ body.contact-page {
   margin-top: 30px;
   border: 1px solid #067997;
   border-radius: 30px;
-  padding: 30px;
+  padding: 60px;
   order: 2; }
   @media (min-width: 768px) {
     .get-in-touch {
       width: 40%;
       margin-top: 0;
       margin-left: 0;
+      padding: 30px;
       order: 1; } }
   @media (min-width: 992px) {
     .get-in-touch {

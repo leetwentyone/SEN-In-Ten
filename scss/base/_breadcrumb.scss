@@ -3,7 +3,10 @@
     padding-bottom: 0;
 
     body.search-results-page &,
-    body.about-page & {
+    body.about-page &,
+    body.become-sponsor-page &,
+    body.contact-page &,
+    body.misc-page & {
         padding-top: 10px;
     }
 
