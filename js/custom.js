@@ -125,11 +125,11 @@ jQuery(function($){
 
 /* Listen Links */
 jQuery(document).ready(function(){
-  if (window.matchMedia("(max-width: 1151px)").matches) {
+  if (window.matchMedia("(max-width: 1366px)").matches) {
     jQuery('.listen-links ul').slick({
       autoplay: true,
       autoplaySpeed: 6000,
-      slidesToShow: 3,
+      slidesToShow: 4,
       dots: false,
       arrows: false,
       responsive: [
