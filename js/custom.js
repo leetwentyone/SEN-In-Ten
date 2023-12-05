@@ -96,7 +96,7 @@ jQuery(document).ready(function(){
     {
       breakpoint: 1200,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 4,
       }
     },
     {
@@ -125,7 +125,7 @@ jQuery(function($){
 
 /* Listen Links */
 jQuery(document).ready(function(){
-  if (window.matchMedia("(max-width: 768px)").matches) {
+  if (window.matchMedia("(max-width: 1151px)").matches) {
     jQuery('.listen-links ul').slick({
       autoplay: true,
       autoplaySpeed: 6000,
@@ -136,7 +136,7 @@ jQuery(document).ready(function(){
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
         }
       },
       {
