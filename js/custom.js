@@ -14,6 +14,7 @@ jQuery(function($) {
   jQuery('.search-toggle').click(function(e) {
     e.preventDefault();
     jQuery(".search-container").toggleClass("search-active");
+    jQuery(".site-header").toggleClass("search-open");
   })
 });
 
@@ -21,6 +22,7 @@ jQuery(function($) {
   jQuery('.close-search').click(function(e) {
     e.preventDefault();
     jQuery(".search-container").removeClass("search-active");
+    jQuery(".site-header").removeClass("search-open");
   })
 });
 
