@@ -14,7 +14,7 @@ body.blog {
         flex-direction: row;
     }
 
-    @include breakpoint(desktop) {
+    @include breakpoint(xxldesktop) {
         padding-left: 0;
         padding-right: 0;
     }
@@ -139,6 +139,9 @@ body.single-post {
 }
 
 .article-post--image {
+    max-width: $sitewidth;
+    margin-left: auto;
+    margin-right: auto;
 
     img {
         border-radius: 30px;

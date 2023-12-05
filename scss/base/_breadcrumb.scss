@@ -8,6 +8,10 @@
     body.contact-page &,
     body.misc-page & {
         padding-top: 10px;
+
+        @include breakpoint(laptop) {
+            padding-top: 30px
+        }
     }
 
     ul {

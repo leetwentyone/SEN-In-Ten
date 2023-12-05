@@ -84,11 +84,17 @@ body.search-results-page {
     margin-right: 2.5%;
 
     @include breakpoint(tablet) {
+        padding-top: 30px;
         padding-left: 30px;
         padding-right: 30px;
     }
 
-    @include breakpoint(desktop) {
+    @include breakpoint(laptop) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @include breakpoint(xxldesktop) {
         padding-top: 120px;
         padding-left: 0;
         padding-right: 0;
@@ -131,11 +137,11 @@ body.search-results-page {
 
         @include breakpoint(tablet) {
             width: 50%;
-            padding: 0 0 60px 60px;
+            padding: 0 0 0 60px;
         }
 
-        @include breakpoint(desktop) {
-            padding: 60px;
+        @include breakpoint(laptop) {
+            padding: 60px 0 0 60px;
         }
 
         h3 {
@@ -191,29 +197,29 @@ body.search-results-page {
         position: absolute;
         top: -20px;
         left: -20px;
-        width: 40px;
-        height: 40px;
+        width: 80px;
+        height: 80px;
+        font-size: 13px;
+        line-height: 13px;
         align-items: center;
         justify-content: center;
-        color: $white;
         font-family: $poppins;
+        font-weight: 500;
+        color: $white;
         background-color: $blue;
-        border: 5px solid $yellow;
+        border: 10px solid $yellow;
         border-radius: 100%;
         padding: 20px;
-        font-size: 11px;
-        line-height: 12px;
-        text-align: center;
         z-index: 5;
 
-        @include breakpoint(desktop) {
-            top: -60px;
-            left: -60px;
-            width: 120px;
-            height: 120px;
-            border: 15px solid $yellow;
-            font-size: 20px;
-            line-height: 28px;
+        @include breakpoint(laptop) {
+            top: -20px;
+            left: -10px;
+            width: 80px;
+            height: 80px;
+            border: 10px solid $yellow;
+            font-size: 14px;
+            line-height: 14px;
         }
     }
 
@@ -287,8 +293,8 @@ body.search-results-page {
 
         @include breakpoint(desktop) {
             margin-bottom: 20px;
-            font-size: 36px;
-            line-height: 46px;
+            font-size: 26px;
+            line-height: 36px;
         }
 
         a {

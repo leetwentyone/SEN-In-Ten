@@ -15,11 +15,6 @@ body.single-podcast {
         flex-direction: row;
     }
 
-    @include breakpoint(desktop) {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     .image-col {
         position: relative;
         width: 100%;
@@ -78,14 +73,14 @@ body.single-podcast {
         padding: 20px;
         z-index: 5;
 
-        @include breakpoint(desktop) {
-            top: -60px;
-            left: -60px;
-            width: 120px;
-            height: 120px;
-            border: 15px solid $yellow;
-            font-size: 20px;
-            line-height: 28px;
+        @include breakpoint(laptop) {
+            top: -20px;
+            left: -10px;
+            width: 80px;
+            height: 80px;
+            border: 10px solid $yellow;
+            font-size: 14px;
+            line-height: 14px;
         }
     }
 

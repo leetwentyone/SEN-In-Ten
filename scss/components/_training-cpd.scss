@@ -19,7 +19,7 @@ body.training-cpd-page {
         padding-left: 40px;
         padding-right: 40px;
 
-        @include breakpoint(desktop) {
+        @include breakpoint(xxldesktop) {
             padding-left: 0;
             padding-right: 0;
         }
@@ -44,7 +44,7 @@ body.training-cpd-page {
         }
 
         @include breakpoint(desktop) {
-            width: 30.444%;
+            width: 30.333%;
         }
 
         &:last-of-type {

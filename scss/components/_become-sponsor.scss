@@ -15,7 +15,7 @@ body.become-sponsor-page {
         padding-bottom: 60px;
     }
 
-    @include breakpoint(desktop) {
+    @include breakpoint(xxldesktop) {
         padding-left: 0;
         padding-right: 0;
     }

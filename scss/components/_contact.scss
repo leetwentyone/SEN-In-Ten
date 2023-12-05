@@ -15,7 +15,7 @@ body.contact-page {
         padding-right: 30px;
     }
 
-    @include breakpoint(desktop) {
+    @include breakpoint(xxldesktop) {
         padding-left: 0;
         padding-right: 0;
     }

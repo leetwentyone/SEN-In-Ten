@@ -86,7 +86,11 @@
         }
 
         @include breakpoint(desktop) {
-            padding-left: 20%;
+            padding-left: 15%;
+        }
+
+        @include breakpoint(xxldesktop) {
+            padding-left: 30%;
         }
     }
 
@@ -179,8 +183,8 @@
             right: -100px;
         }
 
-        @include breakpoint(xldesktop) {
-            width: 75%;
+        @include breakpoint(xxldesktop) {
+            width: 1400px;
         }
     }
 

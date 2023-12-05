@@ -17,7 +17,7 @@ body.single-event {
         flex-direction: row;
     }
 
-    @include breakpoint(desktop) {
+    @include breakpoint(xxldesktop) {
         padding-left: 0;
         padding-right: 0;
     }
@@ -26,31 +26,31 @@ body.single-event {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: -25px;
-        left: 10px;
+        top: -20px;
+        left: -20px;
         width: 80px;
         height: 80px;
+        font-size: 13px;
+        line-height: 13px;
         align-items: center;
         justify-content: center;
-        text-align: center;
+        font-family: $poppins;
+        font-weight: 500;
         color: $white;
         background-color: $blue;
         border: 10px solid $yellow;
-        font-family: $poppins;
         border-radius: 100%;
         padding: 20px;
-        font-size: 16px;
-        line-height: 16px;
         z-index: 5;
 
-        @include breakpoint(desktop) {
-            top: -60px;
-            left: -60px;
-            width: 120px;
-            height: 120px;
-            border: 15px solid $yellow;
-            font-size: 20px;
-            line-height: 28px;
+        @include breakpoint(laptop) {
+            top: -20px;
+            left: -10px;
+            width: 80px;
+            height: 80px;
+            border: 10px solid $yellow;
+            font-size: 14px;
+            line-height: 14px;
         }
     }
 
@@ -258,7 +258,7 @@ body.single-event {
     }
 
     ul {
-        @media(max-width: 1151px) {
+        @media(max-width: 1600px) {
             padding-left: 40px;
             padding-right: 40px;
         }
@@ -397,30 +397,31 @@ body.single-event {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: -25px;
-        left: 10px;
+        top: -20px;
+        left: -20px;
         width: 80px;
         height: 80px;
+        font-size: 13px;
+        line-height: 13px;
         align-items: center;
         justify-content: center;
-        text-align: center;
+        font-family: $poppins;
+        font-weight: 500;
         color: $white;
         background-color: $blue;
         border: 10px solid $yellow;
         border-radius: 100%;
         padding: 20px;
-        font-size: 16px;
-        line-height: 16px;
         z-index: 5;
 
-        @include breakpoint(desktop) {
-            top: -60px;
-            left: -60px;
-            width: 120px;
-            height: 120px;
-            border: 15px solid $yellow;
-            font-size: 20px;
-            line-height: 28px;
+        @include breakpoint(laptop) {
+            top: -20px;
+            left: -10px;
+            width: 80px;
+            height: 80px;
+            border: 10px solid $yellow;
+            font-size: 14px;
+            line-height: 14px;
         }
     }
 

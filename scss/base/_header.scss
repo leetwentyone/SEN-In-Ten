@@ -78,7 +78,7 @@
 	}
 
 	@include breakpoint(desktop) {
-		padding: 30px 0;
+		padding: 30px 5%;
 	}
 
 	@include breakpoint(xldesktop) {
@@ -108,10 +108,6 @@
 		body.home & {
 			width: 15%;
 		}
-	}
-
-	@include breakpoint(desktop) {
-		width: 300px;
 	}
 
 	img {
@@ -180,12 +176,6 @@
 		display: flex;
         width: 75%;
 		margin-right: 0;
-    }
-
-    @include breakpoint(desktop) {
-        width: calc(100% - 400px);
-		margin-left: 60px;
-		margin-right: 20px;
     }
 
 	.header-top--actions {
