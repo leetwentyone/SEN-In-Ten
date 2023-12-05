@@ -30,8 +30,8 @@
 
         <div class="session-summary">
         
-            <date>8th<br>Dec</date>
             <div class="image-col">
+                <date>8th<br>Dec</date>
                 <picture>
                     <source media="(max-width:767px)" srcset="images/mobile/training-session.png"><!-- Image for mobile devices -->        
                     <img src="images/desktop/training-session.png" alt=""><!-- Image for desktop screens -->

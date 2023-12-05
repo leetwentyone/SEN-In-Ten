@@ -31,8 +31,8 @@
 
         <div class="featured-event">
         
-            <date>8th<br>Dec</date>
             <div class="image-col">
+                <date>8th<br>Dec</date>
                 <picture>
                     <source media="(max-width:767px)" srcset="images/mobile/featured-podcast.png"><!-- Image for mobile devices -->        
                     <img src="images/desktop/featured-podcast.png" alt=""><!-- Image for desktop screens -->
