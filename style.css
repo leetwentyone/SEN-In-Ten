@@ -858,18 +858,12 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
-  /* Pages with banners -- remove this height when banners are added */ }
+  height: auto; }
   @media (min-width: 992px) {
     body.home .site-header {
       background-color: transparent;
       position: fixed;
       height: auto; } }
-  body.our-partners-page .site-header, body.training-cpd-page .site-header {
-    background-color: transparent; }
-    @media (min-width: 1152px) {
-      body.our-partners-page .site-header, body.training-cpd-page .site-header {
-        position: fixed; } }
 
 .mobile-top {
   display: flex;
@@ -937,8 +931,10 @@ a {
       height: auto; } }
   @media (min-width: 992px) {
     .site-logo {
-      width: 20%;
-      height: auto; } }
+      width: 120px;
+      height: auto; }
+      body.home .site-logo {
+        width: 15%; } }
   @media (min-width: 1152px) {
     .site-logo {
       width: 300px; } }
@@ -976,7 +972,7 @@ a {
       height: 20px;
       background-image: url("images/icons/menu.png");
       background-repeat: no-repeat;
-      background-size: 20px;
+      background-size: 25px;
       background-position: center;
       margin-right: 5px; }
 
@@ -1618,6 +1614,9 @@ img.wave-bg {
   height: 60vh; }
   @media (min-width: 992px) {
     .hero-tall {
+      height: 65vh; } }
+  @media (min-width: 1366px) {
+    .hero-tall {
       height: 90vh; } }
 
 .hero-content {
@@ -1766,9 +1765,9 @@ img.wave {
   padding-right: 20px; }
   @media (min-width: 768px) {
     .banner-callout {
-      padding-top: 30px;
+      padding-top: 20px;
       padding-bottom: 30px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1152px) {
     .banner-callout {
       padding-top: 60px;
       padding-bottom: 60px; } }
@@ -1821,7 +1820,7 @@ img.wave {
   @media (min-width: 576px) {
     .episode-list .slick-list {
       padding: 0 20px; } }
-  @media (max-width: 991px) {
+  @media (max-width: 1151px) {
     .episode-list ul {
       padding-left: 20px;
       padding-right: 20px; } }
@@ -1859,10 +1858,10 @@ img.wave {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 15px;
-    left: 10px;
-    width: 40px;
-    height: 40px;
+    top: 30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -1872,8 +1871,8 @@ img.wave {
     border-radius: 100%;
     padding: 20px;
     font-family: "Poppins", sans-serif;
-    font-size: 11px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 14px;
     z-index: 5; }
     @media (min-width: 768px) {
       .episode-list date {
@@ -1884,10 +1883,10 @@ img.wave {
         font-size: 11px;
         line-height: 11px;
         border: 5px solid #FDC243; } }
-    @media (min-width: 1152px) {
+    @media (min-width: 992px) {
       .episode-list date {
-        top: -30px;
-        left: -20px;
+        top: -20px;
+        left: -10px;
         width: 80px;
         height: 80px;
         border: 10px solid #FDC243;
@@ -2011,6 +2010,9 @@ img.wave {
       .episode-details h4 {
         font-size: 18px;
         line-height: 26px; } }
+    @media (min-width: 992px) {
+      .episode-details h4 {
+        margin-bottom: 10px; } }
     @media (min-width: 1152px) {
       .episode-details h4 {
         font-size: 24px;
@@ -2140,6 +2142,9 @@ img.wave {
       padding-right: 0; } }
   @media (min-width: 992px) {
     body.home .news-list {
+      padding-bottom: 13rem; } }
+  @media (min-width: 1152px) {
+    body.home .news-list {
       padding-bottom: 10rem; } }
   .news-list h4 {
     display: flex;
@@ -2184,7 +2189,7 @@ img.wave {
           margin-right: 0; } }
     @media (min-width: 992px) {
       .news-list li {
-        width: 31.8%; } }
+        width: 31.7%; } }
     .news-list li a:not(.post-content a) {
       display: block;
       position: relative;
@@ -2309,12 +2314,18 @@ img.wave {
   .sponsor-callout img.waveform {
     display: block;
     position: absolute;
-    bottom: -50%;
+    bottom: 0;
     left: 0;
     width: 100%;
     height: auto;
     z-index: 1;
     opacity: .2; }
+    @media (min-width: 768px) {
+      .sponsor-callout img.waveform {
+        bottom: -30%; } }
+    @media (min-width: 1152px) {
+      .sponsor-callout img.waveform {
+        bottom: -50%; } }
 
 .equal-cols {
   display: flex;
@@ -2339,7 +2350,7 @@ img.wave {
           padding-top: 100px;
           padding-left: 30px;
           padding-right: 30px; } }
-    @media (min-width: 1152px) {
+    @media (min-width: 992px) {
       body.home .equal-cols .col-l, body.about-page .equal-cols .col-l {
         padding-bottom: 10rem;
         padding-top: 14rem; } }
@@ -2393,6 +2404,8 @@ img.wave {
       position: relative; }
       .equal-cols .col-r p:last-of-type {
         margin-bottom: 0; }
+    .equal-cols .col-r:has(.white-outline-cross) p:last-of-type {
+      margin-bottom: 20px; }
   .equal-cols h5 {
     font-weight: 600; }
   .equal-cols h6 {
@@ -2427,6 +2440,10 @@ img.wave {
       .equal-cols li {
         padding-left: 0;
         padding-right: 0; } }
+    @media (min-width: 992px) {
+      .equal-cols li {
+        padding-left: 10px;
+        padding-right: 10px; } }
     @media (min-width: 1152px) {
       .equal-cols li {
         padding-left: 30px;
@@ -2552,10 +2569,10 @@ img.wave {
       font-size: 11px;
       line-height: 11px;
       border: 5px solid #FDC243; } }
-  @media (min-width: 1152px) {
+  @media (min-width: 992px) {
     .event-list date {
       top: -20px;
-      left: -20px;
+      left: -10px;
       width: 80px;
       height: 80px;
       font-size: 14px;
@@ -2824,10 +2841,11 @@ img.wave {
     z-index: 3; }
     @media (min-width: 768px) {
       .subscribe .bg2 {
-        width: 35%; } }
+        width: 300px; } }
     @media (min-width: 992px) {
       .subscribe .bg2 {
-        width: 100%; } }
+        width: 100%;
+        right: -100px; } }
     @media (min-width: 1366px) {
       .subscribe .bg2 {
         width: 75%; } }
@@ -3181,9 +3199,9 @@ body.single-podcast {
       .podcast-summary .episode-details {
         width: 50%;
         padding: 0 0 0 60px; } }
-    @media (min-width: 1152px) {
+    @media (min-width: 992px) {
       .podcast-summary .episode-details {
-        padding: 60px; } }
+        padding: 60px 0 60px 60px; } }
     .podcast-summary .episode-details h3 {
       color: #067997;
       margin-bottom: 20px; }
@@ -3202,6 +3220,9 @@ body.single-podcast {
 
 .share {
   margin-top: 30px; }
+  @media (min-width: 992px) {
+    .share {
+      margin-bottom: 30px; } }
   .share .share-title {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -3513,10 +3534,10 @@ body.single-podcast {
         font-size: 11px;
         line-height: 11px;
         border: 5px solid #FDC243; } }
-    @media (min-width: 1152px) {
+    @media (min-width: 992px) {
       .podcast-list date {
-        top: -30px;
-        left: -20px;
+        top: -20px;
+        left: -10px;
         width: 80px;
         height: 80px;
         border: 10px solid #FDC243;
@@ -3593,6 +3614,12 @@ body.single-podcast {
     position: relative;
     z-index: 5;
     background-color: #E0E8ED; }
+    @media (min-width: 992px) {
+      .embedded-player .c-container, .embedded-player .breadcrumb ul, .breadcrumb .embedded-player ul, .embedded-player .footer-inner, .embedded-player .item-inner, .embedded-player .latest-podcast, .embedded-player .podcast-summary, .embedded-player .textblock, .embedded-player ul.partner-logos, .embedded-player .why-icons ul, .why-icons .embedded-player ul, .embedded-player .latest-post, .embedded-player body.single-post .site-main, body.single-post .embedded-player .site-main, .embedded-player .testimonials ul, .testimonials .embedded-player ul, .embedded-player .session-summary, .embedded-player .featured-event, .embedded-player .event-summary, .embedded-player .contact-container {
+        max-width: calc(100% - 40px); } }
+    @media (min-width: 1366px) {
+      .embedded-player .c-container, .embedded-player .breadcrumb ul, .breadcrumb .embedded-player ul, .embedded-player .footer-inner, .embedded-player .item-inner, .embedded-player .latest-podcast, .embedded-player .podcast-summary, .embedded-player .textblock, .embedded-player ul.partner-logos, .embedded-player .why-icons ul, .why-icons .embedded-player ul, .embedded-player .latest-post, .embedded-player body.single-post .site-main, body.single-post .embedded-player .site-main, .embedded-player .testimonials ul, .testimonials .embedded-player ul, .embedded-player .session-summary, .embedded-player .featured-event, .embedded-player .event-summary, .embedded-player .contact-container {
+        max-width: 1366px; } }
   .embedded-player span {
     display: block;
     width: 100%;
@@ -3601,6 +3628,9 @@ body.single-podcast {
     border-radius: 20px;
     padding: 20px;
     z-index: 10; }
+    @media (min-width: 992px) {
+      .embedded-player span {
+        border-radius: 0; } }
   .embedded-player:before {
     content: "";
     display: block;
@@ -3726,6 +3756,10 @@ ul.partner-logos {
     padding-right: 10px;
     display: flex;
     flex-flow: row wrap; }
+    @media (min-width: 992px) {
+      .why-icons ul {
+        padding-left: 30px;
+        padding-right: 30px; } }
   .why-icons li {
     display: flex;
     flex-direction: column;
@@ -3807,9 +3841,9 @@ body.blog {
       .latest-post .post-details {
         width: 50%;
         padding: 0 0 0 60px; } }
-    @media (min-width: 1152px) {
+    @media (min-width: 992px) {
       .latest-post .post-details {
-        padding: 60px; } }
+        padding: 60px 0 60px 60px; } }
     .latest-post .post-details p {
       color: #067997;
       margin-bottom: 5px; }
@@ -3847,7 +3881,7 @@ body.single-post {
     padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px; }
-    @media (min-width: 1152px) {
+    @media (min-width: 992px) {
       body.single-post .site-main {
         padding-top: 60px;
         padding-bottom: 60px; } }
@@ -4059,9 +4093,9 @@ body.training-cpd-page {
         font-size: 11px;
         line-height: 11px;
         border: 5px solid #FDC243; } }
-    @media (min-width: 1152px) {
+    @media (min-width: 992px) {
       .training-list date {
-        top: -30px;
+        top: -20px;
         left: -20px;
         width: 80px;
         height: 80px;
@@ -4411,9 +4445,9 @@ body.single-event {
       .featured-event .event-overview {
         width: 50%;
         padding: 0 0 0 60px; } }
-    @media (min-width: 1152px) {
+    @media (min-width: 992px) {
       .featured-event .event-overview {
-        padding: 60px; } }
+        padding: 60px 0 60px 60px; } }
     .featured-event .event-overview p {
       color: #067997;
       margin-bottom: 10px; }
@@ -4528,16 +4562,16 @@ body.single-event {
         font-size: 11px;
         line-height: 11px;
         border: 5px solid #FDC243; } }
-    @media (min-width: 1152px) {
+    @media (min-width: 992px) {
       .event-listing date {
-        top: -30px;
+        top: -20px;
         left: -20px;
         width: 80px;
         height: 80px;
         border: 10px solid #FDC243;
         font-size: 14px;
         line-height: 14px; } }
-  @media (max-width: 991px) {
+  @media (max-width: 1151px) {
     .event-listing ul {
       padding-left: 40px;
       padding-right: 40px; } }
@@ -4666,9 +4700,9 @@ body.single-event {
       .event-summary .event-overview {
         width: 50%;
         padding: 0 0 60px 60px; } }
-    @media (min-width: 1152px) {
+    @media (min-width: 992px) {
       .event-summary .event-overview {
-        padding: 60px; } }
+        padding: 60px 0 0 60px; } }
     .event-summary .event-overview p {
       color: #808080;
       margin-bottom: 30px; }

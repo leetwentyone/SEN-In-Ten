@@ -73,8 +73,8 @@ body.single-event {
             padding: 0 0 0 60px;
         }
 
-        @include breakpoint(desktop) {
-            padding: 60px;
+        @include breakpoint(laptop) {
+            padding: 60px 0 60px 60px;
         }
 
         p {
@@ -246,8 +246,8 @@ body.single-event {
             border: 5px solid $yellow;
         }
 
-        @include breakpoint(desktop) {
-            top: -30px;
+        @include breakpoint(laptop) {
+            top: -20px;
             left: -20px;
             width: 80px;
             height: 80px;
@@ -258,7 +258,7 @@ body.single-event {
     }
 
     ul {
-        @media(max-width: 991px) {
+        @media(max-width: 1151px) {
             padding-left: 40px;
             padding-right: 40px;
         }
@@ -443,8 +443,8 @@ body.single-event {
             padding: 0 0 60px 60px;
         }
 
-        @include breakpoint(desktop) {
-            padding: 60px;
+        @include breakpoint(laptop) {
+            padding: 60px 0 0 60px;
         }
 
         p {

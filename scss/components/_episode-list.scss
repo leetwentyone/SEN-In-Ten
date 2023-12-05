@@ -54,7 +54,7 @@
     }
 
     ul {
-        @media(max-width: 991px) {
+        @media(max-width: 1151px) {
             padding-left: 20px;
             padding-right: 20px;
         }
@@ -105,10 +105,10 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 15px;
-        left: 10px;
-        width: 40px;
-        height: 40px;
+        top: 30px;
+        left: 30px;
+        width: 60px;
+        height: 60px;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -118,8 +118,8 @@
         border-radius: 100%;
         padding: 20px;
         font-family: $poppins;
-        font-size: 11px;
-        line-height: 12px;
+        font-size: 14px;
+        line-height: 14px;
         z-index: 5;
 
         @include breakpoint(tablet) {
@@ -132,9 +132,9 @@
             border: 5px solid $yellow;
         }
 
-        @include breakpoint(desktop) {
-            top: -30px;
-            left: -20px;
+        @include breakpoint(laptop) {
+            top: -20px;
+            left: -10px;
             width: 80px;
             height: 80px;
             border: 10px solid $yellow;
@@ -299,6 +299,10 @@
         @include breakpoint(tablet) {
             font-size: 18px;
             line-height: 26px;
+        }
+
+        @include breakpoint(laptop) {
+            margin-bottom: 10px;
         }
 
         @include breakpoint(desktop) {

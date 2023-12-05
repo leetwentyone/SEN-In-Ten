@@ -171,11 +171,12 @@
         z-index: 3;
 
         @include breakpoint(tablet) {
-            width: 35%;
+            width: 300px;
         }
 
         @include breakpoint(laptop) {
             width: 100%;
+            right: -100px;
         }
 
         @include breakpoint(xldesktop) {

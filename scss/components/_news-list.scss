@@ -16,7 +16,12 @@
     }
 
     body.home & {
+
         @include breakpoint(laptop) {
+            padding-bottom: 13rem;
+        }
+
+        @include breakpoint(desktop) {
             padding-bottom: 10rem;
         }
     }
@@ -76,7 +81,7 @@
         }
 
         @include breakpoint(laptop) {
-            width: 31.8%;
+            width: 31.7%;
         }
 
         a {

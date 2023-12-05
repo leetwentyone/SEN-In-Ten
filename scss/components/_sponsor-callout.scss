@@ -103,11 +103,19 @@
     img.waveform {
         display: block;
         position: absolute;
-        bottom: -50%;
+        bottom: 0;
         left: 0;
         width: 100%;
         height: auto;
         z-index: 1;
         opacity: .2;
+
+        @include breakpoint(tablet) {
+            bottom: -30%;
+        }
+
+        @include breakpoint(desktop) {
+            bottom: -50%;
+        }
     }
 }

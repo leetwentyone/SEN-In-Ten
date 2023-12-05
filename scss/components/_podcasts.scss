@@ -138,8 +138,8 @@ body.single-podcast {
             padding: 0 0 0 60px;
         }
 
-        @include breakpoint(desktop) {
-            padding: 60px;
+        @include breakpoint(laptop) {
+            padding: 60px 0 60px 60px;
         }
 
         h3 {
@@ -171,6 +171,10 @@ body.single-podcast {
 
 .share {
     margin-top: 30px;
+
+    @include breakpoint(laptop) {
+        margin-bottom: 30px;
+    }
    
     .share-title {
         font-family: $poppins;

@@ -43,6 +43,10 @@
   height: 60vh;
 
   @include breakpoint(laptop) {
+    height: 65vh;
+  }
+
+  @include breakpoint(xldesktop) {
     height: 90vh;
   }
 }

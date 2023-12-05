@@ -128,9 +128,9 @@
             border: 5px solid $yellow;
         }
 
-        @include breakpoint(desktop) {
+        @include breakpoint(laptop) {
             top: -20px;
-            left: -20px;
+            left: -10px;
             width: 80px;
             height: 80px;
             font-size: 14px;

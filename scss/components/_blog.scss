@@ -38,8 +38,8 @@ body.blog {
             padding: 0 0 0 60px;
         }
 
-        @include breakpoint(desktop) {
-            padding: 60px;
+        @include breakpoint(laptop) {
+            padding: 60px 0 60px 60px;
         }
 
         p {
@@ -101,7 +101,7 @@ body.single-post {
         padding-left: 20px;
         padding-right: 20px;
 
-        @include breakpoint(desktop) {
+        @include breakpoint(laptop) {
             padding-top: 60px;
             padding-bottom: 60px;
         }

@@ -28,7 +28,7 @@
             }
         }
 
-        @include breakpoint(desktop) {
+        @include breakpoint(laptop) {
 
             body.home &,
             body.about-page & {
@@ -104,6 +104,16 @@
                 margin-bottom: 0;
             }
         }
+
+        &:has(.white-outline-cross) {
+            
+            p {
+    
+                &:last-of-type {
+                    margin-bottom: 20px;
+                }
+            }
+        }
     }
 
     h5 {
@@ -148,6 +158,11 @@
         @include breakpoint(tablet) {
             padding-left: 0;
             padding-right: 0;
+        }
+
+        @include breakpoint(laptop) {
+            padding-left: 10px;
+            padding-right: 10px;
         }
 
         @include breakpoint(desktop) {

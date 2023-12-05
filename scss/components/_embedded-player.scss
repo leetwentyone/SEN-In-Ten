@@ -11,6 +11,14 @@
         position: relative;
         z-index: 5;
         background-color: $lightblue;
+
+        @include breakpoint(laptop) {
+            max-width: calc(100% - 40px);
+        }
+
+        @include breakpoint(xldesktop) {
+            max-width: $sitewidth;
+        }
     }
 
     span {
@@ -21,6 +29,10 @@
         border-radius: 20px;
         padding: 20px;
         z-index: 10;
+
+        @include breakpoint(laptop) {
+            border-radius: 0;
+        }
     }
 
     &:before {
