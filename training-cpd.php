@@ -19,13 +19,6 @@
 
 <body class="training-cpd-page">
 
-    <div class="page-banner">
-        <picture>
-            <source media="(max-width:767px)" srcset="images/mobile/our-partners.png"><!-- Image for mobile devices -->        
-            <img src="images/desktop/our-partners.png" alt=""><!-- Image for desktop screens -->
-        </picture>
-    </div>
-
     <?php include('includes/header.php'); ?>
     <?php include('includes/breadcrumb.php'); ?>
 

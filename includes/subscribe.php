@@ -24,7 +24,7 @@
 
     <picture>
         <source media="(max-width:767px)" srcset="images/mobile/mic-white.png" class="bg1-mob"><!-- Image for mobile devices -->        
-        <img src="images/desktop/microphone.png" alt="" class="bg1"><!-- Image for desktop screens -->
+        <img src="images/desktop/microphone-white.png" alt="" class="bg1"><!-- Image for desktop screens -->
     </picture>
 
     <picture>
