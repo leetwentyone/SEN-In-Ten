@@ -7,7 +7,7 @@ nav.primary {
 
     @include breakpoint(laptop) {
         display: block;
-        width: 90%;
+        width: 75%;
     }
 
     @include breakpoint(desktop) {

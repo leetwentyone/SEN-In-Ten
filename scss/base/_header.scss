@@ -168,13 +168,13 @@
 
 	@include breakpoint(ipadlandscape) {
 		display: flex;
-        width: 75%;
+        width: 85%;
 		margin-right: 0;
     }
 
 	@include breakpoint(laptop) {
 		display: flex;
-        width: 75%;
+        width: 85%;
 		margin-right: 0;
     }
 
@@ -200,6 +200,15 @@
 	.white-outline-icon,
 	.yellow-icon {
 		text-transform: uppercase;
+
+		@include breakpoint(laptop) {
+			font-size: 10px;
+			line-height: 10px;
+
+			span {
+				top: -8px;
+			}
+		}
 	}
 
 	a[href^="tel:"] {
@@ -260,7 +269,7 @@
 			position: absolute;
 			width: 45px;
 			height: 44px;
-			right: 8px;
+			right: 3px;
 			top: 3px;
 			background-color: $blue;
 			border-radius: 30px;
